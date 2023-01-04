@@ -1,0 +1,32 @@
+title: "Lucas Beattie"
+author: "Lucas Beattie"
+description: <span style="color:salmon; font-size:0.9em;">engineering, excel, anything else</span>
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+show_excerpts: true        # show article excerpts on the home page
+show_frame: false           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+minimal: true             # use a dark header
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "articles.html"}
+  - {file: "index.md"}
+  - {file: "contact.md"}
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:lucasbeattiedotcom@gmail.com"}
+  - {title: Linkedin, icon: linkedin-in, url: "https://www.linkedin.com/in/lucas-beattie-pe-43a05b139"}
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+ - jekyll-feed

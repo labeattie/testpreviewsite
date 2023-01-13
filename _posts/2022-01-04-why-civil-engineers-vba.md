@@ -10,7 +10,7 @@ In my experience, few of my peers in structural or other civil engineering think
 
 
 
-![VBA](/assets/vba generic.png){: width="600" }
+![VBA](/labeattie/assets/vba generic.png){: width="600" }
 
 ## What is VBA?
 Visual Basic for Applications is Microsoft's coding language that comes prepackaged with Excel as well as many other Office applications. We will focus on using it with Excel because I believe that to be the highest utility application for VBA, but just be aware it can be used with some other Office applications as well. For one example, I have used it to resize a couple of hundred photos in a Word document. Macros is the name for a set of code written in VBA. Now onto why you should be interested in learning to use it.

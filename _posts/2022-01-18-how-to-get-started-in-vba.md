@@ -47,7 +47,9 @@ Next, we are going to discuss how you refer to cells in Excel while using VBA. T
 
 For the next line, let's type 
 
+```visualbasic
 Range("c7").Value = Cells(rw, 10).Value
+```
 
 When using the range object, you just reference the cell(s) as Excel would, with a letter for the column and a number for the row, but they must always be inside quotation marks. When using the cells object, you give it first the number of the row you want to reference, then a comma, then the number of the column you want to reference. In this case we want to reference the row number that our rw variable indicates (5 for now), and the column will always be column number 10 (corresponds to column J).
 
@@ -55,7 +57,9 @@ This line of code sets cells C7 equal to our first input for "a", which is 0.0-f
 
 Ok! We will accomplish that with this line of code:
 
+```visualbasic
 Cells(rw, 11).Value = Range("c15").Value
+```
 
 If you used the cells object when I used the range object or vice versa, then it was still excellent work. However, we will want it as shown above before moving on. The reason is that the left side of the equation will reference different cells as we work our way down the chart, changing the rw variable, whereas the maximum moment output will always be located in cell C15. So now your code should look like this:
 
@@ -81,7 +85,9 @@ As you no doubt see, this just gets our very first input into the calculator and
 
 In a line between your rw assignment and your C7 range assignment, type: 
 
-```do while cells(rw,10).value <> ""
+```visualbasic
+do while cells(rw,10).value <> ""
+```
 
 This is the beginning of a loop, and I will explain it shortly, but first, I recommend always closing any loop as soon as you type out the start of it. To do that, in a line just before "End Sub", type "loop". Lastly, it's good style to indent within a loop, so we will select our two lines within the loop by clicking and dragging over both, and pressing "tab".
 

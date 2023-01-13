@@ -72,11 +72,15 @@ Where:
 I then simply rearranged the equation to solve for n, as shown below.
 
 $$(1-i)^n = Fi/A+1$$
+
 $$ln((1-i)^n) = ln(Fi/A+1)$$
+
 $$n*ln(1-i) = ln(Fi/A+1)$$
+
 $$n = \frac{ln(Fi/A+1)}{ln(1-i)}$$
 
 So as an example, Years to FI with a 40% savings rate and a 5% real return would get plugged into that final equation like so:
+
 $$\frac{ln(25*(1-40%)*5%/40%+1)}{ln(1-5%)}$$
 
 In the next finance article, which I will post a couple of weeks from now, I will talk about the incremental benefits of saving your money prior to reaching FI, as well as balancing saving for the future with living a gratifying life in the present. Thanks for reading!

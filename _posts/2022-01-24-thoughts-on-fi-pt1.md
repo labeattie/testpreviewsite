@@ -59,7 +59,7 @@ Lastly, the future is just uncertain. Who's to say I will still love my work in 
 So while buckling down to a truly impressive savings rate wasn't in the cards for me and my family, I still had some important takeaways from this information. First, that the FIRE community are some of the clearest thinkers with regard to personal finance out there. I typically will look to them for deciding where to allocate money in retirement accounts or for more. And two, that being intentional with spending is the biggest lever that most of have available to pull to affect our financial futures. I plan to track spending monthly without fail.
 
 ## Bonus: How to Calculate Years to FI
-I calculated the numbers in that chart myself in a spreadsheet using the engineering economics formula for "future worth given an annual amount": $\frac{F}{A} = \frac{(1-i)^n-1}{i}$. This formula can be found online and I got it from my NCEES FE Exam booklet I still have on my office bookshelf. My engineering friends can dig theirs up for reference! 
+I calculated the numbers in that chart myself in a spreadsheet using the engineering economics formula for "future worth given an annual amount". This formula can be found online and I got it from my NCEES FE Exam booklet I still have on my office bookshelf. My engineering friends can dig theirs up for reference! 
 
 $$\frac{F}{A} = \frac{(1-i)^n-1}{i}$$
 

@@ -64,18 +64,20 @@ I calculated the numbers in that chart myself in a spreadsheet using the enginee
 $$\frac{F}{A} = \frac{(1-i)^n-1}{i}$$
 
 Where:
-* F = future worth
-* A = annual amount
+* F = future worth - (1-savings rate)*25
+* A = annual amount = savings rate
 * i = interest rate
 * n = time in years
 
 I then simply rearranged the equation to solve for n, as shown below.
 
-***Show equations***
+$$(1-i)^n = Fi/A+1$$
+$$ln((1-i)^n) = ln(Fi/A+1)$$
+$$n*ln(1-i) = ln(Fi/A+1)$$
+$$n = \frac{ln(Fi/A+1)}{ln(1-i)}$$
 
 So as an example, Years to FI with a 40% savings rate and a 5% real return would get plugged into that final equation like so:
-
-***Equation***
+$$\frac{ln(25*(1-40%)*5%/40%+1)}{ln(1-5%)}$$
 
 In the next finance article, which I will post a couple of weeks from now, I will talk about the incremental benefits of saving your money prior to reaching FI, as well as balancing saving for the future with living a gratifying life in the present. Thanks for reading!
 

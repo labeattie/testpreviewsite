@@ -11,7 +11,7 @@ I hope my last VBA post left you champing at the bit to learn VBA and level up t
 ## Sample Project: Moving Load Calculator
 I often come across situations where someone has created a nice, complicated Excel calculator, and a slew of different cases need to be input into that calculator and the results copied out. VBA makes this painless, and we're going to make a macro to demonstrate.
 
-![load sheet](testpreviewsite/assets/load calc.png){: width="600" }
+![load_sheet](testpreviewsite/assets/load calc.png){: width="600" }
  
 ## Overview
 The screenshot above is a little moment calculator for a simply supported beam with two equal point loads placed on it. This sheet, without the VBA code (you'll have to read the rest of the article and get that in yourself :P) can be downloaded here: [Moving Load Calculator][load_calc]. But feel free to make your own from scratch if desired. If you make your own, at some point you will need to save the file as a macro-enabled file (.xlsm) just by using File, Save As.

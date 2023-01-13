@@ -29,7 +29,7 @@ Your savings rate is simply the percentage of the money you take home that gets 
 
 Here is a chart I calculated, assuming an inflation adjusted average return on investment of 5% (the S&P 500's historical average is about 6.6%). I will include a little bonus section at the end with how to calculate these numbers.
 
-![FI_years](/assets/fi table.png)
+![FI_years](/labeattie/assets/fi table.png)
 
 This might be surprising at first, but your spending plays two roles in the financial independence equation. It determines how much of your money gets saved, but also how much total money you need to save up. 
 

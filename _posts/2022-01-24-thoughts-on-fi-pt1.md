@@ -1,5 +1,5 @@
 ---
-title: "My Changing Thoughts on Financial Independence, Part 1: Traditional FI"
+title: "Thoughts on Financial Independence Part 1: Traditional FI"
 mathjax: true
 layout: post
 categories: finance
@@ -46,7 +46,7 @@ However, I was more than inspired enough to start tracking my expenses thoroughl
 
 This improved our savings rate, but I found it far more difficult than I expected to achieve 50% or more. As a result, we're probably still something like 10-15 years from financial independence.
 
-## Why FI
+## Why FI?
 You might ask why I'm so enamored with the idea of financial independence if I don't have a desire to quit working as soon as possible. This is a fair question, and I have 3 main points as answers. 
 
 First, I just want to do an impressive job managing our personal finances. I don't want to sacrifice things that are important to me and my family along the way, but if being intentional with our spending can leave us wealthy down the line, I think that sounds well worth it.

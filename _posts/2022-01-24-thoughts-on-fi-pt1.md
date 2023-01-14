@@ -14,9 +14,9 @@ I was beginning to dig deeper into the subject and took a lot of inspiration fro
 In this two-part series, I'd like to discuss several ideas about financial independence and how my thinking on it has developed over the last year. This first article will go over some of the primary tenets of the FIRE framework and my takeaways after experimenting with them.
 
 ## Tenet 1: The 4% Rule
-How much money do you need to retire? Or we don't even have to use such a loaded word. How much money do you need to never have to work again? If you look at many online resources and calculators, they base this answer off of the amount of money you earn. 
+How much money do you need to retire? We don't even have to use such a loaded word. How much money do you need to never have to work again? If you look at many online resources and calculators, they base this answer off of the amount of money you earn. 
 
-This is a major pet peeve of mine, as this usually assumes you spend nearly all of the money you earn. What if I make 10 million dollars a year? I don't, but I would hope I could retire a lot sooner than age 65 if I did. Instead, the amount of money you need to retire should be based off of how much money you spend. This can also be thought of as "how much your lifestyle costs".
+This is a major pet peeve of mine, as this usually assumes you spend nearly all of the money you make. What if I make 10 million dollars a year? I don't, but if I did, I would hope I could retire a lot sooner than age 65. Instead, the amount of money you need to retire should be based off of how much money you spend. This can also be thought of as "how much your lifestyle costs".
 
 A commonly used rule of thumb in the FIRE community is the "4% rule". This postulates that, if you withdraw 4% or less per year of a stock/bond portfolio's starting value (adjusted for inflation), you are very unlikely to ever run out of money. Another way to state this is, if you save up 25x your annual spending, and have it invested (hopefully in low-fee index funds), then you likely never need to earn another cent.
 
@@ -31,16 +31,16 @@ Here is a chart I calculated, assuming an inflation adjusted average return on i
 
 ![FI_years](/testpreviewsite/assets/fi table.png)
 
-This might be surprising at first, but your spending plays two roles in the financial independence equation. It determines how much of your money gets saved, but also how much total money you need to save up. 
+This might be surprising at first, but spending plays two roles in the financial independence equation. It determines how much of your money gets saved, but also how much total money is needed. 
 
-I often hear a quip that it's better to focus on earnings than savings, as earnings are theoretically infinite, whereas you can only spend so little. I totally reject this idea. Because spending is in the denominator of the "time to FI" math, reducing it increases your money's power asymptotically. By way of illustration, if you spent $0 per year (your lifestyle costs nothing), how much money do you need to make to retire? None, you're already FI!
+I often hear a quip that it's better to focus on earnings than savings, as earnings are theoretically infinite, whereas you can only spend so little. I don't buy this idea at all. Because spending is in the denominator of the "time to FI" math, reducing spending increases your money's power asymptotically. By way of illustration, if you spent $0 per year (your lifestyle costs nothing), how much money do you need to make to retire? None, you're already FI!
 
 Mr. Money Mustache is a blogger who wrote most of my favorite articles on financial independence, and he has a much better post than mine explaining these concepts here: [The Shockingly Simple Math Behind Early Retirement][simple_math]. I see his "years till retirement" chart matches mine, which is encouraging. 
 
 ## My Savings Efforts
 Many of the FIRE practitioners I come across online have been able to take these concepts to impressive lengths, saving 50%-75% (or a few even more) of what they earn. And many have been able to leave traditional employment in their early thirties. 
 
-I had always saved more like 20%-30% percent of my or my family's income prior to getting interested in the financial independence concept in my early thirties, so was on a strong foundation, but nowhere close to achieving FI. Additionally, as stated earlier, I don't plan to quit working anytime in the near future even if I could. 
+I didn't become interested in financial independence until my early thirties, and had always saved more like 20%-30% percent of my or my family's income. So we were on a strong foundation, but nowhere close to FI. Additionally, as stated earlier, I don't plan to quit working anytime in the near future even if I could. 
 
 However, I was more than inspired enough to start tracking my expenses thoroughly, trying to eliminate what waste I could (and dragging my wife along for the ride :P). I also tried some random ways to save or make a bit more money that could make good material for future posts. 
 
@@ -56,7 +56,7 @@ Secondly, I'm just obsessed with the idea of having options and freedom. I fully
 Lastly, the future is just uncertain. Who's to say I will still love my work in 10 years, or that my wife will? What if we want to do something wild like pack up and move to another country? I don't anticipate any of the above, but I love the idea of being prepared for something similar.
 
 ## Conclusions
-So while buckling down to a truly impressive savings rate wasn't in the cards for me and my family, I still had some important takeaways from this information. First, that the FIRE community are some of the clearest thinkers with regard to personal finance out there. I typically will look to them for deciding where to allocate money in retirement accounts or for more. And two, that being intentional with spending is the biggest lever that most of have available to pull to affect our financial futures. I plan to track spending monthly without fail.
+So while buckling down to a truly impressive savings rate wasn't in the cards right now, I still had some important takeaways from these ideas. First, that the FIRE community are some of the clearest thinkers with regard to personal finance out there. I typically will look to them for deciding where to allocate money in retirement accounts or for other similar issues. And secondly, being intentional with spending is the biggest lever that most of us have available to pull if we want to affect our financial futures. I plan to track spending monthly without fail.
 
 ## Bonus: How to Calculate Years to FI
 I calculated the numbers in that chart myself in a spreadsheet using the engineering economics formula for "future worth given an annual amount". This formula can be found online and I got it from my NCEES FE Exam booklet I still have on my office bookshelf. My engineering friends can dig theirs up for reference! 
@@ -64,7 +64,7 @@ I calculated the numbers in that chart myself in a spreadsheet using the enginee
 $$\frac{F}{A} = \frac{(1-i)^n-1}{i}$$
 
 Where:
-* F = future worth - (1-savings rate)*25
+* F = future worth = (1-savings rate)*25
 * A = annual amount = savings rate
 * i = interest rate
 * n = time in years
@@ -79,7 +79,7 @@ $$n*ln(1-i) = ln(Fi/A+1)$$
 
 $$n = \frac{ln(Fi/A+1)}{ln(1-i)}$$
 
-So as an example, Years to FI with a 40% savings rate and a 5% real return would get plugged into that final equation like so:
+So as an example, a 40% savings rate and a 5% real return would get plugged into that final equation like so:
 
 $$\frac{ln(25(1-40\%)*5\%/40\%+1)}{ln(1-5\%)} = 21.6yrs$$
 

@@ -1,5 +1,5 @@
 ---
-title: "Getting Started in Excel VBA: Making Your First Macro"
+title: "Getting Started in Excel VBA: Your First Macro"
 layout: post
 categories: excel, vba
 ---

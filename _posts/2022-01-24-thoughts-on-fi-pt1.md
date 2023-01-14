@@ -1,5 +1,5 @@
 ---
-title: "Thoughts on Financial Independence Part 1: Traditional FI"
+title: "My Take on Financial Independence - Overview"
 mathjax: true
 layout: post
 categories: finance

@@ -27,7 +27,7 @@ We're going to attack this problem by inputting a large number of values of "a" 
 But ok, so what now? We definitely aren't going to input each value of "a" into the calculator and copy out the results. Not when Excel has VBA for us to use! Let's make a macro.
 
 ## Making the Macro
-I you do not have the "Developer" tab available in the ribbon at the top of your Excel sheet, we need to enable it. Click File, Options, Customize Ribbon (on the left sidebar), and on the right side of the screen, make sure "Developer" is checked. Now it will be on the ribbon.
+If you do not have the "Developer" tab available in the ribbon at the top of your Excel sheet, we need to enable it. Click File, Options, Customize Ribbon (on the left sidebar), and on the right side of the screen, make sure "Developer" is checked. Now it will be on the ribbon.
 
 Now open up the VBA edit by clicking Developer, Visual Basic (far left). To start a new macro, click Insert, Module. Now click into the editor space to begin typing.
 
@@ -89,11 +89,11 @@ In a line between your rw assignment and your C7 range assignment, type:
 do while cells(rw,10).value <> ""
 ```
 
-This is the beginning of a loop, and I will explain it shortly, but first, I recommend always closing any loop as soon as you type out the start of it. To do that, in a line just before "End Sub", type "loop". Lastly, it's good style to indent within a loop, so we will select our two lines within the loop by clicking and dragging over both, and pressing "tab".
+This is the beginning of a loop, and I will explain it shortly, but first, I recommend always closing any loop as soon as you type out the start of it. To do that, in a line just before "End Sub", type "loop". Lastly, it's good style to indent within a loop, so we will select our two lines within the loop by highlighting some of both lines, and pressing "tab".
 
-Ok now we will go over what we type to start this loop. You might be able to work through it just by sight. "" means a cell is empty in VBA, so this loop says it will do whatever is inside the loop until the cell located at row "rw" and column 10 is empty. 
+Ok now we will go over what we typed to start this loop. You might be able to work through it just by sight. "" means a cell is empty in VBA, so this loop says it will do whatever is inside the loop until the cell located at row "rw" and column 10 is empty. 
 
-So are we done? Not quite yet, as you might imagine, since we currently never change the value of rw and we never delete our "a" input in cell J5, this loop would run forever. What we really want is to work our way down the input chart until the end of it, which we can do by increasing the value of rw by 1 each time. To accomplish this we simply add "rw=rw+1" above the line with "Loop". Now finally, your code should look like this:
+So are we done? Not quite yet. As you might imagine, since we currently never change the value of rw and we never delete our "a" input in cell J5, this loop would run forever. What we really want is to work our way down the input chart until the end of it, which we can do by increasing the value of rw by 1 each time. To accomplish this we simply add "rw=rw+1" above the line with "Loop". Now finally, your code should look like this:
 
 ```visualbasic
 Sub moving_load()
@@ -121,10 +121,10 @@ Now that you're riding high on your major success, I will go over how I might re
 
 Don't get scared off by the more than 100 videos. I would recommend watching and working along through part 25 (arrays) at most. After that just skip around and watch any topics that sound interesting. But really, by then, you are more than equipped to do your own projects, just googling for solutions to questions you have along the way.
 
-Also, with this and any other VBA resource, you should work along with the videos, and I encourage you to do your own projects as soon as you have the tools to do so. This is not the type of thing where you must finish studying before trying it out for yourself. Get your hands dirty as soon as possible and learn more as you go!
+Also, with this and any other VBA resource, you should work alongside the videos, and I encourage you to do your own projects as soon as you have the tools to do so. This is not the type of thing where you must finish studying before trying it out for yourself. Get your hands dirty as soon as possible and learn more as you go!
 
 ## Bonus: Adding a Button
-Nobody wants to have to click Developer, Macros to access their macro. Or explain to a coworker how to do that if they use your sheet. We need a button!
+Nobody wants to have to go through the arduous process of clicking Developer, Macros to access their macro. What a drag! Let alone explaining to a coworker how to do that if they use your sheet. We need a button!
 
 There are a few ways to make a button, but I'll quickly teach you my favorite. In Excel, click Insert, Shapes, and then click the rectangle with rounded corners. You can use any shape for this, but that's a good looking one. Now draw it in where you want your button to be. You can move and resize it later (tip: hold alt while moving it to align it with cells). 
 

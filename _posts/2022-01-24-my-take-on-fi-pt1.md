@@ -1,5 +1,5 @@
 ---
-title: "My Take on Financial Independence - Overview"
+title: "My Take on Financial Independence: Overview"
 mathjax: true
 layout: post
 categories: finance
@@ -12,6 +12,8 @@ I was beginning to dig deeper into the subject and took a lot of inspiration fro
 
 
 In this two-part series, I'd like to discuss several ideas about financial independence and how my thinking on it has developed over the last year. This first article will go over some of the primary tenets of the FIRE framework and my takeaways after experimenting with them.
+
+![FI_logo](/testpreviewsite/assets/fire logo.png)
 
 ## Tenet 1: The 4% Rule
 How much money do you need to retire? We don't even have to use such a loaded word. How much money do you need to never have to work again? If you look at many online resources and calculators, they base this answer off of the amount of money you earn. 

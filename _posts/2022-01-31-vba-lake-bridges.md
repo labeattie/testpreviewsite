@@ -8,7 +8,7 @@ The year was 2014. I was working on my Master's degree and working at Palmer Eng
 
 
 
-![eggners_ferry](/testpreviewsite/assets/eggners ferry.png){: width="600" }
+![eggners_ferry](/testpreviewsite/assets/eggners ferry.jpeg){: width="600" }
 
 The Project
 At Palmer, we were working on designing two massive bridges in the Land Between the Lakes National Recreation Area and had been for a couple of years at this point. One was to be over Kentucky Lake (Eggner's Ferry Bridge), and one over Lake Barkley (Lake Barkley Bridge). 
@@ -16,6 +16,7 @@ At Palmer, we were working on designing two massive bridges in the Land Between 
 The picture above is Eggner's Ferry bridge and how it looks now. It was an extremely cool project to be working on as a co-op and as a Master's student. Palmer did not design the big arch span (Michael Baker designed that), but we designed all of the other spans on each side of it (the approach spans). You can check these bridges out on Google Maps at the following links:
 
 [Eggner's Ferry Bridge][eggner_map]
+
 [Lake Barkley Bridge][barkley_map]
 
 ## The Problem
@@ -27,11 +28,11 @@ During an earthquake, you can imagine the ground is moving and shaking the bridg
 
 Analyzing this is very complex, as it requires estimating the loads applied to the piles by the soil, and how they move up the piles, up the pier, and into the superstructure. To do this we used SAP2000 software, and here is a picture of one of those models.
 
-![sap_overall](/testpreviewsite/assets/sap_ext_overall.png){: width="500" }
+![sap_overall](/testpreviewsite/assets/sap_ext_overall.png){: width="600" }
 
 If we zoom in on the piles under the pier, we can see the tiny springs input into the model. 
 
-![sap_zoom](/testpreviewsite/assets/sap_zoom.png){: width="500" }
+![sap_zoom](/testpreviewsite/assets/sap_zoom.png){: width="600" }
 
 These represent the resistance of the soil as the piles gets pushed one way or another. This resistance is very nonlinear, and changes with the depth of the soil and the force applied. These curves were generated in a program called "LPile" and had to be input into the SAP2000 model.
 
@@ -40,7 +41,7 @@ As an intern the summer before I started my Master's degree, I had the task of i
 
 Not too speedy or glamorous eh? Not to worry. I had just finished teaching myself the basics VBA in Excel and I was beginning to learn more about SAP2000's capabilities to interact with Excel. Notably for the approach I took, you can export or import an entire model definition to or from an Excel file. I realized I could do something with this to speed up the process, so I got to work.
 
-I took about 30 hours to create my first major macro. It worked like this. 
+I took about 30 hours to create my first major macro. It worked like this:
 
 You have a SAP model created of the entire bridge except for the soil-springs, and you export its definition to Excel. You save your LPile output with all of the soil-spring data to a text file. You open the macro-enabled Excel sheet I had made and the model definition Excel file at the same time. You paste the LPile output into Excel, and you click run. You then reimport the (now edited) definition file into SAP2000 and voila, the soil-springs are in there!
 
@@ -70,7 +71,7 @@ It was quite fun looking back at my work from so long ago. I hope it encourages 
 
 <p>&nbsp;</p>
 
-*If you don't know what that means, don't worry! We will probably cover it in the future, but just know it's a way to code your macros that causes a comparatively much slower runtime than other methods.) 
+<span style="color: #b5b5b5">*If you don't know what that means, don't worry! We will probably cover it in the future, but just know it's a way to code your macros that causes a comparatively much slower runtime than other methods.)</span>
 
 [eggner_map]: https://www.google.com/maps/@36.7728574,-88.1190264,3a,75y,245.31h,84.9t/data=!3m6!1e1!3m4!1sG_6AXw5zpDVpMb7WyfX_Vg!2e0!7i16384!8i8192
 [barkley_map]: https://www.google.com/maps/@36.799597,-87.9744434,3a,75y,268.5h,82.88t/data=!3m8!1e1!3m6!1sAF1QipOdID00BacSAa90isbcK3eNzNsbYMkN9-KNyoZz!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOdID00BacSAa90isbcK3eNzNsbYMkN9-KNyoZz%3Dw203-h100-k-no-pi-0.3692237-ya193.37323-ro-1.3060215-fo100!7i7680!8i3840

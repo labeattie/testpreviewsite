@@ -15,7 +15,7 @@ At Palmer, we were working on designing two massive bridges in the Land Between 
 
 The picture above is Eggner's Ferry bridge and how it looks now. It was an extremely cool project to be working on as a co-op and as a Master's student. Palmer did not design the big arch span (Michael Baker designed that), but we designed all of the other spans on each side of it (the approach spans). You can check these bridges out on Google Maps at the following links:
 
-[Eggner's Ferry Bridge][eggner_map]/
+[Eggner's Ferry Bridge][eggner_map]\
 [Lake Barkley Bridge][barkley_map]
 
 ## The Problem

@@ -15,8 +15,7 @@ At Palmer, we were working on designing two massive bridges in the Land Between 
 
 The picture above is Eggner's Ferry bridge and how it looks now. It was an extremely cool project to be working on as a co-op and as a Master's student. Palmer did not design the big arch span (Michael Baker designed that), but we designed all of the other spans on each side of it (the approach spans). You can check these bridges out on Google Maps at the following links:
 
-[Eggner's Ferry Bridge][eggner_map]
-
+[Eggner's Ferry Bridge][eggner_map]/
 [Lake Barkley Bridge][barkley_map]
 
 ## The Problem
@@ -28,11 +27,11 @@ During an earthquake, you can imagine the ground is moving and shaking the bridg
 
 Analyzing this is very complex, as it requires estimating the loads applied to the piles by the soil, and how they move up the piles, up the pier, and into the superstructure. To do this we used SAP2000 software, and here is a picture of one of those models.
 
-![sap_overall](/testpreviewsite/assets/sap_ext_overall.png){: width="700" }
+![sap_overall](/testpreviewsite/assets/sap_ext_overall.png){: width="800" }
 
 If we zoom in on the piles under the pier, we can see the tiny springs input into the model. 
 
-![sap_zoom](/testpreviewsite/assets/sap_zoom.png){: width="700" }
+![sap_zoom](/testpreviewsite/assets/sap_zoom.png){: width="800" }
 
 These represent the resistance of the soil as the piles gets pushed one way or another. This resistance is very nonlinear, and changes with the depth of the soil and the force applied. These curves were generated in a program called "LPile" and had to be input into the SAP2000 model.
 

@@ -8,7 +8,7 @@ The year was 2014. I was working on my Master's degree and working at Palmer Eng
 
 
 
-![eggners_ferry](/testpreviewsite/assets/eggners ferry.jpeg){: width="600" }
+![eggners_ferry](/testpreviewsite/assets/eggners ferry.jpg){: width="600" }
 
 The Project
 At Palmer, we were working on designing two massive bridges in the Land Between the Lakes National Recreation Area and had been for a couple of years at this point. One was to be over Kentucky Lake (Eggner's Ferry Bridge), and one over Lake Barkley (Lake Barkley Bridge). 
@@ -28,11 +28,11 @@ During an earthquake, you can imagine the ground is moving and shaking the bridg
 
 Analyzing this is very complex, as it requires estimating the loads applied to the piles by the soil, and how they move up the piles, up the pier, and into the superstructure. To do this we used SAP2000 software, and here is a picture of one of those models.
 
-![sap_overall](/testpreviewsite/assets/sap_ext_overall.png){: width="600" }
+![sap_overall](/testpreviewsite/assets/sap_ext_overall.png){: width="700" }
 
 If we zoom in on the piles under the pier, we can see the tiny springs input into the model. 
 
-![sap_zoom](/testpreviewsite/assets/sap_zoom.png){: width="600" }
+![sap_zoom](/testpreviewsite/assets/sap_zoom.png){: width="700" }
 
 These represent the resistance of the soil as the piles gets pushed one way or another. This resistance is very nonlinear, and changes with the depth of the soil and the force applied. These curves were generated in a program called "LPile" and had to be input into the SAP2000 model.
 
@@ -71,7 +71,7 @@ It was quite fun looking back at my work from so long ago. I hope it encourages 
 
 <p>&nbsp;</p>
 
-<span style="color: #b5b5b5">*If you don't know what that means, don't worry! We will probably cover it in the future, but just know it's a way to code your macros that causes a comparatively much slower runtime than other methods.)</span>
+<span style="color: lightgray">*If you don't know what that means, don't worry! We will probably cover it in the future, but just know it's a way to code your macros that causes a comparatively much slower runtime than other methods.)</span>
 
 [eggner_map]: https://www.google.com/maps/@36.7728574,-88.1190264,3a,75y,245.31h,84.9t/data=!3m6!1e1!3m4!1sG_6AXw5zpDVpMb7WyfX_Vg!2e0!7i16384!8i8192
 [barkley_map]: https://www.google.com/maps/@36.799597,-87.9744434,3a,75y,268.5h,82.88t/data=!3m8!1e1!3m6!1sAF1QipOdID00BacSAa90isbcK3eNzNsbYMkN9-KNyoZz!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOdID00BacSAa90isbcK3eNzNsbYMkN9-KNyoZz%3Dw203-h100-k-no-pi-0.3692237-ya193.37323-ro-1.3060215-fo100!7i7680!8i3840

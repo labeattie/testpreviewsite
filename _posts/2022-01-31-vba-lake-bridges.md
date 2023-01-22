@@ -66,7 +66,7 @@ This was the first of many times I have been able to use Excel VBA/macros in my 
 
 Looking back at the code now, almost 9 years later, there are so many ways to improve it. I did about everything in the least efficient way possible. I was constantly selecting and changing new cells using ActiveCell and Offset as the macro would work its way down a sheet*. I required a complicated setup where you have to export, get everything set up just right, run the macro, and then reimport; these days I would just make Excel edit the model directly. And even so, my beginner macro skills saved us over 100 hours, made everybody happier, and made me look in the process!
 
-It was quite fun looking back at my work from so long ago. I hope it encourages you to give VBA a try! Even a tiny amount of knowledge and experience can go a very long way when the perfect use-case appears.
+It was quite fun looking back at my work from so long ago. I hope it encourages you to give VBA a try! Even a tiny amount of knowledge and experience can go a very long way when the perfect use-case appears. If it's helpful, check out my tutorial post on making [Your First Macro][first_macro]
 
 <p>&nbsp;</p>
 
@@ -75,3 +75,4 @@ It was quite fun looking back at my work from so long ago. I hope it encourages 
 [eggner_map]: https://www.google.com/maps/@36.7728574,-88.1190264,3a,75y,245.31h,84.9t/data=!3m6!1e1!3m4!1sG_6AXw5zpDVpMb7WyfX_Vg!2e0!7i16384!8i8192
 [barkley_map]: https://www.google.com/maps/@36.799597,-87.9744434,3a,75y,268.5h,82.88t/data=!3m8!1e1!3m6!1sAF1QipOdID00BacSAa90isbcK3eNzNsbYMkN9-KNyoZz!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOdID00BacSAa90isbcK3eNzNsbYMkN9-KNyoZz%3Dw203-h100-k-no-pi-0.3692237-ya193.37323-ro-1.3060215-fo100!7i7680!8i3840
 [why_vba]: https://lucasbeattie.com/why-civil-engineers-vba/
+[first_macro]: https://lucasbeattie.com/getting-started-in-vba/

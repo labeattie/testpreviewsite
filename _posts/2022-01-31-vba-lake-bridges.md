@@ -53,7 +53,7 @@ Secondly, the full soil-spring SAP2000 model was treated as something you don't 
 Last but not least, running this macro (and even creating it) was considerably more fun than manually copying and pasting data for 80 hours.
 
 ## QAQC Considerations
-In most of these case studies or examples, I plan to talk a bit about how we approach checking this work. Like I mentioned in my article Why Civil Engineers Should Learn Excel VBA Macros, I know this a major concern for engineers.
+In most of these case studies or examples, I plan to talk a bit about how we approach checking this work. Like I mentioned in my article [Why Civil Engineers Should Learn Excel VBA Macros][why_vba], I know this a major concern for engineers.
 
 For this example, the answer is relatively straightforward. After the time that I manually entered soil-spring data into SAP2000, someone else had the equally exciting task of checking all of my inputs. So when someone has to comb through the entire set of resulting data anyways, it doesn't make much difference whether you input that data by hand or got a the computer to do it for you.
 
@@ -74,3 +74,4 @@ It was quite fun looking back at my work from so long ago. I hope it encourages 
 
 [eggner_map]: https://www.google.com/maps/@36.7728574,-88.1190264,3a,75y,245.31h,84.9t/data=!3m6!1e1!3m4!1sG_6AXw5zpDVpMb7WyfX_Vg!2e0!7i16384!8i8192
 [barkley_map]: https://www.google.com/maps/@36.799597,-87.9744434,3a,75y,268.5h,82.88t/data=!3m8!1e1!3m6!1sAF1QipOdID00BacSAa90isbcK3eNzNsbYMkN9-KNyoZz!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOdID00BacSAa90isbcK3eNzNsbYMkN9-KNyoZz%3Dw203-h100-k-no-pi-0.3692237-ya193.37323-ro-1.3060215-fo100!7i7680!8i3840
+[why_vba]: https://lucasbeattie.com/why-civil-engineers-vba/

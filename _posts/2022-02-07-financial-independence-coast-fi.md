@@ -7,9 +7,11 @@ categories: finance
 
 My [previous article on financial independence][fi_overview] discussed a broad overview of the primary concepts behind financial independence (FI) and what I've taken away from them. In general, FI is when you have enough money invested that the returns can pay for your lifestyle indefinitely, so you never need to work for money again. 
 
-I will call the strategy where you work to earn full financial independence as quickly as possible, "traditional FI." Now let's build off of that foundation and discuss its potential downsides, as well as a few more frameworks and how they've affected my current personal finance mindset.
+I will call the strategy where you work to earn full financial independence as quickly as possible, "traditional FI." Now let's build off of that foundation and discuss its potential downsides, as well as the concept of "Coast FI" and how it has affected my current personal finance mindset.
 
 
+
+![coast_fi](/testpreviewsite/assets/coast_fi.png)
 
 ## Disadvantages of Traditional FI
 Eliminating the need to work for money well before traditional retirement age sounds great. It's probably obvious that pursuing that goal can come with a few downsides though. 

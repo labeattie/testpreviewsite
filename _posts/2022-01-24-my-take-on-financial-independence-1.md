@@ -71,7 +71,7 @@ While buckling down to a truly impressive savings rate wasn't in the cards right
 ## Bonus: How to Calculate Years to FI
 I calculated the numbers in that chart myself in a spreadsheet using the engineering economics formula for "future worth given an annual amount". This formula can be found online and I got it from my NCEES FE Exam booklet I still have on my office bookshelf. My engineering friends can dig theirs up for reference! 
 
-$$\frac{F}{A} = \frac{(1-i)^n-1}{i}$$
+$$\frac{F}{A} = \frac{(1+i)^n-1}{i}$$
 
 Where:
 * F = future worth = (1-savings rate)*25
@@ -81,17 +81,17 @@ Where:
 
 I then rearranged the equation to solve for n, as shown below.
 
-$$(1-i)^n = Fi/A+1$$
+$$(1+i)^n = Fi/A+1$$
 
-$$ln((1-i)^n) = ln(Fi/A+1)$$
+$$ln((1+i)^n) = ln(Fi/A+1)$$
 
-$$n*ln(1-i) = ln(Fi/A+1)$$
+$$n*ln(1+i) = ln(Fi/A+1)$$
 
-$$n = \frac{ln(Fi/A+1)}{ln(1-i)}$$
+$$n = \frac{ln(Fi/A+1)}{ln(1+i)}$$
 
 So as an example, a 40% savings rate and a 5% real return would plug into that final equation like so:
 
-$$\frac{ln(25(1-40\%)*5\%/40\%+1)}{ln(1-5\%)} = 21.6yrs$$
+$$\frac{ln(25(1-40\%)*5\%/40\%+1)}{ln(1+5\%)} = 21.6yrs$$
 
 In the follow-up article, which I will post a couple of weeks from now, I will first talk about some of the downsides of an all-out approach to achieving FI. Then, we'll go on to some other ways to frame the personal finance journey that harness incremental benefits of saving your money prior to reaching FI, as well as balancing saving for the future with living a gratifying life in the present. Thanks for reading!
 

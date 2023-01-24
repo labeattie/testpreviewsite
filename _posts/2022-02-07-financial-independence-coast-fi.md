@@ -75,9 +75,13 @@ For example, let's say a family makes $100,000 after taxes, and spends $60,000 p
 But let's say they don't want to fully retire until age 65 and are currently 30 years old. And let's assume a 5% investment return after inflation. How much money do they need in the bank? I will use the "future worth (F) given present value (P)" equation from my Engineering Economics textbook, but it can easily be found online.
 
 $$F = P(1+i)^n$$
+
 $$P = F/(1+i)^n$$
+
 $$F = Yearly Spending / SWR = $60,000 / 4% = $1,500,000$$
+
 $$n = 65 - 30 = 35 years$$
+
 $$P = $1,500,000 / (1+5%)^35 = $272,000$$
 
 So if this family has $272,000 invested, they only need to earn $60,000 per year until age 65 rather than the $100,000 they are currently earning. True this is a far cry from full FI where you don't need to work at all, but as discussed above, almost no one ends up completely refraining from work, and I doubt most people truly want to. 

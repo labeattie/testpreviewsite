@@ -7,7 +7,7 @@ categories: finance
 
 One of my biggest focuses over the past year or two has been on personal finance. It's pretty much a staple subject of any self-improvement effort, and, as someone perhaps a bit too into spreadsheets, I've always been interested in my and my family's finances. 
 
-I was beginning to dig deeper into the subject and took a lot of inspiration from the FIRE community, which stands for "Financial Independence Retire Early". EAlthough I have no interest in retiring in the foreseeable future, the idea of having control over both your time and your finances (i.e., the "FI" side of that) has always held an appeal. 
+I was beginning to dig deeper into the subject and took a lot of inspiration from the FIRE community, which stands for "Financial Independence Retire Early". Although I have no interest in retiring in the foreseeable future, the idea of having control over both your time and your finances (i.e., the "FI" side of that) has always held an appeal. 
 
 
 
@@ -66,7 +66,7 @@ Second, I'm obsessed with the idea of having options and freedom. I fully expect
 Lastly, the future is uncertain. Things change over time - interests, abilities, job markets, etc. What if one of us suddenly needs to change our schedule, or what if we want to do something wild like pack up and move to another country? I don't anticipate any of these, but I love the idea of being prepared for anything.
 
 ## Conclusions
-While buckling down to a truly impressive savings rate wasn't in the cards right now, I still had some important takeaways from these ideas. First, in my opinion, the FIRE community has some of the clearest thinkers out there regardin personal finance. I typically will look to them for deciding where to allocate money in retirement accounts or for other similar issues. And second, being intentional with spending is the biggest lever that most of us have available to pull if we want to impact our financial futures. I plan to track spending monthly without fail.
+While buckling down to a truly impressive savings rate wasn't in the cards right now, I still had some important takeaways from these ideas. First, in my opinion, the FIRE community has some of the clearest thinkers out there regarding personal finance. I typically will look to them for deciding where to allocate money in retirement accounts or for other similar issues. And second, being intentional with spending is the biggest lever that most of us have available to pull if we want to impact our financial futures. I plan to track spending monthly without fail.
 
 ## Bonus: How to Calculate Years to FI
 I calculated the numbers in that chart myself in a spreadsheet using the engineering economics formula for "future worth given an annual amount". This formula can be found online and I got it from my NCEES FE Exam booklet I still have on my office bookshelf. My engineering friends can dig theirs up for reference! 

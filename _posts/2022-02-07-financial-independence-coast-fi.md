@@ -11,7 +11,7 @@ I will call the strategy where you work to earn full financial independence as q
 
 
 
-![coast_fi](/testpreviewsite/assets/coast_fi.png)
+![coast_fi](/testpreviewsite/assets/coast_fi.jpg)
 
 ## Disadvantages of Traditional FI
 Eliminating the need to work for money well before traditional retirement age sounds great. It's probably obvious that pursuing that goal can come with a few downsides though. 

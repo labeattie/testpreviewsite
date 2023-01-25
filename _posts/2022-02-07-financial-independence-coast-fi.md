@@ -72,7 +72,7 @@ In this framework, you need to save and invest a certain amount of money, set it
 
 For example, let's say a family makes $100,000 after taxes, and spends $60,000 per year. Their "full FI" number needed to never work again, assuming a 4% safe withdrawal rate (SWR, see article on financial independence overview) is $1,500,000. Not exactly chump change. We know from that previous article, that it would take about 22 years to get there.
 
-But let's say they don't want to *fully* retire until age 65 and are currently 30 years old. And let's assume a 5% investment return after inflation. How much money do they need in the bank right now if they never add to or take money out of it? Let's calculate that. I will use the "future worth (F) given present value (P)" equation from my Engineering Economics textbook, but it can easily be found online.
+But let's say they don't want to *fully* retire until age 65 and are currently 30 years old. How much money do they need in the bank right now if they never add to or take money out of it? Let's calculate that, assuming a 5% investment return after inflation. I will use the "future worth (F) given present value (P)" equation from my Engineering Economics textbook, but it can easily be found online.
 
 $$F = P(1+i)^n$$
 

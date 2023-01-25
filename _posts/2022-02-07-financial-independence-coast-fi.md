@@ -78,11 +78,11 @@ $$F = P(1+i)^n$$
 
 $$P = F/(1+i)^n$$
 
-$$F = Yearly Spending / SWR = $60,000 / 4% = $1,500,000$$
+$$F = Yearly Spending/SWR = $60,000/4% = $1,500,000$$
 
-$$n = 65 - 30 = 35 years$$
+$$n = 65-30 = 35 years$$
 
-$$P = $1,500,000 / (1+5%)^35 = $272,000$$
+$$P = $1,500,000/(1+5%)^35 = $272,000$$
 
 So if this family has $272,000 invested, they only need to earn enough money so that they don't have to take money out of their investments. This means they only need to earn enough money to cover their living expenses until age 65, which in this case is $60,000 per year, rather than the $100,000 they are currently earning. True, this is a far cry from full FI where you don't need to work at all, but as discussed above, almost no one ends up completely refraining from work, and I doubt most people truly want to. 
 

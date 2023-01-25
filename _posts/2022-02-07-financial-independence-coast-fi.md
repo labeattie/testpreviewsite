@@ -64,7 +64,7 @@ And while I'm far too cautious to fully embrace the last point, I see value in e
 But ok great, how do we strike a balance between full FI and being ok with spending more money on things that DO make you happy, while experimenting with and doing work you love, even it's not your highest dollar per hour opportunity? Won't that just make your timeline to FI take forever? Well let's reframe the journey to FI entirely and see how your money can help you live your best life long before reaching full FI.
 
 ## Coast FI: Live Your Ideal Life Sooner
-The FIRE community has all kinds if nicknames and acronyms for strategies related to financial independence, such as Lean FI, Fat FI, etc. But one we're going to cover now is called Coast FI. I first came across this concept on the [Fioneers website][fioneers], which has since become my favorite personal finance blog to read.
+The FIRE community has all kinds of nicknames and acronyms for strategies related to financial independence, such as Lean FI, Fat FI, etc. But one we're going to cover now is called Coast FI. I first came across this concept on the [Fioneers website][fioneers], which has since become my favorite personal finance blog to read.
 
 Coast FI asks the question "how much money do I need invested so that, if I don't take away from it or add to it, it will grow to enough money to retire at traditional retirement age?" That's a tough sentence to wrap your mind around, so I'll say the same thing in a few different ways, and then we'll work through an example with numbers.
 
@@ -72,7 +72,7 @@ In this framework, you need to save and invest a certain amount of money, set it
 
 For example, let's say a family makes $100,000 after taxes, and spends $60,000 per year. Their "full FI" number needed to never work again, assuming a 4% safe withdrawal rate (SWR, see article on financial independence overview) is $1,500,000. Not exactly chump change. We know from that previous article, that it would take about 22 years to get there.
 
-But let's say they don't want to fully retire until age 65 and are currently 30 years old. And let's assume a 5% investment return after inflation. How much money do they need in the bank? I will use the "future worth (F) given present value (P)" equation from my Engineering Economics textbook, but it can easily be found online.
+But let's say they don't want to *fully* retire until age 65 and are currently 30 years old. And let's assume a 5% investment return after inflation. How much money do they need in the bank right now if they never add to or take money out of it? Let's calculate that. I will use the "future worth (F) given present value (P)" equation from my Engineering Economics textbook, but it can easily be found online.
 
 $$F = P(1+i)^n$$
 
@@ -84,7 +84,7 @@ $$n = 65 - 30 = 35 years$$
 
 $$P = $1,500,000 / (1+5%)^35 = $272,000$$
 
-So if this family has $272,000 invested, they only need to earn $60,000 per year until age 65 rather than the $100,000 they are currently earning. True this is a far cry from full FI where you don't need to work at all, but as discussed above, almost no one ends up completely refraining from work, and I doubt most people truly want to. 
+So if this family has $272,000 invested, they only need to earn enough money so that they don't have to take money out of their investments. This means they only need to earn enough money to cover their living expenses until age 65, which in this case is $60,000 per year, rather than the $100,000 they are currently earning. True, this is a far cry from full FI where you don't need to work at all, but as discussed above, almost no one ends up completely refraining from work, and I doubt most people truly want to. 
 
 The ability to downshift to making 60% as much money could potentially allow one or both partners to go part-time, could allow them to go into slightly lower paying fields that they find more interesting, or even save up money for a sabbatical in another country or something. Knowing you are still "on track" even if you make less money feels very different than pursuing full FI and fretting over a sabbatical adding 3 years to your FI timeline. 
 

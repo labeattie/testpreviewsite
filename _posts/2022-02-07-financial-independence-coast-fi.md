@@ -84,7 +84,7 @@ $$n = 65-30 = 35yrs$$
 
 $$P = \$1,500,000/(1+5\%)^{35} = \$272,000$$
 
-So if this family has $272,000 invested, they only need to earn enough money so that they don't have to take money out of their investments. This means they only need to earn enough money to cover their living expenses until age 65, which in this case is $60,000 per year, rather than the $100,000 they are currently earning. True, this is a far cry from full FI where you don't need to work at all, but as discussed above, almost no one ends up completely refraining from work, and I doubt most people truly want to. 
+So if this family has $272,000 invested, they only need to earn enough money so that they don't have to take money out of their investments. This means they only need to earn enough money to cover their living expenses until age 65, which in this case is $60,000 per year, rather than the $100,000 they are currently earning. True, this is a far cry from full FI where you don't need to work at all, but as discussed above, almost no one ends up completely refraining from work, and I doubt most people truly want to.
 
 The ability to downshift to making 60% as much money could potentially allow one or both partners to go part-time, could allow them to go into slightly lower paying fields that they find more interesting, or even save up money for a sabbatical in another country or something. Knowing you are still "on track" even if you make less money feels very different than pursuing full FI and fretting over a sabbatical adding 3 years to your FI timeline. 
 
@@ -111,7 +111,7 @@ When I discovered Coast FI, I realized we were almost exactly already there! Thi
 * Feel even happier with our family's decision for my wife to go part-time. 
 * Rest easy it when we spend far more than usual on restaurants while we're crunched for time and stressed out due to some temporary circumstance.
 
-This mindset of making life enjoyable now also carried into my career, even though I'm still working full-time at the same company. I started asking Palmer for more work of the type that gets me most excited and proposed doing some of the jobs I was already on in a way I thought would be cooler and more effective. As you might guess from my other articles, this often involves analysis problems making use of [Excel VBA][vba]. Since then I've been enjoying work even more.
+This mindset of making life enjoyable now also carried into my career, even though I'm still working full-time at the same company. I started asking Palmer for more work of the type that gets me most excited, and proposed doing some of the jobs I was already working on in a way I thought would be cooler and more effective. As you might guess from my other articles, this often involves analysis problems making use of [Excel VBA][vba]. Since then I've been enjoying work even more.
 
 I'm feeling more excited about our future than ever, and plan to keep doing loads of fun things such traveling and skiing, while keeping an eye on our spending to make sure our money is going where we want it to. I'm excited to see our family grow and live life to the fullest now, while still setting ourselves up well for the future.
 

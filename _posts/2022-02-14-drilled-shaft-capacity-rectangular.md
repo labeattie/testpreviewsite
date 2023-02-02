@@ -11,7 +11,7 @@ I expect this first engineering deep dive topic to take about three articles, an
 
 
 
-![bridge_col](/testpreviewsite/assets/bridge columns.jpg){: height="300" }
+![bridge_col](/testpreviewsite/assets/bridge columns.jpg){: height="100" }
 
 The three articles will be organized like so.
 * Part 1 - Nominal capacity curve for rectangular cross-sections

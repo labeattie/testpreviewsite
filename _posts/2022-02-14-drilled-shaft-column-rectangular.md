@@ -11,7 +11,7 @@ I expect this first engineering deep dive topic to take about three articles, an
 
 
 
-![bridge_col](/testpreviewsite/assets/bridge columns.jpg){: width="600" }
+![bridge_col](/testpreviewsite/assets/edd_pm/bridge columns.jpg){: width="600" }
 
 The three articles will be organized like so.
 * Part 1 - Nominal capacity curve for rectangular cross-sections
@@ -37,8 +37,25 @@ Here are some of the assumptions we will use in developing this calculator. Thes
 
 We will generate the math and equations needed both with generalized variables, and we will show the math with the following example cross section.
 
-![x_sect](/testpreviewsite/assets/cross section.svg)
+![x_sect](/testpreviewsite/assets/edd_pm/cross_section.svg)
+
+With:
+* f'c = 4 ksi
+* $f_y$ = 60 ksi
 
 ## Axial-Only Capacities
+We'll start off with the easiest cases: pure compression and pure tension. We will do pure tension first, and I was tought to always draw out my cross-sectional strain, stress, and resultant force diagrams when doing any reinforced concrete analysis (thanks [Dr. Harik][]!), and while they probably aren't needed for these purely axial cases, I will provide them for completeness.
+
+![tension](/testpreviewsite/assets/edd_pm/tension.svg)
+
+As the concrete will be cracked in ultimate tension, the nominal strength of the section in tension is simply the tensile capacity of the rebar, which equals $A_s*f_y$. For our example cross section the calculation is as follows.
+
+$$P_nt = (A_s\_top+A_s\_bot)*f_y = (1.24in^2+1.24in^2)*60ksi = 149kips$$
+
+For the full compression case, you could just neglect the reinforcment (and we will be ignoring compression reinforcement in all other cases), but I went ahead and included it because it's simple to do so. The maximum usable compression stress in concrete with f'c < 10 ksi is 0.85*f'c according to AASHTO.
+
+![compression](/testpreviewsite/assets/edd_pm/compression.svg)
+
+$$P_nc = 0.85*f'c*(A_g-A_s)+f_y*A_s = 0.85*4ksi*(12in*16in-2.48in^2)+2.48in^2*60ksi = 793kips$$
 
 ## Balanced Condition

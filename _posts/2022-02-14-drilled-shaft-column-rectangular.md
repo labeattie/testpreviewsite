@@ -58,13 +58,15 @@ We'll start off with the easiest cases: pure compression and pure tension. We wi
 
 As the concrete will be cracked in ultimate tension, the nominal strength of the section in tension is simply the tensile capacity of the rebar, which equals A<sub>s</sub>*f<sub>y</sub>. For our example cross section the calculation is as follows.
 
-$$P_{nt} = (A_{s\_top}+A_{s\_bot})*f_y = (1.24in^2+1.24in^2)*60ksi = 149kips$$
+$$P_{nt} = (A_{s\_top}+A_{s\_bot})*f_y$$
+$$= (1.24in^2+1.24in^2)*60ksi = 149kips$$
 
 For the full compression case, you could just neglect the reinforcment (and we will be ignoring compression reinforcement in all other cases), but I went ahead and included it because it's simple to do so. The maximum usable compression stress in concrete with f'c < 10 ksi is 0.85*f'c according to AASHTO.
 
 ![compression](/testpreviewsite/assets/edd_pm/compression.svg)
 
-$$P_{nc} = 0.85*f'c*(A_g-A_s)+f_y*A_s = 0.85*4ksi*(12in*16in-2.48in^2)+2.48in^2*60ksi = 793kips$$
+$$P_{nc} = 0.85*f'c*(A_g-A_s)+f_y*A_s$$
+$$= 0.85*4ksi*(12in*16in-2.48in^2)+2.48in^2*60ksi = 793kips$$
 
 ## Balanced Condition
 Now we'll get more into the meat of the problem. Essentially when we make a PM diagram, we set the extreme concrete compression fiber to it's maximum value (we are using 0.003), as this is necessary for strength failure. We then vary the strain in the reinforcing steel, and back out what combination of axial load and moment gives us that failure condition.
@@ -75,7 +77,7 @@ When the member fails at ε<sub>s</sub> = 1.0*ε<sub>sy</sub>, this failure cond
 
 AASHTO actually sets a range of values to denote whether a section is tension or compression controlled, with an in-between zone, but we will go over that in the third article in this series.
 
-When designing pure bending members, we want to be sure we are tension-controlled by making sure we don't use too much rebar, so that a failure would be slow and people would see it before anything collapsed. In beam-columns, this doesn't apply, as columns are usually compression-controlled by nature. However, the balanced condition gives us a great point to calculate for our PM diagram.
+When designing pure bending members, we want to be sure we are tension-controlled by making sure we don't use too much rebar, so that a failure would be slow and people would see it before anything collapsed. In beam-columns, this doesn't apply, as columns are usually compression-controlled by nature. However, the balanced condition gives us a great point to calculate for our PM diagram $$test=f_x$$.
 
 ![balance](/testpreviewsite/assets/edd_pm/balance.svg)
 

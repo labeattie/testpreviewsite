@@ -56,15 +56,11 @@ For example, let's say a family makes $100,000 after taxes, and spends $60,000 p
 
 But let's say they don't want to *fully* retire until age 65 and are currently 30 years old. How much money do they need in the bank right now to cover their retirement at 65? Let's calculate it assuming a 5% investment return after inflation. I will use the "future worth (F) given present value (P)" equation from my Engineering Economics textbook, but it can easily be found online.
 
-$$F = P(1+i)^n$$
-
-$$P = F/(1+i)^n$$
-
-$$F = Spending/SWR = \$60,000/4\% = \$1,500,000$$
-
-$$n = 65-30 = 35yrs$$
-
-$$P = \$1,500,000/(1+5\%)^{35} = \$272,000$$
+$$F = P(1+i)^n \\[0.5em]
+P = F/(1+i)^n \\[0.5em]
+F = Spending/SWR = \$60,000/4\% = \$1,500,000 \\[0.5em]
+n = 65-30 = 35yrs \\[0.5em]
+P = \$1,500,000/(1+5\%)^{35} = \$272,000$$
 
 With only $272,000 invested, their future retirement is already funded! This makes them Coast FI, because now they can "coast" the rest of the way to retirement. With retirement taken care of, they only need to earn $60,000 per year until age 65 rather than the $100,000 they are currently earning. 
 

@@ -66,8 +66,10 @@ For the full compression case, you could just neglect the reinforcment (and we w
 
 ![compression](/testpreviewsite/assets/edd_pm/compression.svg)
 
-$$P_{nc} = 0.85*f'c*(A_g-A_s)+f_y*A_s \\
-= 0.85*4ksi*(12in*16in-2.48in^2)+2.48in^2*60ksi = 793kips$$
+$$\begin{align}
+P_{nc} = 0.85*f'c*(A_g-A_s)+f_y*A_s \\ [0.5em]
+= 0.85*4ksi*(12in*16in-2.48in^2)+2.48in^2*60ksi = 793kips
+\end{align}$$
 
 ## Balanced Condition
 Now we'll get more into the meat of the problem. Essentially when we make a PM diagram, we set the extreme concrete compression fiber to it's maximum value (we are using 0.003), as this is necessary for strength failure. We then vary the strain in the reinforcing steel, and back out what combination of axial load and moment gives us that failure condition.

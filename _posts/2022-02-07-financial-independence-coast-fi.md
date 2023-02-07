@@ -94,8 +94,5 @@ I'm feeling more excited about our future than ever, and plan to keep doing load
 
 [fi_overview]: https://lucasbeattie.com/my-take-on-financial-independence-1/
 [death_march]: https://www.1500days.com/death-march-financial-independence/
-[mfm]: https://podcasts.apple.com/us/podcast/176-with-codie-sanchez-buying-distressed-assets-real/id1469759170?i=1000518993362
-[28_lessons]: https://www.youtube.com/watch?v=AtfoKoiIW-s
-[confidence]: https://www.mrmoneymustache.com/2018/03/09/money-and-confidence-are-interchangeable/
 [fioneers]: https://thefioneers.com/posts/
 [vba]: https://lucasbeattie.com/why-civil-engineers-vba/

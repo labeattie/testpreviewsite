@@ -66,7 +66,7 @@ For the full compression case, you could just neglect the reinforcment (and we w
 
 ![compression](/testpreviewsite/assets/edd_pm/compression.svg)
 
-$$P_{nc} = 0.85*f'c*(A_g-A_s)+f_y*A_s
+$$P_{nc} = 0.85*f'c*(A_g-A_s)+f_y*A_s \\
 = 0.85*4ksi*(12in*16in-2.48in^2)+2.48in^2*60ksi = 793kips$$
 
 ## Balanced Condition

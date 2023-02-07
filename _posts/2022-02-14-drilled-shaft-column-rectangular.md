@@ -47,9 +47,9 @@ We will generate the math and equations needed both with generalized variables, 
 ![x_sect](/testpreviewsite/assets/edd_pm/cross_section.svg)
 
 With:
-* $$f'c = 4 ksi$$
-* $$f_y = 60 ksi$$
-* $$E_s = 29,000 ksi$$
+* $$f'c = 4$$ ksi
+* $$f_y = 60$$ ksi
+* $$E_s = 29,000$$ ksi
 
 ## Axial-Only Capacities
 We'll start off with the easiest cases: pure compression and pure tension. We will do pure tension first, and I was tought to always draw out my cross-sectional strain, stress, and resultant force diagrams when doing any reinforced concrete analysis (thanks [Dr. Harik][harik]!), and while they probably aren't needed for these purely axial cases, I will provide them for completeness.
@@ -66,9 +66,8 @@ For the full compression case, you could just neglect the reinforcment (and we w
 
 ![compression](/testpreviewsite/assets/edd_pm/compression.svg)
 
-$$P_{nc} = 0.85*f'c*(A_g-A_s)+f_y*A_s$$
-
-$$= 0.85*4ksi*(12in*16in-2.48in^2)+2.48in^2*60ksi = 793kips$$
+$$P_{nc} = 0.85*f'c*(A_g-A_s)+f_y*A_s
+= 0.85*4ksi*(12in*16in-2.48in^2)+2.48in^2*60ksi = 793kips$$
 
 ## Balanced Condition
 Now we'll get more into the meat of the problem. Essentially when we make a PM diagram, we set the extreme concrete compression fiber to it's maximum value (we are using 0.003), as this is necessary for strength failure. We then vary the strain in the reinforcing steel, and back out what combination of axial load and moment gives us that failure condition.

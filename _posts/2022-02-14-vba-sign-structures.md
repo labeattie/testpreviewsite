@@ -8,7 +8,7 @@ So far we've talked about why [civil engineers should use VBA][why_vba], [how to
 
 
 
-![sign_struct](/testpreviewsite/assets/sign-structure.jpg){: width="600" }
+![sign_struct](/testpreviewsite/assets/sign-structure.jpg){: width="800" }
 
 ## The Problem
 Like many states, Kentucky has standard drawings available for sign structures. The structures can be standardized fairly well, and it's often not desirable to pay for an engineer to do a custom design for one. Additionally, this is an uncommon structure type for many structural engineers to work on, so standard drawings, which spell out member sizes and details within a certain span range and sign size, make a lot of sense. 
@@ -45,7 +45,7 @@ We successfully completed this project in early February, and I found the job to
 ## VBA & SAP2000's OAPI
 For the first step in approaching this problem programmatically, I wanted to make an input sheet where the user could input the necessary information for a sign, click run, and get the resulting performance ratios. That input sheet ended up looking something like this:
 
-![sign_struct_input](/testpreviewsite/assets/sign-struct-input.jpg){: width="600" }
+![sign_struct_input](/testpreviewsite/assets/sign-struct-input.jpg){: width="800" }
 
 The general workflow of the VBA code we used in this process is outlined below:
 

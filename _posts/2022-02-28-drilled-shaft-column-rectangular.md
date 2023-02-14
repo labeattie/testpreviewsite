@@ -7,7 +7,7 @@ categories: engineering
 
 This is the first of a type of article I'm calling "Engineering Deep Dive." In an engineering deep dive, I'm going to take a structural engineering problem which I found interesting to solve, and walk through it step-by-step, showing as much math as I can manage.
 
-I expect this first engineering deep dive topic to take about three articles, and it will cover the math behind creating a strength capacity calculator for rectangular and circular columns or drilled shafts, which are subjected to both axial load and bending moments. This type of member is called a beam-column. At the end of the series, an excel file that performs these calculations will be available for download.
+I expect this first deep dive topic to take about three articles, and it will cover the math behind creating a strength capacity calculator for rectangular and circular columns or drilled shafts, which are subjected to both axial load and bending moments. This type of member is called a beam-column. At the end of the series, an excel file that performs these calculations will be available for download.
 
 
 

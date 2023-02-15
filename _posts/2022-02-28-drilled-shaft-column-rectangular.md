@@ -96,7 +96,7 @@ And now we will calculate the resultant forces C and T. Our ß' is 0.85 when f'c
 $$C = 0.85*f'c*ß'*c*b_w = 0.85*4ksi*0.85*7.69"*12" = 267kips \\[0.5em]
 T=A_{s\_bot}*f_y = 1.24in^2*60ksi = 74.4kips$$
 
-And finally, we back out $$P_n by subtracting T from C, and back out $$M_n by summing moments about a point at the centroid of the beam.
+And finally, we back out $$P_n$$ by subtracting T from C, and back out $$M_n$$ by summing moments about a point at the centroid of the beam.
 
 $$P_{nb} = C-T = 267kips-74.4kips = 192kips \\[0.5em]
 M_{nb} = T*(d-h/2)+C*(h/2-ß'*c/2) \\[0.5em]

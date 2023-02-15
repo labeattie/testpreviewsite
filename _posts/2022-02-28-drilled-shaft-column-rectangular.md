@@ -11,7 +11,7 @@ I expect this first deep dive topic to take about three articles, and it will co
 
 
 
-![bridge_col](/testpreviewsite/assets/edd_pm/bridge columns.jpg){: width="600" }
+![rect_col](/testpreviewsite/assets/edd_pm/rect_columns.jpg){: width="600" }
 
 The three articles will be organized like so.
 * Part 1 - Nominal capacity curve for rectangular cross-sections
@@ -89,33 +89,33 @@ When designing pure bending members, we want to be sure we are tension-controlle
 Because we know the value of the strain at the extreme compression fiber of the concrete and in the location of the rebar (which we just treat as infinitely thin at the location of the center of the reinforcement layer), we can calculate the depth of the nuetral axis, c, directly.
 
 $$c = (\frac{ε_{cu}}{ε_{cu}+ε_s})*d \\[0.5em]
-= (\frac{0.003}{0.003+60ksi/29,000ksi}*13" = 7.69"$$
+= (\frac{0.003}{0.003+60ksi/29,000ksi})*13" = 7.69"$$
 
 And now we will calculate the resultant forces C and T. Our ß' is 0.85 when f'c is 4ksi.
 
 $$C = 0.85*f'c*ß'*c*b_w = 0.85*4ksi*0.85*7.69"*12" = 267kips \\[0.5em]
-T=A_{s_bot}*f_y = 1.24in^2*60ksi = 74.4kips$$
+T=A_{s\_bot}*f_y = 1.24in^2*60ksi = 74.4kips$$
 
 And finally, we back out $$P_n by subtracting T from C, and back out $$M_n by summing moments about a point at the centroid of the beam.
 
 $$P_{nb} = C-T = 267kips-74.4kips = 192kips \\[0.5em]
 M_{nb} = T*(d-h/2)+C*(h/2-ß'*c/2) \\[0.5em]
-= 74.4kips*(13"-8")+267kips*(8"-0.85*7.69"/2) = 1635kip*in = 136kip*ft$$
+= 74.4kips*(13"-8")+267kips*(8"-0.85*7.69"/2) = 1635kipin = 136kipft$$
 
-We now have our 3rd point on the curve at x = 136kip*ft, y = 192kip.
+We now have our 3rd point on the curve at x = 136kipft, y = 192kip.
 
 ## Remaining Points
-Now we simply repeat that process for as many steel reinforcement strain values as we desire. I will include the diagrams for and the resulting $$P_n and $$M_n values for $$ε_s = 0.5*ε_{sy}$$ and $$ε_s = 4*ε_{sy}$$, and then just the values for the remaining data points I calculated.
+Now we simply repeat that process for as many steel reinforcement strain values as we desire. I will include the diagrams for and the resulting $$P_n$$ and $$M_n$$ values for $$ε_s = 0.5*ε_{sy}$$ and $$ε_s = 4*ε_{sy}$$, and then just the values for the remaining data points I calculated.
 
 ![half_yield](/testpreviewsite/assets/edd_pm/half_yield.svg)
 
 $$P_n = 298kips \\[0.5em]
-M_n = 124kip-ft$$
+M_n = 124kipft$$
 
 ![4_yield](/testpreviewsite/assets/edd_pm/4_times_yield.svg)
 
 $$P_n = 45.5kips \\[0.5em]
-M_n = 96.3kip-ft$$
+M_n = 96.3kipft$$
 
 ### Summary Table
 

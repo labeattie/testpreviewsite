@@ -54,11 +54,31 @@ $$A_{segment} = {\theta}R^2-R^2cos(\theta)sin(\theta) \\[0.5em]
 
 We're almost there. Now we need to put thetas in terms of delta and R. Solving for theta in Eqn. 1:
 
-$$\theta = cos^{-1}(frac{R-\delta}{R})$$
+$$\theta = cos^{-1}(\frac{R-\delta}{R})$$
 
 Substituting that into Eqn. 2:
 
+$$A_{segment} = R^2\{cos^{-1}(\frac{R-\delta}{R})-cos[cos^{-1}(\frac{R-\delta}{R})]sin[cos^{-1}(\frac{R-\delta}{R})]\}$$
 
+Now we can simplify a couple of the terms. The cosine with an inverse cosine in it cancels out, and we can simplify the sin of an inverse cosine with the following logic. Lets draw a representative triangle of the inverse cosine $$cos^{-1}((R-\delta)/R)$$, which can be conceptualized as "what angle $$\alpha$$ has a cosine equal to $$(R-\delta)/R$$". It looks like this:
+
+![rep_tri](/testpreviewsite/assets/edd_pm/rep_tri_inv.jpg)
+
+Since we now want to take the cosine of this triangle, we will need to opposite side length, which I denoted $$x$$. To do this we just use the pythagorean theorum.
+
+$$sin[cos^{-1}(\frac{R-\delta}{R})] = \sqrt{1-(\frac{R-\delta}{R}^2)}$$
+
+Which we can simplify just a bit further like so:
+
+$$\sqrt{1-(\frac{R-\delta}{R}^2)} \\[0.5em]
+= \sqrt{1-(\frac{R^2}{R^2}-\frac{2R\delta}{R^2}+\frac{\delta^2}{R^2})} \\[0.5em]
+= \sqrt{\frac{2R\delta}{R^2}-\frac{\delta^2}{R^2}} \\[0.5em]
+= \frac{1}{R}\sqrt{2R\delta-\delta^2}$$
+
+So now putting those simplified terms back in our $$A_{segment}$$ formula finally gives the formula we will use for the segment area.
+
+$$A_{segment} = R^2cos^{-1}(\frac{R-\delta}{R})-R^2(\frac{R-\delta}{R}*\frac{1}{R}sqrt{2r\delta-\delta^2}) \\[0.5em]
+= R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)sqrt{2r\delta-\delta^2} \tag{3}$$
 
 ## Segment Centroid Derivation
 

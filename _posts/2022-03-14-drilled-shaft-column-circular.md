@@ -91,12 +91,64 @@ $$\bar{x} = \frac{\int_a^bxf(x)dx}{\int_a^bf(x)dx}$$
 
 Where the denominator is just equal to the area under the curve.
 
-$$\bar{x} = \frac{\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx}{\int_{R-\delta}^R\sqrt{R^2-x^2}dx$$
+$$\bar{x} = \frac{\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx}{\int_{R-\delta}^R\sqrt{R^2-x^2}dx \tag{4}$$
 
 The denominator is one-half of of the total segment area and is already known from the claculation above.
 
 $$\int_{R-\delta}^R\sqrt{R^2-x^2} \\[0.5em]
 = \frac{1}{2}(R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2r\delta-\delta^2})$$
+
+Now we can put our attention toward integrating the numerator.
+
+$$\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx = R\int{_R-\delta}^Rx\sqrt{1-\frac{x^2}{R^2}}dx \tag{5}$$
+
+Yikes. Now it's time to dust off some trigonometric substitution from back in Calculus 2. We will use the substitution:
+
+$$\frac{x^2}{R^2} = sin^2(t)$$
+
+Solving for x and t:
+
+$$x = Rsin(t) \\[0.5em]
+t = sin^{-1}(frac{x}{R})$$
+
+Now we take the derivative of $$x$$ so that we can find what dx equals.
+
+$$\frac{dx}{dt} = Rcos(t) \\[0.5em]
+dx = Rcos(t)dt$$
+
+Now we substitute those results into Eqn. 5, and I will switch to using an indefinite integral for notation.
+
+$$R\int{x}\sqrt{1-\frac{x^2}{R^2}}dx = R\int{R}sin(t)\sqrt{1-sin^2(t)}Rcos(t)dt$$
+
+We can simplify using the common trig identity:
+
+$$\sqrt{1-sin^2(t)} = cos(t)$$
+
+Which gives us:
+
+$$R\int{x}\sqrt{1-\frac{x^2}{R^2}}dx = R^3\int{}sin(t)cos^2(t)dt \tag{6}$$
+
+We're not done yet! We're going to use u substitution to finish this integral out. Two Calc 2 techniques in one problem.
+
+$$u = cos(t) \\[0.5em]
+\frac{du}{dt} = -sin(t) \\[0.5em]
+dt = \frac{-du}{sin(t)}$$
+
+Which gives us:
+
+$$R^3\int{}sin(t)cos^2(t)dt = R^3\int{}-u^2du$$
+
+There we go. Now thats a problem we can solve.
+
+$$R^3\int{}-u^2du = R^3(-\frac{u^3}{3}+c_1)$$
+
+Resubstituting from u substitution:
+
+$$R^3(-\frac{u^3}{3}+c_1) = -\frac{R^3}{3}cos^3(t)+c_2$$
+
+And resubstituting from trigonometric substitution:
+
+$$-\frac{R^3}{3}cos^3(t)+c_2 = -\frac{R^3}{2}cos^3[sin^{-1}(\frac{x}{R})]+c_3$$
 
 ## Example Problem
 

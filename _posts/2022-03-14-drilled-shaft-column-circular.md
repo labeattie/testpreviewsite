@@ -87,12 +87,16 @@ $$A_{segment} = R^2cos^{-1}(\frac{R-\delta}{R})-R^2(\frac{R-\delta}{R}*\frac{1}{
 $$R^2 = x^2+y^2 \\[0.5em]
 y = \sqrt{R^2-x^2}$$
 
-$$\bar{x} = \frac{\int_a^bxf(x)dx}{\int_a^bf(x)}$$
+$$\bar{x} = \frac{\int_a^bxf(x)dx}{\int_a^bf(x)dx}$$
 
 Where the denominator is just equal to the area under the curve.
 
-$$\bar{x} = \frac{\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx}{\int_{R-\delta}^R\sqrt{R^2-x^2}}$$
+$$\bar{x} = \frac{\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx}{\int_{R-\delta}^R\sqrt{R^2-x^2}dx$$
 
+The denominator is one-half of of the total segment area and is already known from the claculation above.
+
+$$\int_{R-\delta}^R\sqrt{R^2-x^2} \\[0.5em]
+= \frac{1}{2}(R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2r\delta-\delta^2})$$
 
 ## Example Problem
 

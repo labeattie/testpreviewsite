@@ -44,13 +44,21 @@ $$A_{segment}/2 = A_{sector}-A_{triangle}$$
 
 And now we put that equation in terms of $$R$$ and $$\theta$$.
 
-$$A_{sector} = \frac{\theta}{2\pi}{\pi}R^2 = frac{\theta*R^2}{2} \\[0.5em]
+$$A_{sector} = \frac{\theta}{2\pi}{\pi}R^2 = \frac{\theta{R}^2}{2} \\[0.5em]
 A_{triangle} = \frac{1}{2}Rcos(\theta)Rsin(\theta) \\[0.5em]$$
 
 Substituting into the $$A_{segment}$$ formula:
 
 $$A_{segment} = {\theta}R^2-R^2cos(\theta)sin(\theta) \\[0.5em]
 = R^2(\theta-cos(\theta)sin(\theta)) \tag{2}$$
+
+We're almost there. Now we need to put thetas in terms of delta and R. Solving for theta in Eqn. 1:
+
+$$\theta = cos^{-1}(frac{R-\delta}{R})$$
+
+Substituting that into Eqn. 2:
+
+
 
 ## Segment Centroid Derivation
 

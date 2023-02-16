@@ -36,7 +36,15 @@ So first we have to relate the depth of the assumed compression block to the are
 
 As can be seen in Figure 1a, we are seeking to calculate $$A_{segment}$$, using only the variables of segment depth, $$δ$$ and radius, $$R$$. We will begin by relating $$δ$$ to the associated interior angle $$\theta$$ as can be seen in Figure 1c.
 
-$$\delta = R-Rcos(\theta)$$
+$$\delta = R-Rcos(\theta)  (Eqn. 1)$$
+
+Next we will relate the segment are to the sector area (the whole light blue slice of the pie) and the triangle area.
+
+$$A_{segment}/2 = A_{sector}-A_{triangle}$$
+
+And now we put that equation in terms of $$R$$ and $$\theta$$.
+
+$$A_{sector} = \frac{\theta}{2\pi}{\pi}R^2 = frac{{\theta}R^2}{2}
 
 ## Segment Centroid Derivation
 

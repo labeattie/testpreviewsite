@@ -5,7 +5,7 @@ layout: post
 categories: engineering
 ---
 
-Pretty fitting that we have our article on circular column capacity on pi day :) (March 14th). We're picking back up right where we left off from [Part 1 (rectangular column/drilled shaft capacity)][part_1] and are ready to approach calculting PM capacities for a circular cross-section. The big (and fun) issue here is: how are we going to find the area and the centroid of the compression block?
+Pretty fitting that we have our article on circular column capacity on pi day (March 14th) :). We're picking back up right where we left off from [Part 1 (rectangular column/drilled shaft capacity)][part_1] and are ready to approach calculting PM capacities for a circular cross-section. The big (and fun) issue here is: how are we going to find the area and the centroid of the compression block?
 
 
 
@@ -82,8 +82,19 @@ $$A_{segment} = R^2cos^{-1}(\frac{R-\delta}{R})-R^2(\frac{R-\delta}{R}*\frac{1}{
 
 ## Segment Centroid Derivation
 
-## Example Problem
+![seg_centroid](/testpreviewsite/assets/edd_pm/segment_centroid_inv.jpg){: width="400" }
 
+$$R^2 = x^2+y^2 \\[0.5em]
+y = \sqrt{R^2-x^2}$$
+
+$$\bar{x} = \frac{\int_a^bxf(x)dx}{\int_a^bf(x)}$$
+
+Where the denominator is just equal to the area under the curve.
+
+$$\bar{x} = \frac{\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx}{\int_{R-\delta}^R\sqrt{R^2-x^2}}$$
+
+
+## Example Problem
 
 
 ### Summary Table

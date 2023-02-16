@@ -91,11 +91,11 @@ $$\bar{x} = \frac{\int_a^bxf(x)dx}{\int_a^bf(x)dx}$$
 
 Where the denominator is just equal to the area under the curve.
 
-$$\bar{x} = \frac{\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx}{\int_{R-\delta}^R\sqrt{R^2-x^2}dx \tag{4}$$
+$$\bar{x} = \frac{\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx}{\int_{R-\delta}^R\sqrt{R^2-x^2}dx} \tag{4}$$
 
 The denominator is one-half of of the total segment area and is already known from the claculation above.
 
-$$\int_{R-\delta}^R\sqrt{R^2-x^2} \\[0.5em]
+$$\int_{R-\delta}^R\sqrt{R^2-x^2}dx \\[0.5em]
 = \frac{1}{2}(R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2r\delta-\delta^2})$$
 
 Now we can put our attention toward integrating the numerator.
@@ -149,6 +149,21 @@ $$R^3(-\frac{u^3}{3}+c_1) = -\frac{R^3}{3}cos^3(t)+c_2$$
 And resubstituting from trigonometric substitution:
 
 $$-\frac{R^3}{3}cos^3(t)+c_2 = -\frac{R^3}{2}cos^3[sin^{-1}(\frac{x}{R})]+c_3$$
+
+We can simplify the $$cos^3(sin^{1}(x/R))$$ term similarly to when we drew an example triangle while calculating the segment are formula. We take this following representative triangle and do the pythagorean theorum to get the missing side length.
+
+![rep_tri2](/testpreviewsite/assets/edd_pm/rep_tri2_inv.jpg){: width="400" }
+
+$$cos^3[sin^{-1}(\frac{x}{R}) = (1-\frac{x^2}{R^2})^{3/2}$$
+
+This gives us the indefinite solution of our original numerator in Eqn. 4.
+
+$$\int{}x\sqrt{R^2-x^2}dx = -\frac{R^3}{3}(1-\frac{x^2}{R^2})^{3/2}+c_3 \\[0.5em]
+= -\frac{1}{3}(R^2-x^2)^{3/2}+c_3$$
+
+Now we plug the bounds of our definite integral into the equation above:
+
+
 
 ## Example Problem
 

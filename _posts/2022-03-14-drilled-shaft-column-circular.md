@@ -32,7 +32,7 @@ We will proceed ahead with this assumption though, as integrating a parabolic or
 ## Segment Area Derivation
 So first we have to relate the depth of the assumed compression block to the area of said block. This requires creating a formula for the area of a circular segment based on its depth. To do so, I created the figures below.
 
-![circ_seg_area](/testpreviewsite/assets/edd_pm/circular segment area_inv.jpg)
+![circ_seg_area](/testpreviewsite/assets/edd_pm/circular segment area_inv.JPG)
 
 As can be seen in Figure 1a, we are seeking to calculate $$A_{segment}$$, using only the variables of segment depth, $$δ$$ and radius, $$R$$. We will begin by relating $$δ$$ to the associated interior angle $$\theta$$ as can be seen in Figure 1c.
 
@@ -44,8 +44,13 @@ $$A_{segment}/2 = A_{sector}-A_{triangle}$$
 
 And now we put that equation in terms of $$R$$ and $$\theta$$.
 
-$$A_{sector} = \frac{\theta}{2\pi}{\pi}R^2 = frac{{\theta}R^2}{2} \\[0.5em]
-A_{triangle} = \frac{1}{2}Rcos(\theta)Rsin(\theta)$$
+$$A_{sector} = \frac{\theta}{2\pi}{\pi}R^2 = frac{\theta{R}^2}{2} \\[0.5em]
+A_{triangle} = \frac{1}{2}Rcos(\theta)Rsin(\theta) \\[0.5em]$$
+
+Substituting into the $$A_{segment}$$ formula:
+
+$$A_{segment} = {\theta}R^2-R^2cos(\theta)sin(\theta) \\[0.5em]
+= R^2(\theta-cos(\theta)sin(\theta))  (Eqn. 2)$$
 
 ## Segment Centroid Derivation
 

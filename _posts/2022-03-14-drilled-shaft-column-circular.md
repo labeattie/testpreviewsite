@@ -5,14 +5,14 @@ layout: post
 categories: engineering
 ---
 
-Pretty fitting that we have our article on circular column capacity on pi day :) (March 14th). We're picking back up right where we left off from [Part 1 (rectangular column/drilled shaft capacity)][part_1] and are ready to approach calculting PM capacities for a circular cross-section. But first off, how are we going to find the area and the centroid of the compression block?
+Pretty fitting that we have our article on circular column capacity on pi day :) (March 14th). We're picking back up right where we left off from [Part 1 (rectangular column/drilled shaft capacity)][part_1] and are ready to approach calculting PM capacities for a circular cross-section. The big (and fun) issue here is: how are we going to find the area and the centroid of the compression block?
 
 
 
 ![circ_col](/testpreviewsite/assets/edd_pm/bridge columns.jpg){: width="600" }
 
 ## Assumptions
-Here's a quick reminder om the assumptions listed in part 1. These are either required or allowed by AASHTO section 5.6.2.
+Here's a quick reminder on the assumptions listed in part 1. These are either required or allowed by AASHTO section 5.6.2.
 
 * Strain compatibility - plane sections remain plane, reinforcement is fully developed and bonded, and strain is directly proportional to distance from the neutral axis.
 * Maximum usable concrete compressive strain is 0.003.
@@ -60,11 +60,11 @@ Substituting that into Eqn. 2:
 
 $$A_{segment} = R^2\{cos^{-1}(\frac{R-\delta}{R})-cos[cos^{-1}(\frac{R-\delta}{R})]sin[cos^{-1}(\frac{R-\delta}{R})]\}$$
 
-Now we can simplify a couple of the terms. The cosine with an inverse cosine in it cancels out, and we can simplify the sin of an inverse cosine with the following logic. Lets draw a representative triangle of the inverse cosine $$cos^{-1}((R-\delta)/R)$$, which can be conceptualized as "what angle has a cosine equal to $$(R-\delta)/R$$". It looks like this:
+Now we can simplify a couple of the terms. The cosine with an inverse cosine in it cancels out, and we can simplify the sin of an inverse cosine with the following logic. Lets draw a representative triangle of the inverse cosine $$cos^{-1}((R-\delta)/R)$$, which can be conceptualized as "what angle has a cosine equal to $$(R-\delta)/R$$?". It looks like this:
 
 ![rep_tri](/testpreviewsite/assets/edd_pm/rep_tri_inv.jpg){: width="400" }
 
-Since we now want to take the cosine of this triangle, we will need to opposite side length, which I denoted $$x$$. To do this we just use the pythagorean theorum This gives us:
+Since we now want to take the cosine of this triangle, we will need to opposite side length, which I denoted as $$x$$. To do this we just use the pythagorean theorum. This gives us:
 
 $$sin[cos^{-1}(\frac{R-\delta}{R})] = \sqrt{1-(\frac{R-\delta}{R}^2)}$$
 

@@ -25,9 +25,18 @@ Here's a quick reminder om the assumptions listed in part 1. These are either re
 
 In this article, we will begin including the compression reinforcement in our calculation.
 
-Note on stress block
+As stated in the assumptions we will be assuming a rectangular compressive stress distribution as outlined in AASHTO (based on Whitney stress block). This is pretty clearly allowed by AASHTO, but I was interested if the results would be as good as they are in the case of a rectangular cross-section. Multiplying the depth of the stress block by 0.85 seems like it might do something a little different when the compression area is a circular segment rather than a rectangle. 
+
+We will proceed ahead with this assumption though, as integrating a parabolic or any other compressive stress distribution over the area of a circular segment, finding both the volume of the area and the centroid, is exceedingly difficult. I'm not positive that a closed-form solution is impossible, but I think it is. So it would require numerical integration, which is a lot less fun. We'll compare our results to SpColumn's results in Part 3, and see how the rectangular distribution assumption stacks up against a more precise one.
 
 ## Segment Area Derivation
+So first we have to relate the depth of the assumed compression block to the area of said block. This requires creating a formula for the area of a circular segment based on its depth. To do so, I created the figures below.
+
+![circ_seg_area](/testpreviewsite/assets/edd_pm/circular segment area_inv.jpg)
+
+As can be seen in Figure 1a, we are seeking to calculate $$A_{segment}$$, using only the variables of segment depth, $$δ$$ and radius, $$R$$. We will begin by relating $$δ$$ to the associated interior angle $$\theta$$ as can be seen in Figure 1c.
+
+$$\delta = R-Rcos(\theta)$$
 
 ## Segment Centroid Derivation
 

@@ -152,7 +152,7 @@ $$-\frac{R^3}{3}cos^3(t)+c_2 = -\frac{R^3}{2}cos^3[sin^{-1}(\frac{x}{R})]+c_3$$
 
 We can simplify the $$cos^3(sin^{-1}(x/R))$$ term similarly to when we drew an example triangle while calculating the segment are formula. We take this following representative triangle and do the pythagorean theorum to get the missing side length.
 
-![rep_tri2](/testpreviewsite/assets/edd_pm/rep_tri2_inv.jpg){: width="400" }
+![rep_tri2](/testpreviewsite/assets/edd_pm/rep_tri2_inv.jpg){: width="300" }
 
 $$cos^3[sin^{-1}(\frac{x}{R})] = (1-\frac{x^2}{R^2})^{3/2}$$
 

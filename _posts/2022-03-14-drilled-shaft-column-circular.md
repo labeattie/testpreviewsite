@@ -44,7 +44,8 @@ $$A_{segment}/2 = A_{sector}-A_{triangle}$$
 
 And now we put that equation in terms of $$R$$ and $$\theta$$.
 
-$$A_{sector} = \frac{\theta}{2\pi}{\pi}R^2 = frac{{\theta}R^2}{2}
+$$A_{sector} = \frac{\theta}{2\pi}{\pi}R^2 = frac{{\theta}R^2}{2} \\[0.5em]
+A_{triangle} = \frac{1}{2}Rcos(\theta)sin(\theta)$$
 
 ## Segment Centroid Derivation
 

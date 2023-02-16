@@ -109,7 +109,7 @@ $$\frac{x^2}{R^2} = sin^2(t)$$
 Solving for x and t:
 
 $$x = Rsin(t) \\[0.5em]
-t = sin^{-1}(frac{x}{R})$$
+t = sin^{-1}(\frac{x}{R})$$
 
 Now we take the derivative of $$x$$ so that we can find what dx equals.
 
@@ -150,11 +150,11 @@ And resubstituting from trigonometric substitution:
 
 $$-\frac{R^3}{3}cos^3(t)+c_2 = -\frac{R^3}{2}cos^3[sin^{-1}(\frac{x}{R})]+c_3$$
 
-We can simplify the $$cos^3(sin^{1}(x/R))$$ term similarly to when we drew an example triangle while calculating the segment are formula. We take this following representative triangle and do the pythagorean theorum to get the missing side length.
+We can simplify the $$cos^3(sin^{-1}(x/R))$$ term similarly to when we drew an example triangle while calculating the segment are formula. We take this following representative triangle and do the pythagorean theorum to get the missing side length.
 
 ![rep_tri2](/testpreviewsite/assets/edd_pm/rep_tri2_inv.jpg){: width="400" }
 
-$$cos^3[sin^{-1}(\frac{x}{R}) = (1-\frac{x^2}{R^2})^{3/2}$$
+$$cos^3[sin^{-1}(\frac{x}{R})] = (1-\frac{x^2}{R^2})^{3/2}$$
 
 This gives us the indefinite solution of our original numerator in Eqn. 4.
 

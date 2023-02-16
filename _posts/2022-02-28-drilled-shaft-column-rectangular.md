@@ -138,7 +138,7 @@ M_n = 96.3kipft$$
 ## Conclusion
 Now we can make PM diagrams for rectangular beam-columns! I'll show a graph of the result below. Thanks for reading and I hope it's been helpful. In the next article we'll begin thinking about doing the same thing for a circular section.
 
-![half_yield](/testpreviewsite/assets/edd_pm/rect_pm_result.jpg)
+![pm_result](/testpreviewsite/assets/edd_pm/rect_pm_result.jpg)
 
 
 [harik]: https://www.engr.uky.edu/directory/harik-issam

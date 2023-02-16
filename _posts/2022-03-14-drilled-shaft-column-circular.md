@@ -30,7 +30,7 @@ As stated in the assumptions we will be assuming a rectangular compressive stres
 We will proceed ahead with this assumption though, as integrating a parabolic or any other compressive stress distribution over the area of a circular segment, finding both the volume of the area and the centroid, is exceedingly difficult. I'm not positive that a closed-form solution is impossible, but I think it is. So it would require numerical integration, which is a lot less fun. We'll compare our results to SpColumn's results in Part 3, and see how the rectangular distribution assumption stacks up against a more precise one.
 
 ## Segment Area Derivation
-So first we have to relate the depth of the assumed compression block to the area of said block. This requires creating a formula for the area of a circular segment based on its depth. To do so, I created the figures below.
+First, we have to relate the depth of the assumed compression block to the area of said block. This requires creating a formula for the area of a circular segment based on its depth. To do so, I created the figures below.
 
 ![circ_seg_area](/testpreviewsite/assets/edd_pm/circular segment area_inv.JPG)
 
@@ -38,7 +38,7 @@ As can be seen in Figure 1a, we are seeking to calculate $$A_{segment}$$, using 
 
 $$\delta = R-Rcos(\theta) \tag{1}$$
 
-Next we will relate the segment are to the sector area (the whole light blue slice of the pie) and the triangle area.
+Next we will relate the segment are to the sector area (the whole light blue slice of the pie in Figure 1b) and the triangle area.
 
 $$A_{segment}/2 = A_{sector}-A_{triangle}$$
 
@@ -62,7 +62,7 @@ $$A_{segment} = R^2\{cos^{-1}(\frac{R-\delta}{R})-cos[cos^{-1}(\frac{R-\delta}{R
 
 Now we can simplify a couple of the terms. The cosine with an inverse cosine in it cancels out, and we can simplify the sin of an inverse cosine with the following logic. Lets draw a representative triangle of the inverse cosine $$cos^{-1}((R-\delta)/R)$$, which can be conceptualized as "what angle $$\alpha$$ has a cosine equal to $$(R-\delta)/R$$". It looks like this:
 
-![rep_tri](/testpreviewsite/assets/edd_pm/rep_tri_inv.jpg)
+![rep_tri](/testpreviewsite/assets/edd_pm/rep_tri_inv.jpg){: width="200" }
 
 Since we now want to take the cosine of this triangle, we will need to opposite side length, which I denoted $$x$$. To do this we just use the pythagorean theorum.
 

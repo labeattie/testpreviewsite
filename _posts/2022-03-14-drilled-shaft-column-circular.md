@@ -5,7 +5,7 @@ layout: post
 categories: engineering
 ---
 
-Pretty fitting that we have our article on circular column capacity on pi day (March 14th) :). We're picking back up right where we left off from [Part 1 (rectangular column/drilled shaft capacity)][part_1] and are ready to approach calculting PM capacities for a circular cross-section. The big (and fun) issue here is: how are we going to find the area and the centroid of the compression block?
+Pretty fitting that we have our article on circular column capacity on pi day (March 14th) :). We're picking back up right where we left off from [Part 1 (rectangular column/drilled shaft capacity)][part_1], and are ready to approach calculting PM capacities for a circular cross-section. The big (and fun) issue here is: how are we going to find the area and the centroid of the compression block?
 
 
 
@@ -27,14 +27,20 @@ In this article, we will begin including the compression reinforcement in our ca
 
 As stated in the assumptions we will be assuming a rectangular compressive stress distribution as outlined in AASHTO (based on Whitney stress block). This is pretty clearly allowed by AASHTO, but I was interested if the results would be as good as they are in the case of a rectangular cross-section. Multiplying the depth of the stress block by 0.85 seems like it might do something a little different when the compression area is a circular segment rather than a rectangle. 
 
-We will proceed ahead with this assumption though, as integrating a parabolic or any other compressive stress distribution over the area of a circular segment, finding both the volume of the area and the centroid, is exceedingly difficult. I'm not positive that a closed-form solution is impossible, but I think it is. So it would require numerical integration, which is a lot less fun. We'll compare our results to SpColumn's results in Part 3, and see how the rectangular distribution assumption stacks up against a more precise one.
+We will proceed ahead with this assumption though, as integrating a parabolic or any other compressive stress distribution over the area of a circular segment, finding both the volume and the centroid, is exceedingly difficult. I'm not positive that a closed-form solution is impossible, but I think it is. So it would require numerical integration, which is a lot less fun. We'll compare our results to SpColumn's results in Part 3, and see how the rectangular distribution assumption stacks up against a more precise one.
 
 ## Segment Area Derivation
 First, we have to relate the depth of the assumed compression block to the area of said block. This requires creating a formula for the area of a circular segment based on its depth. To do so, I created the figures below.
 
 ![circ_seg_area](/testpreviewsite/assets/edd_pm/circular segment area_inv.JPG)
 
-As can be seen in Figure 1a, we are seeking to calculate $$A_{segment}$$, using only the variables of segment depth, $$δ$$ and radius, $$R$$. We will begin by relating $$δ$$ to the associated interior angle $$\theta$$ as can be seen in Figure 1c.
+Deriving these formulas will take a good bit of trigonometry and calculus. Fortunately I figured out how to solve these back in 2014 when I first took a stab at making this type of calculator, and I had my notes saved in a word file on Dropbox. Pretty cool to see! 
+
+![2014_notes](/testpreviewsite/assets/edd_pm/2014_notes.JPG)
+
+I'm grateful, because calculus must have been much fresher on my mind back then, and it would have taken me ages to figure this out from scratch today. But hopefully I can demonstrate the steps slowly and clearly.
+
+As can be seen in Figure 1a, we are seeking to calculate $$A_{segment}$$, using only the variables of segment depth, $$\delta$$ and radius, $$R$$. We will begin by relating $$\delta$$ to the associated interior angle $$\theta$$ as can be seen in Figure 1c.
 
 $$\delta = R-Rcos(\theta) \tag{1}$$
 
@@ -81,19 +87,24 @@ $$A_{segment} = R^2cos^{-1}(\frac{R-\delta}{R})-R^2(\frac{R-\delta}{R}*\frac{1}{
 = R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2r\delta-\delta^2} \tag{3}$$
 
 ## Segment Centroid Derivation
+Now we will need the centroid of a circular segment based on its depth, $$\delta$$. We can approach this with calculus, using an equation for a quarter of the circle that looks like this:
 
 ![seg_centroid](/testpreviewsite/assets/edd_pm/segment_centroid_inv.jpg){: width="400" }
+
+Through symmetry, we know that the centroid of this half of the circular segment is the same as the centroid for the whole segment. The quation for a circle is shown below, and then we put it in terms of y.
 
 $$R^2 = x^2+y^2 \\[0.5em]
 y = \sqrt{R^2-x^2}$$
 
+THe general formula for finding a centroid through integration is shown below.
+
 $$\bar{x} = \frac{\int_a^bxf(x)dx}{\int_a^bf(x)dx}$$
 
-Where the denominator is just equal to the area under the curve.
+Where the denominator is just equal to the area under the curve. In our case this looks like this.
 
 $$\bar{x} = \frac{\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx}{\int_{R-\delta}^R\sqrt{R^2-x^2}dx} \tag{4}$$
 
-The denominator is one-half of of the total segment area and is already known from the claculation above.
+Fortunately, the denominator is equal to one-half of of the total segment area and is already known from the calculation above.
 
 $$\int_{R-\delta}^R\sqrt{R^2-x^2}dx \\[0.5em]
 = \frac{1}{2}(R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2r\delta-\delta^2})$$
@@ -161,9 +172,18 @@ This gives us the indefinite solution of our original numerator in Eqn. 4.
 $$\int{}x\sqrt{R^2-x^2}dx = -\frac{R^3}{3}(1-\frac{x^2}{R^2})^{3/2}+c_3 \\[0.5em]
 = -\frac{1}{3}(R^2-x^2)^{3/2}+c_3$$
 
-Now we plug the bounds of our definite integral into the equation above:
+Now we plug the bounds of our definite integral into the equation above, which allows us to ignore the integrations constant $$c_3$$:
 
+$$\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx = -\frac{1}{3}(R^2-R^2)^{3/2}+\frac{1}{3}(R^2-(R-\delta)^2)^{3/2} \\[0.5em]
+= 0+\frac{1}{3}(R^2-(R^2-2R\delta+\delta^2))^{3/2} = \frac{1}{3}(2R\delta-\delta^2)^{3/2}$$
 
+Now that we finally have our numerator, we can plug it back into the complete centroid equation, Eqn. 4.
+
+$$\bar{x} = \frac{\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx}{\int_{R-\delta}^R\sqrt{R^2-x^2}dx} = \\[0.5em]
+= \frac{2(2R\delta-\delta^2)^{3/2}}{3[R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2R\delta-\delta^2}]} \\[0.5em]
+= \frac{2(2R\delta-\delta^2)^{3/2}}{3A_{segment}} \tag{7}$$
+
+We finally did it! Equations 3 and 7 give us what we need to tackle this PM diagram.
 
 ## Example Problem
 

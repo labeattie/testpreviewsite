@@ -68,7 +68,7 @@ $$A_{segment} = R^2\{cos^{-1}(\frac{R-\delta}{R})-cos[cos^{-1}(\frac{R-\delta}{R
 
 Now we can simplify a couple of the terms. The cosine with an inverse cosine in it cancels out, and we can simplify the sin of an inverse cosine with the following logic. Lets draw a representative triangle of the inverse cosine $$cos^{-1}((R-\delta)/R)$$, which can be conceptualized as "what angle has a cosine equal to $$(R-\delta)/R$$?". It looks like this:
 
-![rep_tri](/testpreviewsite/assets/edd_pm/rep_tri_inv.jpg){: width="400" }
+![rep_tri](/testpreviewsite/assets/edd_pm/rep_tri_inv.jpg){: width="300" }
 
 Since we now want to take the cosine of this triangle, we will need to opposite side length, which I denoted as $$x$$. To do this we just use the pythagorean theorum. This gives us:
 
@@ -89,7 +89,7 @@ $$A_{segment} = R^2cos^{-1}(\frac{R-\delta}{R})-R^2(\frac{R-\delta}{R}*\frac{1}{
 ## Segment Centroid Derivation
 Now we will need the centroid of a circular segment based on its depth, $$\delta$$. We can approach this with calculus, using an equation for a quarter of the circle that looks like this:
 
-![seg_centroid](/testpreviewsite/assets/edd_pm/segment_centroid_inv.jpg){: width="300" }
+![seg_centroid](/testpreviewsite/assets/edd_pm/segment_centroid_inv.jpg){: width="400" }
 
 Through symmetry, we know that the centroid of this half of the circular segment is the same as the centroid for the whole segment. The quation for a circle is shown below, and then we put it in terms of y.
 

@@ -89,7 +89,7 @@ $$A_{segment} = R^2cos^{-1}(\frac{R-\delta}{R})-R^2(\frac{R-\delta}{R}*\frac{1}{
 ## Segment Centroid Derivation
 Now we will need the centroid of a circular segment based on its depth, $$\delta$$. We can approach this with calculus, using an equation for a quarter of the circle that looks like this:
 
-![seg_centroid](/testpreviewsite/assets/edd_pm/segment_centroid_inv.jpg){: width="400" }
+![seg_centroid](/testpreviewsite/assets/edd_pm/segment_centroid_inv.jpg){: width="300" }
 
 Through symmetry, we know that the centroid of this half of the circular segment is the same as the centroid for the whole segment. The quation for a circle is shown below, and then we put it in terms of y.
 
@@ -163,7 +163,7 @@ $$-\frac{R^3}{3}cos^3(t)+c_2 = -\frac{R^3}{2}cos^3[sin^{-1}(\frac{x}{R})]+c_3$$
 
 We can simplify the $$cos^3(sin^{-1}(x/R))$$ term similarly to when we drew an example triangle while calculating the segment are formula. We take this following representative triangle and do the pythagorean theorum to get the missing side length.
 
-![rep_tri2](/testpreviewsite/assets/edd_pm/rep_tri2_inv.jpg){: width="300" }
+![rep_tri2](/testpreviewsite/assets/edd_pm/rep_tri2_inv.jpg){: width="250" }
 
 $$cos^3[sin^{-1}(\frac{x}{R})] = (1-\frac{x^2}{R^2})^{3/2}$$
 
@@ -183,7 +183,7 @@ $$\bar{x} = \frac{\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx}{\int_{R-\delta}^R\sqrt{R^2
 = \frac{2(2R\delta-\delta^2)^{3/2}}{3[R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2R\delta-\delta^2}]} \\[0.5em]
 = \frac{2(2R\delta-\delta^2)^{3/2}}{3A_{segment}} \tag{7}$$
 
-We finally did it! Equations 3 and 7 give us what we need to tackle this PM diagram.
+We finally did it! Equations 3 and 7 give us what we need to tackle this PM diagram. If anyone sees how to simplify either of these further, definitely let me know.
 
 ## Example Problem
 
@@ -209,7 +209,7 @@ We finally did it! Equations 3 and 7 give us what we need to tackle this PM diag
 ## Conclusion
 Now we can make PM diagrams for rectangular beam-columns! I'll show a graph of the result below. Thanks for reading and I hope it's been helpful. In the next article we'll begin thinking about doing the same thing for a circular section.
 
-![half_yield](/testpreviewsite/assets/edd_pm/rect_pm_result.jpg)
+![pm_result](/testpreviewsite/assets/edd_pm/rect_pm_result.jpg)
 
 
 [part_1]: lucasbeattie.com/drilled-shaft-column-rectangular/

@@ -28,7 +28,7 @@ I did 2-3 months of Duolingo for maybe about 20 minutes per day before going on 
 
 While in Spain, I had only basic conversations with natives, but made sure to make myself say at least one thing in Spanish to every waiter and Uber driver, and this turned out to be a lot of fun and made me want to able to converse a lot better. I had plenty of support from my wife Julie, who studied abroad in Mexico in college and speaks and understands Spanish better than me. Here's one more picture from the Spain trip.
 
-![spain2](/testpreviewsite/assets/spain1.jpg)
+![spain2](/testpreviewsite/assets/spain1.jpg){: width="400" }
 
 I had also read and heard some stuff, primarily from Tim Ferriss, in the last year or two about how learning a language doesn't have to take forever and be a lifelong pursuit if you're just aiming for conversational fluency. Most adults really overblow the process and say things about age being an obstacle. When, in reality, a dedicated adult can leverage a lot of strategy and focus and get to conversational fluency extremely quickly. We will see if this pans out for me, but I found it motivating.
 

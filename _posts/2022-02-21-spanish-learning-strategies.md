@@ -8,7 +8,7 @@ My wife and I took a vacation to Spain back in December, and I had done Duolingo
 
 
 
-![spain](/testpreviewsite/assets/spain2.jpg){: width="600" }
+![spain](/testpreviewsite/assets/spain2.jpg){: width="700" }
 
 "Get good" might be too strong a term for what I'm shooting for, but I like to be optimistic. I would love to, in the next couple of years, take another trip to a Spanish speaking country and be able to confidently speak to and understand native speakers while there. This is what many call "conversationally fluent", not to be confused with full fluency, and I think that's a very doable goal. Becoming ok with the idea that I won't sound excellent and will make many mistakes will allow me to get to that point much faster.
 

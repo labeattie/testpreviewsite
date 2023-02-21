@@ -91,27 +91,27 @@ Now we will need the centroid of a circular segment based on its depth, $$\delta
 
 ![seg_centroid](/testpreviewsite/assets/edd_pm/segment_centroid_inv.jpg){: width="400" }
 
-Through symmetry, we know that the centroid of this half of the circular segment is the same as the centroid for the whole segment. The quation for a circle is shown below, and then we put it in terms of y.
+Through symmetry, we know that the centroid of this half of the circular segment is the same as the centroid for the whole segment. The equation for a circle is shown below, which we then put in terms of y.
 
 $$R^2 = x^2+y^2 \\[0.5em]
 y = \sqrt{R^2-x^2}$$
 
-THe general formula for finding a centroid through integration is shown below.
+The general formula for finding a centroid through integration is shown below.
 
 $$\bar{x} = \frac{\int_a^bxf(x)dx}{\int_a^bf(x)dx}$$
 
-Where the denominator is just equal to the area under the curve. In our case this looks like this.
+Where the denominator is just equal to the area under the curve. In our case it looks like this.
 
 $$\bar{x} = \frac{\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx}{\int_{R-\delta}^R\sqrt{R^2-x^2}dx} \tag{4}$$
 
-Fortunately, the denominator is equal to one-half of of the total segment area and is already known from the calculation above.
+Fortunately, the denominator is equal to one-half of of the total segment area and is already known from Eqn. 3 above.
 
 $$\int_{R-\delta}^R\sqrt{R^2-x^2}dx \\[0.5em]
 = \frac{1}{2}(R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2r\delta-\delta^2})$$
 
 Now we can put our attention toward integrating the numerator.
 
-$$\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx = R\int{_R-\delta}^Rx\sqrt{1-\frac{x^2}{R^2}}dx \tag{5}$$
+$$\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx = R\int_{R-\delta}^Rx\sqrt{1-\frac{x^2}{R^2}}dx \tag{5}$$
 
 Yikes. Now it's time to dust off some trigonometric substitution from back in Calculus 2. We will use the substitution:
 
@@ -159,7 +159,7 @@ $$R^3(-\frac{u^3}{3}+c_1) = -\frac{R^3}{3}cos^3(t)+c_2$$
 
 And resubstituting from trigonometric substitution:
 
-$$-\frac{R^3}{3}cos^3(t)+c_2 = -\frac{R^3}{2}cos^3[sin^{-1}(\frac{x}{R})]+c_3$$
+$$-\frac{R^3}{3}cos^3(t)+c_2 = -\frac{R^3}{3}cos^3[sin^{-1}(\frac{x}{R})]+c_3$$
 
 We can simplify the $$cos^3(sin^{-1}(x/R))$$ term similarly to when we drew an example triangle while calculating the segment are formula. We take this following representative triangle and do the pythagorean theorum to get the missing side length.
 

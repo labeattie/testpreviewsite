@@ -206,6 +206,8 @@ $$Radius = 1/2*Diameter - Clear Cover - 1/2*Rebar Diameter = 14.44"$$
 
 $$y = 8.49"$$
 
+$$\unicode{XB0}$$}
+
 Here is a table of the results for all of the rows:
 
 
@@ -230,11 +232,15 @@ Finally, we can then get the resultant forces in the steel by multiplying the st
 
 The last force we need to calculate is that of the concrete compression block. This is what we did all that work for earlier in the article. The resultant of the force is found using Eqn. 3 with $$\beta\'c$$ to find the area of the block, and multiplying it by $$0.85*f'_c$$, which is the magnitude of the block. 
 
-$$A = R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2R\delta-\delta^2} \\[0.5em]
-R = 18" \\[0.5em]
-\delta = \beta\'c = 0.85*18.9" = 16.1" \\[0.5em]
-A = 18"^2cos^{-1}(\frac{18"-16.1"*18"}-(18"-16.1")\sqrt{2*18"*16.1"-16.1"^2} \\[0.5em]
-A = 440in^2$$
+$$A = R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2R\delta-\delta^2}$$
+
+$$R = 18"$$
+
+$$\delta = \beta\'c = 0.85*18.9" = 16.1"$$
+
+$$A = 18"^2cos^{-1}(\frac{18"-16.1"*18"}-(18"-16.1")\sqrt{2*18"*16.1"-16.1"^2}$$
+
+$$A = 440in^2$$
 
 
 ### Summary Table

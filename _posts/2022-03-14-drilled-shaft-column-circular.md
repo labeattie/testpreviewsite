@@ -204,17 +204,23 @@ y = 8.49"$$
 
 Here is a table of the results for all of the rows:
 
+|Row|y (in)|
+|---|------|
+|1  |13.73 |
+|2  |8.49  |
+|3  |0.00  |
+|4  |-8.49 |
+|5  |-13.73|
 
-
-Note that we don't place a bar in the center of the horizontal axis. This is to minimize the dept to the most extreme rebar, which is conservative. From the table of rebar locations above, we can see that our d value is:
+Note that we don't place a bar in the center of the horizontal axis. This is to minimize the depth to the most extreme rebar, which is conservative. From the table of rebar locations above, we can see that our d value is:
 
 $$d = 1/2*Diameter - y_5 \\[0.5em]
-= 18"+13.94" = 31.94"$$
+= 18"+13.73" = 31.73"$$
 
 Now that we have d, we can again calculate the depth to the neutral axis, c, directly.
 
 $$c = (\frac{ε_{cu}}{ε_{cu}+ε_s})*d \\[0.5em]
-= (\frac{0.003}{0.003+60ksi/29,000ksi})*31.94" = 18.9"$$
+= (\frac{0.003}{0.003+60ksi/29,000ksi})*31.73" = 18.8"$$
 
 Next we calculate the strain values at each rebar row just by linearly interpolating between the neutral axis the extreme concrete compression fiber or the bottom row of steel. 
 
@@ -228,9 +234,19 @@ The last force we need to calculate is that of the concrete compression block. T
 
 $$A = R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2R\delta-\delta^2} \\[0.5em]
 R = 18" \\[0.5em]
-\delta = {\beta}'c = 0.85*18.9" = 16.1" \\[0.5em]
-A = (18")^2cos^{-1}(\frac{18"-16.1"}{18"}-(18"-16.1")\sqrt{2*18"*16.1"-(16.1")^2} \\[0.5em]
-A = 440in^2$$
+\delta = {\beta}'c = 0.85*18.8" = 16.0" \\[0.5em]
+A = (18")^2cos^{-1}(\frac{18"-16"}{18"}-(18"-16")\sqrt{2*18"*16"-(16")^2} \\[0.5em]
+A = 436in^2 \\[0.5em]
+C_{conc} = 436in^2*0.85*4ksi = 1,481kips$$
+
+
+Now we need the centroid of that force, which we will calculate using Eqn. 7:
+
+$$\frac{2(2R\delta-\delta^2)^{3/2}}{3A_{segment}} \\[0.5em]
+\frac{2(2(18")(16")-(16")^2)^{3/2}}{3(436in^2)} = 8.75"$$
+
+We finally have all of the force magnitudes and centroids! Now we sum forces to get our $$P_n$$ value and sum moments about the mid-height of the section to get our $$M_n$$. Here's a table showing those results for our example problem.
+
 
 
 ### Summary Table

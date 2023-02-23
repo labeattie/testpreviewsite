@@ -27,7 +27,7 @@ In this article, we will begin including the compression reinforcement in our ca
 
 As stated in the assumptions we will be assuming a rectangular compressive stress distribution as outlined in AASHTO (based on Whitney stress block). This is pretty clearly allowed by AASHTO, but I was interested if the results would be as good as they are in the case of a rectangular cross-section. Multiplying the depth of the stress block by 0.85 seems like it might do something a little different when the compression area is a circular segment rather than a rectangle. 
 
-We will proceed ahead with this assumption though, as integrating a parabolic or any other compressive stress distribution over the area of a circular segment, finding both the volume and the centroid, is exceedingly difficult. I'm not positive that a closed-form solution is impossible, but I think it is. So it would require numerical integration, which is a lot less fun. We'll compare our results to SpColumn's results in Part 3, and see how the rectangular distribution assumption stacks up against a more precise one.
+We will proceed ahead with this assumption though, as integrating a parabolic, or any other, compressive stress distribution over the area of a circular segment, finding both the volume and the centroid, is exceedingly difficult. I'm not positive that a closed-form solution is impossible, but I think it is. So it would require numerical integration, which is a lot less fun. We'll compare our results to SpColumn's results in Part 3, and see how the rectangular distribution assumption stacks up against a more precise one.
 
 ## Segment Area Derivation
 First, we have to relate the depth of the assumed compression block to the area of said block. This requires creating a formula for the area of a circular segment based on its depth. To do so, I created the figures below.
@@ -44,13 +44,13 @@ As can be seen in Figure 1a, we are seeking to calculate $$A_{segment}$$, using 
 
 $$\delta = R-Rcos(\theta) \tag{1}$$
 
-Next we will relate the segment are to the sector area (the whole light blue slice of the pie in Figure 1b) and the triangle area.
+Next we will relate the segment area to the sector area (the whole light blue slice of the pie in Figure 1b) and the triangle area.
 
 $$A_{segment}/2 = A_{sector}-A_{triangle}$$
 
 And now we put that equation in terms of $$R$$ and $$\theta$$.
 
-$$A_{sector} = \frac{\theta}{2\pi}{\pi}R^2 = \frac{\theta{R}^2}{2} \\[0.5em]
+$$A_{sector} = \frac{\theta}{2\pi}({\pi}R^2) = \frac{\theta{R}^2}{2} \\[0.5em]
 A_{triangle} = \frac{1}{2}Rcos(\theta)Rsin(\theta) \\[0.5em]$$
 
 Substituting into the $$A_{segment}$$ formula:
@@ -58,7 +58,7 @@ Substituting into the $$A_{segment}$$ formula:
 $$A_{segment} = {\theta}R^2-R^2cos(\theta)sin(\theta) \\[0.5em]
 = R^2(\theta-cos(\theta)sin(\theta)) \tag{2}$$
 
-We're almost there. Now we need to put thetas in terms of delta and R. Solving for theta in Eqn. 1:
+We're almost there. Now we need to put theta in terms of delta and R. Solving for theta in Eqn. 1:
 
 $$\theta = cos^{-1}(\frac{R-\delta}{R})$$
 
@@ -66,11 +66,11 @@ Substituting that into Eqn. 2:
 
 $$A_{segment} = R^2\{cos^{-1}(\frac{R-\delta}{R})-cos[cos^{-1}(\frac{R-\delta}{R})]sin[cos^{-1}(\frac{R-\delta}{R})]\}$$
 
-Now we can simplify a couple of the terms. The cosine with an inverse cosine in it cancels out, and we can simplify the sin of an inverse cosine with the following logic. Let's draw a representative triangle of the inverse cosine $$cos^{-1}((R-\delta)/R)$$, which can be conceptualized as "what angle has a cosine equal to $$(R-\delta)/R$$?". It looks like this:
+Now we can simplify a couple of the terms. The cosine with an inverse cosine in it cancels out, and we can simplify the sine of an inverse cosine with the following logic. Let's draw a representative triangle of the inverse cosine $$cos^{-1}((R-\delta)/R)$$, which can be conceptualized as "what angle has a cosine equal to $$(R-\delta)/R$$?". It looks like this:
 
 ![rep_tri](/testpreviewsite/assets/edd_pm/rep_tri_inv.jpg){: width="300" }
 
-Since we now want to take the cosine of this triangle, we will need to opposite side length, which I denoted as $$x$$. To do this we just use the Pythagorean Theorem. This gives us:
+Since we now want to take the cosine of this angle, we will need to opposite side length, which I denoted as $$x$$. To do this we just use the Pythagorean Theorem. This gives us:
 
 $$sin[cos^{-1}(\frac{R-\delta}{R})] = \sqrt{1-(\frac{R-\delta}{R}^2)}$$
 
@@ -81,7 +81,7 @@ $$\sqrt{1-(\frac{R-\delta}{R}^2)} \\[0.5em]
 = \sqrt{\frac{2R\delta}{R^2}-\frac{\delta^2}{R^2}} \\[0.5em]
 = \frac{1}{R}\sqrt{2R\delta-\delta^2}$$
 
-So now putting those simplified terms back in our $$A_{segment}$$ formula finally gives the formula we will use for the segment area.
+Putting those simplified terms back in our $$A_{segment}$$ formula finally gives the formula we will use for the segment area.
 
 $$A_{segment} = R^2cos^{-1}(\frac{R-\delta}{R})-R^2(\frac{R-\delta}{R}*\frac{1}{R}\sqrt{2R\delta-\delta^2}) \\[0.5em]
 = R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2R\delta-\delta^2} \tag{3}$$
@@ -161,7 +161,7 @@ And resubstituting from trigonometric substitution:
 
 $$-\frac{R^3}{3}cos^3(t)+c_2 = -\frac{R^3}{3}cos^3[sin^{-1}(\frac{x}{R})]+c_3$$
 
-We can simplify the $$cos^3(sin^{-1}(x/R))$$ term similarly to when we drew an example triangle while calculating the segment are formula. We take this following representative triangle and do the Pythagorean Theorem to get the missing side length.
+We can simplify the $$cos^3(sin^{-1}(x/R))$$ term similarly to when we drew an example triangle while calculating the segment area formula. We take this following representative triangle and do the Pythagorean Theorem to get the missing side length.
 
 ![rep_tri2](/testpreviewsite/assets/edd_pm/rep_tri2_inv.jpg){: width="250" }
 
@@ -226,7 +226,7 @@ Next we calculate the strain values at each rebar row just by linearly interpola
 
 We then take these values and calculate stresses. Because we assume an elastic perfectly plastic stress-strain relationship for the rebar, this means if strain in the steel is less the yield strain ($$\epsilon_y = f_y/E_s$$), then the stress is linearly interpolated between zero and yield stress ($$f_s = (\epsilon_s/\epsilon_y)*f_y$$), and if the strain in the steel is anywhere at or above the yield strain, then the stress is equal to the yield stress, $$f_y$$. 
 
-Finally, we can then get the resultant forces in the steel by multiplying the stresses by the total area of steel in that row. Here is a table of strains, stresses, and resultant forces for the steel in our example problem.
+Finally, we can then get the resultant forces in the steel by multiplying the stresses by the total area of steel in that row. Here is a table of strains, stresses, and resultant forces for the steel in our example problem, with compression being negative.
 
 |Row|Strains(in/in)|Stresses (ksi)|No. bars|Forces (kip)|
 |---|--------------|--------------|--------|------------|
@@ -236,7 +236,7 @@ Finally, we can then get the resultant forces in the steel by multiplying the st
 |4  |0.00123       |35.7          |2       |71.4        |
 |5  |0.00207       |60.0          |2       |120         |
 
-The last force we need to calculate is that of the concrete compression block. This is what we did all that work for earlier in the article. The resultant of the force is found using Eqn. 3 with $${\beta}'c$$ to find the area of the block, and multiplying it by $$0.85*f'_c$$, which is the magnitude of the block. 
+The last force we need to calculate is that of the concrete compression block. This is what we did all that work for earlier in the article. The resultant of the force is found using Eqn. 3 with $$\delta={\beta}'c$$ to find the area of the block, and multiplying it by $$0.85*f'_c$$, which is the magnitude (thickness) of the block. 
 
 $$A = R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2R\delta-\delta^2} \\[0.5em]
 R = 18" \\[0.5em]
@@ -247,8 +247,8 @@ C_{conc} = 436in^2*0.85*4ksi = 1,481kips$$
 
 Now we need the centroid of that force, which we will calculate using Eqn. 7:
 
-$$\frac{2(2R\delta-\delta^2)^{3/2}}{3A_{segment}} \\[0.5em]
-\frac{2(2(18")(16")-(16")^2)^{3/2}}{3(436in^2)} = 8.75"$$
+$$y_{conc} = \frac{2(2R\delta-\delta^2)^{3/2}}{3A_{segment}} \\[0.5em]
+= \frac{2(2*18"*16"-(16")^2)^{3/2}}{3(436in^2)} = 8.75"$$
 
 We finally have all of the force magnitudes and centroids! Now we sum forces to get our $$P_n$$ value and sum moments about the mid-height of the section to get our $$M_n$$. Here's a table showing those results for our example problem.
 
@@ -263,7 +263,7 @@ We finally have all of the force magnitudes and centroids! Now we sum forces to 
 |           |sum = |-1,503      |1,466           |
 
 ## Summary Table & Conclusion
-Here is a table showing the remaining points I calculated for our example problem, and a graph of the resulting nominal PM capacity curve.
+Here is a table showing the remaining points I calculated for our example problem, but with the sign convention for axial force flipped so that compression is positive, and a graph of the resulting nominal PM capacity curve.
 
 |Description|P (kip)|M (kip*ft)|
 |-----------|-------|----------|
@@ -281,9 +281,8 @@ Here is a table showing the remaining points I calculated for our example proble
 |10εsy      |-324   |346       |
 |tension    |-600   |0         |
 
-Great job making it to the end. We now can make PM diagrams for circular beam-columns :). The resulting graph of the nominal PM capacity for our example problem is below. In the next article we'll wrap things up and apply phi factors, so that our results are factored and usable. We'll also compare the results to SpColumn to see how it measures up to a more precise concrete compression block shape. And of course, I will have an Excel sheet ready to download to generate these PM curves!
-
 ![pm_result_circ](/testpreviewsite/assets/edd_pm/circ_pm_result.jpg)
 
+Great job making it to the end. We now can make PM diagrams for circular beam-columns :). In the next article we'll wrap things up and apply phi factors, so that our results are factored and usable. We'll also compare the results to SpColumn to see how it measures up to a more precise concrete compression block shape. And of course, I will have an Excel sheet ready to download so you can generate these curves with ease!
 
 [part_1]: lucasbeattie.com/drilled-shaft-column-rectangular/

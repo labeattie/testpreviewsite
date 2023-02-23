@@ -83,8 +83,8 @@ $$\sqrt{1-(\frac{R-\delta}{R}^2)} \\[0.5em]
 
 So now putting those simplified terms back in our $$A_{segment}$$ formula finally gives the formula we will use for the segment area.
 
-$$A_{segment} = R^2cos^{-1}(\frac{R-\delta}{R})-R^2(\frac{R-\delta}{R}*\frac{1}{R}\sqrt{2r\delta-\delta^2}) \\[0.5em]
-= R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2r\delta-\delta^2} \tag{3}$$
+$$A_{segment} = R^2cos^{-1}(\frac{R-\delta}{R})-R^2(\frac{R-\delta}{R}*\frac{1}{R}\sqrt{2R\delta-\delta^2}) \\[0.5em]
+= R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2R\delta-\delta^2} \tag{3}$$
 
 ## Segment Centroid Derivation
 Now we will need the centroid of a circular segment based on its depth, $$\delta$$. We can approach this with calculus, using an equation for a quarter of the circle that looks like this:
@@ -186,6 +186,51 @@ $$\bar{x} = \frac{\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx}{\int_{R-\delta}^R\sqrt{R^2
 We finally did it! Equations 3 and 7 give us what we need to tackle this PM diagram. If anyone sees how to simplify either of these further, definitely let me know.
 
 ## Example Problem
+Now I will work through one PM point on one example problem to demonstrate how to use the equations we derived. Here is the cross-section we will use:
+
+![circ_xsect](/testpreviewsite/assets/edd_pm/circ_xsect.svg)
+
+We will analyze it at balanced condition, so where $$\epsilon_s = \epsilon_y = f_y/E_s$$. Here is the stress, strain, and resultant force diagrams for it.
+
+![circ_balance](/testpreviewsite/assets/edd_pm/circ_balance.svg)
+
+First we will need to know the vertical locations of the center of each of the rows of rebar. This can be determined using trigonometry. For example, if we take the center of the cross-section to be the origin, and the y-axis to be vertical with upwards being positive, we have one row at y = 0, and the location of the next row above that can be calculated like so:
+
+$$Number of Spaces = Number of Bars = 10 \\[0.5em]
+Interior Angle = 360\unicode{xB0}/Number of Spaces = 36\unicode{xB0} \\[0.5em]
+sin(36\unicode{xB0}) = y/Radius; y = Radius*sin(36\unicode{xB0}) \\[0.5em]
+Radius = 1/2*Diameter - Clear Cover - 1/2*Rebar Diameter = 14.44" \\[0.5em]
+y = 8.49"$$
+
+Here is a table of the results for all of the rows:
+
+
+
+Note that we don't place a bar in the center of the horizontal axis. This is to minimize the dept to the most extreme rebar, which is conservative. From the table of rebar locations above, we can see that our d value is:
+
+$$d = 1/2*Diameter - y_5 \\[0.5em]
+= 18"+13.94" = 31.94"$$
+
+Now that we have d, we can again calculate the depth to the neutral axis, c, directly.
+
+$$c = (\frac{ε_{cu}}{ε_{cu}+ε_s})*d \\[0.5em]
+= (\frac{0.003}{0.003+60ksi/29,000ksi})*31.94" = 18.9"$$
+
+Next we calculate the strain values at each rebar row just by linearly interpolating between the neutral axis the extreme concrete compression fiber or the bottom row of steel. 
+
+We then take these values and calculate stresses. Because we assume an elastic perfectly plastic stress-strain relationship for the rebar, this means if strain in the steel is less the yield strain ($$\epsilon_y = f_y/E_s$$), then the stress is linearly interpolated between zero and yield stress ($$f_s = (\epsilon_s/\epsilon_y)*f_y$$), and if the strain in the steel is anywhere at or above the yield strain, then the stress is equal to the yield stress, $$f_y$$. 
+
+Finally, we can then get the resultant forces in the steel by multiplying the stresses by the total area of steel in that row. Here is a table of strains, stresses, and resultant forces for the steel in our example problem.
+
+
+
+The last force we need to calculate is that of the concrete compression block. This is what we did all that work for earlier in the article. The resultant of the force is found using Eqn. 3 with $$\beta\'c$$ to find the area of the block, and multiplying it by $$0.85*f'_c$$, which is the magnitude of the block. 
+
+$$A = R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2R\delta-\delta^2} \\[0.5em]
+R = 18" \\[0.5em]
+\delta = \beta\'c = 0.85*18.9" = 16.1" \\[0.5em]
+A = 18"^2cos^{-1}(\frac{18"-16.1"*18"}-(18"-16.1")\sqrt{2*18"*16.1"-16.1"^2} \\[0.5em]
+A = 440in^2$$
 
 
 ### Summary Table

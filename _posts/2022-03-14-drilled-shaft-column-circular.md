@@ -228,7 +228,13 @@ We then take these values and calculate stresses. Because we assume an elastic p
 
 Finally, we can then get the resultant forces in the steel by multiplying the stresses by the total area of steel in that row. Here is a table of strains, stresses, and resultant forces for the steel in our example problem.
 
-
+|Row|Strains(in/in)|Stresses (ksi)|No. bars|Forces (kip)|
+|---|--------------|--------------|--------|------------|
+|1  |-0.00232      |-60.0         |2       |-120        |
+|2  |-0.00148      |-42.9         |2       |-85.8       |
+|3  |-0.00012      |-3.61         |2       |-7.21       |
+|4  |0.00123       |35.7          |2       |71.4        |
+|5  |0.00207       |60.0          |2       |120         |
 
 The last force we need to calculate is that of the concrete compression block. This is what we did all that work for earlier in the article. The resultant of the force is found using Eqn. 3 with $${\beta}'c$$ to find the area of the block, and multiplying it by $$0.85*f'_c$$, which is the magnitude of the block. 
 
@@ -239,7 +245,6 @@ A = (18")^2cos^{-1}(\frac{18"-16"}{18"}-(18"-16")\sqrt{2*18"*16"-(16")^2} \\[0.5
 A = 436in^2 \\[0.5em]
 C_{conc} = 436in^2*0.85*4ksi = 1,481kips$$
 
-
 Now we need the centroid of that force, which we will calculate using Eqn. 7:
 
 $$\frac{2(2R\delta-\delta^2)^{3/2}}{3A_{segment}} \\[0.5em]
@@ -247,30 +252,38 @@ $$\frac{2(2R\delta-\delta^2)^{3/2}}{3A_{segment}} \\[0.5em]
 
 We finally have all of the force magnitudes and centroids! Now we sum forces to get our $$P_n$$ value and sum moments about the mid-height of the section to get our $$M_n$$. Here's a table showing those results for our example problem.
 
+|Description|y (in)|Forces (kip)|Moments (kip*ft)|
+|-----------|------|------------|----------------|
+|Concrete   |8.75  |-1,481      |1,080           |
+|Steel_1    |13.7  |-120        |137             |
+|Steel_2    |8.49  |-85.8       |60.7            |
+|Steel_3    |0     |-7.21       |0               |
+|Steel_4    |-8.49 |71.4        |50.5            |
+|Steel_5    |-13.7 |120         |137             |
+|           |sum = |-1,503      |1,466           |
 
+### Summary Table & Conclusion
+Here is a table showing the remaining points I calculated for our example problem, and a graph of the resulting nominal PM capacity curve.
 
-### Summary Table
+|Description|P (kip)|M (kip*ft)|
+|-----------|-------|----------|
+|compression|4,026  |0         |
+|0εsy       |3,125  |920       |
+|0.25εsy    |2,600  |1,225     |
+|0.50εsy    |2,165  |1,374     |
+|0.75εsy    |1,806  |1,441     |
+|1εsy       |1,503  |1,466     |
+|2εsy       |801    |1,275     |
+|3εsy       |410    |1,047     |
+|4εsy       |194    |867       |
+|6εsy       |-88    |604       |
+|8εsy       |-237   |448       |
+|10εsy      |-324   |346       |
+|tension    |-600   |0         |
 
-| Description | P (kip) | M (kip*ft) |
-|-------------|---------|------------|
-| compression | 793     | 0.0        |
-| 0εsy        | 451     | 93.0       |
-| 0.25εsy     | 366     | 113        |
-| 0.5εsy      | 298     | 124        |
-| 0.75εsy     | 241     | 131        |
-| 1εsy        | 192     | 136        |
-| 2εsy        | 115     | 121        |
-| 3εsy        | 72.5    | 107        |
-| 4εsy        | 45.5    | 96.3       |
-| 6εsy        | 13.3    | 81.6       |
-| 8εsy        | -5.2    | 72.2       |
-| 10εsy       | -17.3   | 65.7       |
-| tension     | -74.4   | 0.0        |
+Great job making it to the end. We now can make PM diagrams for circular beam-columns :). The resulting graph of the nominal PM capacity for our example problem is below. In the next article we'll wrap things up and apply phi factors, so that our results are factored and usable. We'll also compare the results to SpColumn to see how it measures up to a more precise concrete compression block shape. And of course, I will have an Excel sheet ready to download to generate these PM curves!
 
-## Conclusion
-Now we can make PM diagrams for rectangular beam-columns! I'll show a graph of the result below. Thanks for reading and I hope it's been helpful. In the next article we'll begin thinking about doing the same thing for a circular section.
-
-![pm_result](/testpreviewsite/assets/edd_pm/rect_pm_result.jpg)
+![pm_result_circ](/testpreviewsite/assets/edd_pm/circ_pm_result.jpg)
 
 
 [part_1]: lucasbeattie.com/drilled-shaft-column-rectangular/

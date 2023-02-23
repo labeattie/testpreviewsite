@@ -5,7 +5,7 @@ layout: post
 categories: engineering
 ---
 
-Pretty fitting that we have our article on circular column capacity on pi day (March 14th) :). We're picking back up right where we left off from [Part 1 (rectangular column/drilled shaft capacity)][part_1], and are ready to approach calculting PM capacities for a circular cross-section. The big (and fun) issue here is: how are we going to find the area and the centroid of the compression block?
+Pretty fitting that we have our article on circular column capacity on pi day (March 14th) :). We're picking back up right where we left off from [Part 1 (rectangular column/drilled shaft capacity)][part_1], and are ready to approach calculating PM capacities for a circular cross-section. The big (and fun) issue here is: how are we going to find the area and the centroid of the compression block?
 
 
 
@@ -66,11 +66,11 @@ Substituting that into Eqn. 2:
 
 $$A_{segment} = R^2\{cos^{-1}(\frac{R-\delta}{R})-cos[cos^{-1}(\frac{R-\delta}{R})]sin[cos^{-1}(\frac{R-\delta}{R})]\}$$
 
-Now we can simplify a couple of the terms. The cosine with an inverse cosine in it cancels out, and we can simplify the sin of an inverse cosine with the following logic. Lets draw a representative triangle of the inverse cosine $$cos^{-1}((R-\delta)/R)$$, which can be conceptualized as "what angle has a cosine equal to $$(R-\delta)/R$$?". It looks like this:
+Now we can simplify a couple of the terms. The cosine with an inverse cosine in it cancels out, and we can simplify the sin of an inverse cosine with the following logic. Let's draw a representative triangle of the inverse cosine $$cos^{-1}((R-\delta)/R)$$, which can be conceptualized as "what angle has a cosine equal to $$(R-\delta)/R$$?". It looks like this:
 
 ![rep_tri](/testpreviewsite/assets/edd_pm/rep_tri_inv.jpg){: width="300" }
 
-Since we now want to take the cosine of this triangle, we will need to opposite side length, which I denoted as $$x$$. To do this we just use the pythagorean theorum. This gives us:
+Since we now want to take the cosine of this triangle, we will need to opposite side length, which I denoted as $$x$$. To do this we just use the Pythagorean Theorem. This gives us:
 
 $$sin[cos^{-1}(\frac{R-\delta}{R})] = \sqrt{1-(\frac{R-\delta}{R}^2)}$$
 
@@ -104,7 +104,7 @@ Where the denominator is just equal to the area under the curve. In our case it 
 
 $$\bar{x} = \frac{\int_{R-\delta}^Rx\sqrt{R^2-x^2}dx}{\int_{R-\delta}^R\sqrt{R^2-x^2}dx} \tag{4}$$
 
-Fortunately, the denominator is equal to one-half of of the total segment area and is already known from Eqn. 3 above.
+Fortunately, the denominator is equal to one-half of the total segment area and is already known from Eqn. 3 above.
 
 $$\int_{R-\delta}^R\sqrt{R^2-x^2}dx \\[0.5em]
 = \frac{1}{2}(R^2cos^{-1}(\frac{R-\delta}{R})-(R-\delta)\sqrt{2r\delta-\delta^2})$$
@@ -139,7 +139,7 @@ Which gives us:
 
 $$R\int{x}\sqrt{1-\frac{x^2}{R^2}}dx = R^3\int{}sin(t)cos^2(t)dt \tag{6}$$
 
-We're not done yet! We're going to use u substitution to finish this integral out. Two Calc 2 techniques in one problem.
+We're not done yet! We're going to use u substitution to finish this integral out. Two Calculus 2 techniques in one problem.
 
 $$u = cos(t) \\[0.5em]
 \frac{du}{dt} = -sin(t) \\[0.5em]
@@ -149,7 +149,7 @@ Which gives us:
 
 $$R^3\int{}sin(t)cos^2(t)dt = R^3\int{}-u^2du$$
 
-There we go. Now thats a problem we can solve.
+There we go. Now that's a problem we can solve.
 
 $$R^3\int{}-u^2du = R^3(-\frac{u^3}{3}+c_1)$$
 
@@ -161,7 +161,7 @@ And resubstituting from trigonometric substitution:
 
 $$-\frac{R^3}{3}cos^3(t)+c_2 = -\frac{R^3}{3}cos^3[sin^{-1}(\frac{x}{R})]+c_3$$
 
-We can simplify the $$cos^3(sin^{-1}(x/R))$$ term similarly to when we drew an example triangle while calculating the segment are formula. We take this following representative triangle and do the pythagorean theorum to get the missing side length.
+We can simplify the $$cos^3(sin^{-1}(x/R))$$ term similarly to when we drew an example triangle while calculating the segment are formula. We take this following representative triangle and do the Pythagorean Theorem to get the missing side length.
 
 ![rep_tri2](/testpreviewsite/assets/edd_pm/rep_tri2_inv.jpg){: width="250" }
 
@@ -262,7 +262,7 @@ We finally have all of the force magnitudes and centroids! Now we sum forces to 
 |Steel_5    |-13.7 |120         |137             |
 |           |sum = |-1,503      |1,466           |
 
-### Summary Table & Conclusion
+## Summary Table & Conclusion
 Here is a table showing the remaining points I calculated for our example problem, and a graph of the resulting nominal PM capacity curve.
 
 |Description|P (kip)|M (kip*ft)|

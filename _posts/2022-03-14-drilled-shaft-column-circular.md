@@ -196,11 +196,15 @@ We will analyze it at balanced condition, so where $$\epsilon_s = \epsilon_y = f
 
 First we will need to know the vertical locations of the center of each of the rows of rebar. This can be determined using trigonometry. For example, if we take the center of the cross-section to be the origin, and the y-axis to be vertical with upwards being positive, we have one row at y = 0, and the location of the next row above that can be calculated like so:
 
-$$Number of Spaces = Number of Bars = 10 \\[0.5em]
-Interior Angle = 360\unicode{xB0}/Number of Spaces = 36\unicode{xB0} \\[0.5em]
-sin(36\unicode{xB0}) = y/Radius; y = Radius*sin(36\unicode{xB0}) \\[0.5em]
-Radius = 1/2*Diameter - Clear Cover - 1/2*Rebar Diameter = 14.44" \\[0.5em]
-y = 8.49"$$
+$$Number of Spaces = Number of Bars = 10$$
+
+$$Interior Angle = 360\unicode{xB0}/Number of Spaces = 36\unicode{xB0}$$
+
+$$sin(36\unicode{xB0}) = y/Radius; y = Radius*sin(36\unicode{xB0})$$
+
+$$Radius = 1/2*Diameter - Clear Cover - 1/2*Rebar Diameter = 14.44"$$
+
+$$y = 8.49"$$
 
 Here is a table of the results for all of the rows:
 

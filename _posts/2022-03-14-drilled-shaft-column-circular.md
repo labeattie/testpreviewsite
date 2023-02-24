@@ -284,6 +284,6 @@ Here is a table showing the remaining points I calculated for our example proble
 
 ![pm_result_circ](/testpreviewsite/assets/edd_pm/circ_pm_result.jpg)
 
-Great job making it to the end. We now can make PM diagrams for circular beam-columns :). In the next article we'll wrap things up and apply phi factors, so that our results are factored and usable. We'll also compare the results to SpColumn to see how it measures up to a more precise concrete compression block shape. And of course, I will have an Excel sheet ready to download so you can generate these curves with ease!
+Great job making it to the end. We now can make nominal PM diagrams for circular beam-columns :). In the next article we'll wrap things up and apply phi factors, so that our results are factored and usable. We'll also compare the results to SpColumn to see how it measures up to a more precise concrete compression block shape. And of course, I will have an Excel sheet ready to download so you can generate these curves with ease!
 
 [part_1]: lucasbeattie.com/drilled-shaft-column-rectangular/

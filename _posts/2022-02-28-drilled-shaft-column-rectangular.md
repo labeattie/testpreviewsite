@@ -136,7 +136,7 @@ M_n = 96.3kipft$$
 | tension     | -74.4   | 0.0        |
 
 ## Conclusion
-Now we can make PM diagrams for rectangular beam-columns! I'll show a graph of the result below. Thanks for reading and I hope it's been helpful. In the next article we'll begin thinking about doing the same thing for a circular section.
+Now we can make nominal PM diagrams for rectangular beam-columns! I'll show a graph of the result below. Thanks for reading and I hope it's been helpful. In the next article we'll begin thinking about doing the same thing for a circular section.
 
 ![pm_result](/testpreviewsite/assets/edd_pm/rect_pm_result.jpg)
 

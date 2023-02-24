@@ -215,7 +215,7 @@ Here is a table of the results for all of the rows:
 
 Note that we don't place a bar in the center of the horizontal axis. This is to minimize the depth to the most extreme rebar, which is conservative. From the table of rebar locations above, we can see that our d value is:
 
-$$d = 1/2*Diameter - y_5 \\[0.5em]
+$$d = 1/2*\text{Diameter} - y_5 \\[0.5em]
 = 18"+13.73" = 31.73"$$
 
 Now that we have d, we can again calculate the depth to the neutral axis, c, directly.

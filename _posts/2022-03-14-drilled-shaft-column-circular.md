@@ -198,8 +198,9 @@ First we will need to know the vertical locations of the center of each of the r
 
 $$\text{Number of Spaces} = \text{Number of Bars} = 10 \\[0.5em]
 \text{Interior Angle} = 360°/\text{Number of Spaces} = 36° \\[0.5em]
-sin(36°) = y/\text{Radius; }y = \text{Radius}*sin(36°) \\[0.5em]
-\text{Radius} = 1/2*Diameter - \text{Clear Cover} - 1/2*\text{Rebar Diameter} = 14.44" \\[0.5em]
+sin(36°) = y/\text{Radius} \\[0.5em]
+y = \text{Radius}*sin(36°) \\[0.5em]
+\text{Radius} = 1/2*\text{Diameter} - \text{Clear Cover} - 1/2*\text{Rebar Diameter} = 14.44" \\[0.5em]
 y = 8.49"$$
 
 Here is a table of the results for all of the rows:

@@ -5,7 +5,7 @@ layout: post
 categories: engineering
 ---
 
-Pretty fitting that we have our article on circular column capacity on pi day (March 14th) :). We're picking back up right where we left off from [Part 1 (rectangular column/drilled shaft capacity)][part_1], and are ready to approach calculating PM capacities for a circular cross-section. The big (and fun) issue here is: how are we going to find the area and the centroid of the compression block?
+Pretty fitting that we have our article on circular column capacity on pi day (March 14th) :P. We're picking back up right where we left off from [Part 1 (rectangular column/drilled shaft capacity)][part_1], and are ready to approach calculating PM capacities for a circular cross-section. The big (and fun) issue here is: how are we going to find the area and the centroid of the compression block?
 
 
 
@@ -284,6 +284,6 @@ Here is a table showing the remaining points I calculated for our example proble
 
 ![pm_result_circ](/testpreviewsite/assets/edd_pm/circ_pm_result.jpg)
 
-Great job making it to the end. We now can make nominal PM diagrams for circular beam-columns :). In the next article we'll wrap things up and apply phi factors, so that our results are factored and usable. We'll also compare the results to SpColumn to see how it measures up to a more precise concrete compression block shape. And of course, I will have an Excel sheet ready to download so you can generate these curves with ease!
+Great job making it to the end! We now can make nominal PM diagrams for circular beam-columns. In the next article we'll wrap things up and apply phi factors, so that our results are factored and usable. We'll also compare the results to SpColumn to see how it measures up to a more precise concrete compression block shape. And of course, I will have an Excel sheet ready to download so you can generate these curves with ease!
 
 [part_1]: lucasbeattie.com/drilled-shaft-column-rectangular/

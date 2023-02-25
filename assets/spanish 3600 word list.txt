@@ -1,5 +1,5 @@
 diferente	different	adjective
-el pueblo	people	noun
+el pueblo	people/town	noun
 el tiempo	time	noun
 el año	year	noun
 la cosa	thing	noun
@@ -9,12 +9,12 @@ el día	day	noun
 el hombre	man	noun
 yo	i	extras
 el estado	state	noun
-usó	used	adjective
-el lote	lot	noun
+usado	used	adjective
+el lote	lot(of land)	noun
 importante	important	adjective
 la mujer	woman	noun
 todos	every	adjective
-largo	large	adjective
+largo	long	adjective
 el país	country	noun
 disponible	available	adjective
 la vida	life	noun
@@ -87,7 +87,7 @@ el hogar	home	noun
 el negocio	business	noun
 útil	useful	adjective
 mental	mental	adjective
-asustado	scared	adjective
+asustado/tener miedo	scared	adjective
 en	at	extras
 adicional	additional	adjective
 el amigo	friend	noun

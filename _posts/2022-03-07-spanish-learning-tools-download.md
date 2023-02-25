@@ -9,11 +9,10 @@ In the previous Spanish learning article, I talked about some of the strategies 
 ## Download Links!
 When opening the verb conjugation practice tool, you have to click "Enable Content" or similar at the top of the sheet in order for Excel to allow the VBA code to run.
 
-[Vocabulary Words List][word_list]
-
+[Vocabulary Words List][word_list]\
 [Verb Conjugation Practice Tool][verb_xlsm]
 
-![verb_tool](/testpreviewsite/assets/verb_tool.jpg)
+![verb_tool](/testpreviewsite/assets/verb_tool.jpg){: width="00" }
 
 ## Word list
 For my rote vocabulary practice, I developed a word list of 3600 words to learn. The text file above contains the Spanish word, translations, and categories, which you can import into [Anki][anki], or use however else you would like.

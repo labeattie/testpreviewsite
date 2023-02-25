@@ -10,6 +10,7 @@ In the previous Spanish learning article, I talked about some of the strategies 
 When opening the verb conjugation practice tool, you have to click "Enable Content" or similar at the top of the sheet in order for Excel to allow the VBA code to run.
 
 [Vocabulary Words List][word_list]
+
 [Verb Conjugation Practice Tool][verb_xlsm]
 
 ![verb_tool](/testpreviewsite/assets/verb_tool.jpg)
@@ -17,7 +18,7 @@ When opening the verb conjugation practice tool, you have to click "Enable Conte
 ## Word list
 For my rote vocabulary practice, I developed a word list of 3600 words to learn. The text file above contains the Spanish word, translations, and categories, which you can import into [Anki][anki], or use however else you would like.
 
-I was inspired to just practice some vocabulary directly by this blog post: [How Many Words Do You Need to Know to Be Fluent in Spanish][], which suggests that knowing the most common 3,000-4,000 words in a language will give you the capability of understanding and speaking 90% or more of it. 
+I was inspired to just practice some vocabulary directly by this blog post: [How Many Words Do You Need to Know to Be Fluent in Spanish][words_blog], which suggests that knowing the most common 3,000-4,000 words in a language will give you the capability of understanding and speaking 90% or more of it. 
 
 A little further into the post, one study claimed you want to know roughly the following amounts of each type of word to obtain 90% proficiency.
 
@@ -58,7 +59,11 @@ In particular, I felt like "decir" should be on the list, as it one of the top 1
 I added a few other common verbs and replaced a few uncommon ones and ended up with my own list of 50 verbs: 
 
 ```
-ser, haber, estar, tener, hacer, decir, ir, ver, dar, saber, poner, venir, salir, traer, pasar, hablar, llevar, dejar, deber, leer, comer, aprender, vivir, escribir, permitir, abrir, buscar, llegar, alcanzar, parecer, conocer, creer, producir, dirigir, exigir, pensar, empezar, encontrar, recordar, jugar, querer, perder, entender, poder, volver, seguir, pedir, conseguir, sentir, morir
+ser, haber, estar, tener, hacer, decir, ir, ver, dar, saber, 
+poner, venir, salir, traer, pasar, hablar, llevar, dejar, deber, leer, 
+comer, aprender, vivir, escribir, permitir, abrir, buscar, llegar, alcanzar, parecer, 
+conocer, creer, producir, dirigir, exigir, pensar, empezar, encontrar, recordar, jugar, 
+querer, perder, entender, poder, volver, seguir, pedir, conseguir, sentir, morir
 ```
 
 I then wanted to make an Excel sheet to practice conjugating these verbs, and I wanted Excel to check whether my entries are correct. To do this, I was able to find a database of verb conjugations [here][conj_database]. This was awesome, as typing out conjugations manually would take ages. I had to add a couple of verbs to the database manually and it was no fun at all.

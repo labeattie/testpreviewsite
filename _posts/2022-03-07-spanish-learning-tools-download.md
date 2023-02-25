@@ -1,5 +1,5 @@
 ---
-title: "Hola to Hablo: Download Two Spanish Practice Tools"
+title: "Hola to Hablo: Two Spanish Tools You Can Download"
 layout: post
 categories: spanish
 ---
@@ -12,7 +12,7 @@ When opening the verb conjugation practice tool, you have to click "Enable Conte
 [Vocabulary Words List][word_list]
 [Verb Conjugation Practice Tool][verb_xlsm]
 
-![verb_tool](/testpreviewsite/assets/ver_tool.jpg)
+![verb_tool](/testpreviewsite/assets/verb_tool.jpg)
 
 ## Word list
 For my rote vocabulary practice, I developed a word list of 3600 words to learn. The text file above contains the Spanish word, translations, and categories, which you can import into [Anki][anki], or use however else you would like.

@@ -73,9 +73,9 @@ Note that SpColumn uses ACI factors. In the case spiral confinement and calculat
 
 I assumed spiral confinement and got the following comparison results:
 
-![rect_comp](/testpreviewsite/assets/edd_pm/rectangular_comparison.jpg)
+![rect_comp](/testpreviewsite/assets/edd_pm/rectangular_comparison.jpg){: width="600" }
 
-![circ_comp](/testpreviewsite/assets/edd_pm/circular_comparison.jpg)
+![circ_comp](/testpreviewsite/assets/edd_pm/circular_comparison.jpg){: width="600" }
 
 Wow! Those are functionally identical. The only visual difference is just due to not calculating points in the same spots along the curve. In particular, SpColumn calculates a point between pure compression and zero net tensile strain. I'll consider that a favorable comparison! I guess the people who validated the rectangular stress block knew what they were doing.
 

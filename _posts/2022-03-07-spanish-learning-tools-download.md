@@ -6,6 +6,8 @@ categories: spanish
 
 In the previous Spanish learning article, I talked about some of the strategies I'm using this year to improve my Spanish skills. I mentioned a vocabulary list I'm practicing in Anki, as well as a verb conjugation practice tool I made in Excel. Let's talk a little more about both of those, and right off the bat, here are links to download them:
 
+
+
 ## Download Links!
 When opening the verb conjugation practice tool, you have to click "Enable Content" or similar at the top of the sheet in order for Excel to allow the VBA code to run.
 

@@ -17,9 +17,11 @@ When opening the verb conjugation practice tool, you have to click "Enable Conte
 ![verb_tool](/testpreviewsite/assets/verb_tool.jpg)
 
 ## Word list
-For my rote vocabulary practice, I developed a word list of 3600 words to learn. The text file above contains the Spanish word, translations, and categories, which you can import into [Anki][anki], or use however else you would like.
+For my rote vocabulary practice, I developed a word list of 3600 words to learn. The text file above contains the Spanish word, translations, and categories, which you can import into [Anki][anki], or use however else you would like. 
 
-I was inspired to just practice some vocabulary directly by this blog post: [How Many Words Do You Need to Know to Be Fluent in Spanish][words_blog], which suggests that knowing the most common 3,000-4,000 words in a language will give you the capability of understanding and speaking 90% or more of it. 
+Note, when importing into Anki, if you have other decks already made, be sure and change the setting for "Existing notes" to "Duplicate", or else it might not bring them all in. I had this issue, and ended up starting over after a couple of weeks of progress.
+
+I was inspired to practice vocabulary directly by this blog post: [How Many Words Do You Need to Know to Be Fluent in Spanish][words_blog], which suggests that knowing the most common 3,000-4,000 words in a language will give you the capability of understanding and speaking 90% or more of it. 
 
 A little further into the post, one study claimed you want to know roughly the following amounts of each type of word to obtain 90% proficiency.
 
@@ -30,7 +32,7 @@ A little further into the post, one study claimed you want to know roughly the f
 
 Of course memorizing words isn't all you need to learn a language, and these overly specific numbers can probably be criticized easily. But I enjoyed the article and thought these numbers seemed like good targets. So I started looking for resources.
 
-First, I found [this list][nouns1] of Spanish nouns on a blog. Some of the translations needed cleaning up, but I figured it was a good starting point even so. I added a few more [from here][nouns2] to try and be sure I didn't miss any super common nouns, and I trimmed down the resulting list to an even 2,000 words.
+First, I found [this list][nouns1] of Spanish nouns on a blog. I added a few more [from here][nouns2] to try and be sure I didn't miss any super common nouns, and I trimmed down the resulting list to an even 2,000 words.
 
 For verbs, I found a list of the most common 250 from www.linguasorb.com, which is available if you sign up with your email, so they were nicely taken care of. I only learn the infinitives in this vocabulary practice; we'll talk about learning conjugations in the next section.
 
@@ -93,7 +95,7 @@ Spanish has a lot of different verb tenses, and they all are conjugated a little
 * Past Perfect Subjunctive
 * Imperative
 
-Seems totally overwhelming doesn't it? Well don't worry. Let's talk about exactly what to learn and when, as well as how hard it will be.
+Seems totally overwhelming doesn't it? Well don't worry. Let's talk about exactly what to learn and when.
 
 First off, I wanted to limit the number of verbs I need to practice. I will take Language Lord's approach here and master the 50 core verbs from my list in the tenses I want to learn, and I'll hope that they can apply representatively to others across. I'll just have to learn any exceptions when applicable.
 
@@ -103,22 +105,22 @@ I also don't think I need to learn all of those tenses. In my mind there's a sor
 * Tier 2: Future, Conditional, and Imperatives
 * Tier 3: Present Subjunctive, Imperfect Subjunctive
 
-What about all those perfect tenses? Or progressives, which are common but don't make the tenses list? Honestly to me they don't even seem like real tenses. You just have to know how to conjugate haber and estar in many different tenses (which we practice in the 50 core verbs), and then you have to know the gerund and past participle of other verbs. 
+What about all those perfect tenses? Or progressives, which I didn't mention? Honestly to me they don't even seem like real tenses. You just have to know how to conjugate haber and estar in many different tenses (which we practice in the 50 core verbs), and then you have to know the gerund and past participle of other verbs. 
 
-In the conjugation tool, we practice the past participle and gerund with every tense, so these "compound tenses" should just happen automatically. It can't hurt to try them out and make sure you're learning them, but they shouldn't require any focused effort.
+In the conjugation tool, we practice the past participle and gerund with every tense, so these "compound tenses" should just happen automatically. It can't hurt to double check you're learning them, but they shouldn't require any focused effort.
 
-The "tier 1" list is probably good enough for conversational proficiency. For talking about the future, you can use the "informal future", which is just using "ir a + infinitive". You won't have too hard a time saying things you want once you know present and past, and you'll probably automatically recognize verbs in the tenses you don't know when they're spoken to you.
+The "tier 1" list is probably good enough for conversational proficiency. For talking about the future, you can use the "informal future", which is just using "ir a + infinitive". You won't have a hard time communicating things once you know present and past, and you'll probably automatically recognize verbs in the tenses you don't know when they're spoken to you.
 
-When practicing verb conjugations, I think it's best to focus on one tense at a time. Mastering one opens up a lot of new options to work with, and it feels like you make progress a lot faster when you don't divide your attention.
+When practicing verb conjugations, I think it's best to focus on one tense at a time. Mastering one opens up a lot of new options, and it feels like you make progress a lot faster when you don't divide your attention.
 
-So far I have mastered my 50 verb list in the present tense, and I almost have the preterite down pat. I'm finding that there's some very good news once you get to this stage: the present and preterite are by far the hardest ones to get down! 
+So far I have mastered my 50 verb list in the present tense, and I almost have the preterite down. I'm finding that there's some very good news once you get to this stage: the present and preterite are by far the hardest ones! 
 
 I'll let you know if I was correct when I finish learning all the tenses I want to know, but I think mastering present and preterite means you're about halfway done. They both have loads of irregularities, whereas all of the other tenses seem to have very few… and most of the ones they do have are similar to irregularities you encountered in the present or preterite.
 
 I initially planned master tier 1 as soon as possible, take my time on tier 2, and not even worry about tier 3. But now that I see acquiring each additional tense is relatively easy, I'm thinking I'll end up learning the subjunctive in the not too distant future. And to be clear, I'm claiming that learning to conjugate in the subjunctive is easy, not knowing when and how to use it. We'll also see if I'm singing a different tune when I get to it :P. 
 
 ## Conclusion
-Those are the details of how I made and how I'm using my vocabulary list and my verb conjugation practice tool. I had a lot of fun making them, but I'm not sure if my time would have been better spent practicing Spanish, rather than curating word lists and strategies. As you can probably tell, though, I have a lot of fun with this type of thing!
+Those are the details of how I made and am using my vocabulary list and my verb conjugation practice tool. I had a lot of fun making them, but I'm not sure if my time would have been better spent practicing Spanish, rather than curating word lists and strategies. As you can probably tell, though, I have a lot of fun with this type of thing!
 
 For a final word on learning Spanish, speaking in a way where you receive feedback and listening to Spanish should both always be happening. I think using these tools can speed up my initial progress greatly, but I will continue prioritize listening and speaking. So I think these resources are quite helpful, but wanted to put them in their proper place. I hope they're beneficial to someone else too!
 

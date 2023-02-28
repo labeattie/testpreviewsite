@@ -18,7 +18,7 @@ largo	long	adjective
 el país	country	noun
 disponible	available	adjective
 la vida	life	noun
-la cuestión	question	noun
+la cuestión / la pregunta	question	noun
 el presidente	president	noun
 el niño	child	noun
 aquí	here	adverb
@@ -76,7 +76,7 @@ el show	show	noun
 ellos	they	extras
 la policía	police	noun
 el programa	program	noun
-el partido	party	noun
+el partido	party / game	noun
 la ley	law	noun
 la palabra	word	noun
 tener	to have	verb

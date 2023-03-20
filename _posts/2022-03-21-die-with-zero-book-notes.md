@@ -8,7 +8,11 @@ We all want to live the best life we can achieve. What is the purpose of making 
 
 
 
+![cover](/testpreviewsite/assets/die with zero cover.jpg)
+
 Bill Perkins is an extremely wealthy, brash, high-stakes poker playing hedge fund manager. I'm a relatively frugal engineer who likes the idea of financial independence, so I didn't expect to get much out of this book. Thankfully I was wrong, and it has greatly influenced my lifestyle design thinking. 
+
+![bill_perkins](/testpreviewsite/assets/bill perkins.jpg)
 
 For anyone who wants a quick overview before reading on, I would say my top three takeaways are:
 * Invest in remarkable experiences. They continue to pay you in the future through reminiscing, and are a large part of how you'll experience your older years.
@@ -29,7 +33,10 @@ In a similar vein, in my articles on financial independence (FI) and coastFI, I 
 To me this paints a clear picture. Managing your money well in order to improve your life is an extremely powerful tool. We just can't focus on the money so much that we forget about life. Die With Zero really hammers this point home and encourages us to be sure and save enough money so that our lives will be stable and our retirements comfortable, but then to not be afraid of spending the rest on living the best life you can.
 
 ## Big Ideas
+
 ### 1. Invest in Experiences
+![backpack](/testpreviewsite/assets/backpacking.jpg)
+
 Probably the biggest idea I took away from this book is the concept of thinking of your life experiences as part of your investment portfolio. Perkins portrays experiences as assets that pay a "memory dividend" over time. Not only do you enjoy an amazing backpacking trip through Europe when you take it, but every time you think about it or talk with friends about it afterwards, you experience a bit more joy from it. 
 
 In this framework, remarkable experiences are appreciating assets that compound over time, whereas material purchases depreciate quickly. Not only does a new car lose monetary value quickly as you use it, but you get more and more used to the car and your enjoyment of it decreases over time. This relatively quick acclimation to new material luxuries is called hedonic adaptation. 
@@ -62,7 +69,10 @@ In middle age, you typical have a decent income and good health, but little time
 In old age you typically have a lot of time, hopefully have a good amount of money, and at some point will have less health than ever before. This just emphasizes the fact that it makes sense to prioritize your health in ALL phases of life, so that your older age can contain as many cool experiences as possible. It also reminds us not to delay all our best experiences until then. 
 
 ## Common Objections
+
 ### 1. Running out of Money Early
+![burn_cash](/testpreviewsite/assets/burning cash.jpg)
+
 This idea of "dying with zero" typically makes people uncomfortable at first. While the title is a bit extreme and certainly catchy, Perkins isn't totally deluded. He knows that literally dying with zero money is impossible, but thinks it's a worthy goal to pursue with a bit of cushion. So how do we manage to keep from running out of money before we die?
 
 The first is just to have enough money that you are comfortable with your risk profile. In my article on Financial Independence, I discuss the 4% rule, which is one common rule of thumb to know how much money is enough. But whatever your risk tolerance and preference, it's important to know your number. 

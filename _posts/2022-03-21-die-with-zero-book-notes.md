@@ -1,5 +1,5 @@
 ---
-title: "Book Review: Die With Zero by Bill Perkins"
+title: "Book Notes & Insights: Die With Zero"
 layout: post
 categories: books
 ---

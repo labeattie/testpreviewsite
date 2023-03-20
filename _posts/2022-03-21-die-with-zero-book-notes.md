@@ -8,7 +8,7 @@ We all want to live the best life we can achieve. What is the purpose of making 
 
 
 
-![cover](/testpreviewsite/assets/die with zero cover.jpg){: justify-content= center }
+![cover](/testpreviewsite/assets/die with zero cover.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
 Bill Perkins is an extremely wealthy, brash, high-stakes poker playing hedge fund manager. I'm a relatively frugal engineer who likes the idea of financial independence, so I didn't expect to get much out of this book. Thankfully I was wrong, and it has greatly influenced my lifestyle design thinking. 
 

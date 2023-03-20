@@ -77,7 +77,7 @@ This idea of "dying with zero" typically makes people uncomfortable at first. Wh
 
 The first is just to have enough money that you are comfortable with your risk profile. In my article on Financial Independence, I discuss the 4% rule, which is one common rule of thumb to know how much money is enough. But whatever your risk tolerance and preference, it's important to *know your number*. 
 
-Use an actuarial calculator to estimate how long you will live, add ten years if you want to be conservative. Look up historical investment portfolio data on something like firecalc.com and choose assumptions you are comfortable with for investment returns and drawdown time period. Just don't refuse to calculate anything and go in blind. We want to avoid using money as an excuse to defer life if you already have enough.
+Use an actuarial calculator to estimate how long you will live, add ten years if you want to be conservative. Look up historical investment portfolio data on something like firecalc.com and choose assumptions you are comfortable with for investment returns and drawdown time period. Just don't refuse to calculate anything and go in blind. We want to avoid using money as an excuse to defer life if you already have enough of the former.
 
 Additionally, Perkins recommends looking into longevity annuities. I'm not super familiar with these financial products, so won't offer advice on them. However my initial, non-expert takeaways are that if I can meet the financial goals I have well before traditional retirement age, then I shouldn't need them with my personal risk appetite. If things don't go as planned, and I have fewer investments when I'm 60 than I hope, I will look into these products.
  
@@ -88,7 +88,7 @@ What is the optimal amount of money to leave your kids? I think most of us answe
 
 I've always admired Warren Buffet's answer to this question. He says he wants to give his heirs, "enough money so that they would feel they could do anything, but not so much that they could do nothing." When I think about my own life so far, I don't think it would've been good for me at all to inherit so much money that I didn't have to strive for what I want. 
 
-Now before we finish discussing how much to leave to children, let's think about the primary question Perkins asks in response to this issue. When is the best time to leave your children an inheritance? On average, an inheritance is given to heirs when they around the age of 60. I don't know about you, but I sure hope by the time I'm sixty, that I don't need an inheritance at all. 
+Now before we finish discussing how much to leave to children, let's think about the primary question Perkins asks in response to this issue. When is the best *time* to leave your children an inheritance? On average, an inheritance is given to heirs when they're around the age of 60. I don't know about you, but I sure hope by the time I'm sixty, that I don't need an inheritance at all. So if your kids won’t even need it, what's the point of working hard for extra years to achieve it?
 
 I would probably conclude that 60 is later in life than is optimal for my children, and pretty much agree with Perkins' opinion that somewhere in the range of 25-35 years of age would be the best time to receive a monetary gift. Hopefully my kids have developed some skills with money and figured out some potential directions they'd like their life to go by then, and they still have time to do Buffet's "anything". 
 
@@ -100,7 +100,7 @@ Now just a quick word on charity. Perkins claims we should give the money we wan
 
 Regardless, the main point is to be intentional with both the quantity and timing of your monetary gifts to heirs, charities, and anyone else. Perkins calls the conventional method by which many of leave our money (waiting till death and giving away what's left over) "the three R's". Leaving a random amount of money at a random time to random people. We might be able to avoid the last one with an airtight will, but it's no guarantee that all heirs will still be around at that point. 
 
-Taking control of the amount and timing or your giving means you can treat that money like it's not your own, and prioritize maximizing life experiences the rest.
+Taking control of the amount and timing or your giving means you can treat that money like it's not your own, and prioritize maximizing life experiences with the rest.
 
 ## Things I Disagree With
 Although this is one of my favorite nonfiction books of all time and greatly influenced a lot of my thinking about lifestyle design, I definitely disagree with a few things. Or at least I think there's more nuance to the ideas.

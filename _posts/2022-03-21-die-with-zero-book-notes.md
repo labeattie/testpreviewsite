@@ -8,7 +8,7 @@ We all want to live the best life we can achieve. What is the purpose of making 
 
 
 
-![cover](/testpreviewsite/assets/die with zero cover.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+![cover](/testpreviewsite/assets/die with zero cover.jpg){:style="display:block; margin-left:auto; margin-right:auto"}{: width="350" }
 
 Bill Perkins is an extremely wealthy, brash, high-stakes poker playing hedge fund manager. I'm a relatively frugal engineer who likes the idea of financial independence, so I didn't expect to get much out of this book. Thankfully I was wrong, and it has greatly influenced my lifestyle design thinking. 
 
@@ -105,17 +105,17 @@ Taking control of the amount and timing or your giving means you can treat that 
 ## Things I Disagree With
 Although this is one of my favorite nonfiction books of all time and greatly influenced a lot of my thinking about lifestyle design, I definitely disagree with a few things. Or at least I think there's more nuance to the ideas.
 
-First off, optimizing fun per dollar and creating cheap, fun experiences is a skill, and you have to practice it to be good at it. This is not in direct conflict with the tenets of Die With Zero, but if you're thinking of how to spend $5,000 dollars in the way to best maximize life experiences, you probably aren't considering cheap potluck house parties, crafts at the library, or camping trips. But these fun low cost activities can add loads of value to your experience portfolio.
+First off, optimizing fun per dollar and creating cheap, fun experiences is a skill, and you have to practice it to be good at it. This is not in direct conflict with the tenets of Die With Zero, but if you're thinking of how to spend $5,000 dollars in the way to best maximize life experiences, you probably aren't considering cheap potluck house parties, crafts at the library, or camping trips. But these fun, low cost, activities can add loads of value to your experience portfolio.
 
-Secondly, having extra money can give you options and resilience. Again, there's a point where too much is too much and you should know your number as discussed above. However, prioritizing savings early in life can give a cushion of money that allows you to weather challenging times or to take intriguing opportunities that have more risk or pay less. 
+Secondly, having extra money can give you options and resilience. Again, there's a point where too much is too much and you should know your number, as discussed above. However, prioritizing savings early in life can give a cushion of money that allows you to weather challenging times or to take intriguing opportunities that have more risk or pay less. 
 
 And lastly, the book seems to assume everyone will work a conventional career until retirement age and considers how to optimize spending and saving over the course of that cycle. As a fan of the concepts of FI and CoastFI, I know that doesn't have to be true. Usually through frugality, you can consider many lifestyle design choices that don't have to involve working full time for 40 years. 
 
-This point is also not in direct conflict with the ideas in Die With Zero, but often our preferences or goals can change. Because of this, I do not recommend pacing your spending on remarkable experiences in such a way that it's maximized over the course of a 40 year career, because you won't know if that's what you want to do for the next few decades. There's definitely value in leaving yourself options to change your mind and have new experiences.
+This point is also not in direct conflict with the ideas in Die With Zero, but often our preferences or goals can change. Because of this, I do not recommend pacing your spending on remarkable experiences in such a way that it's maximized over the course of a 40 year career, because you won't know if you will continue to want to work that career for the next few decades. There's definitely value in leaving yourself options to change your mind and have new experiences.
 
 ## Conclusion
 I want to close with musing about how this book can be useful. In my mind it presents concepts that are great for anyone to think about with regard to lifestyle design. However, I think it truly becomes useful once you have a significant gap between your earnings and spending, whether that's through frugality or trough higher income. 
 
-To me an example of a great way to progress ones' lifestyle design options is something like first getting to a 30%-50% savings rate (more of course is always nice) through frugality, high income, or both, but doing this without making life miserable in the process. Hopefully dodging some of the typical "depreciating assets" of expensive material goods. Then taking that excess, looking at your life, and deciding whether to devote a smallish percentage of it toward maximizing experiences, never forgetting to enjoy your life, while still stashing away savings for optionality down the road. 
+To me an example of a great way to progress lifestyle design options is to first get to a 30%-50% savings rate (more of course is always nice) through frugality, high income, or both. This should be done without making life miserable in the process, hopefully dodging some of the typical "depreciating assets" of expensive material goods. Then taking that excess, you looking at your life, and decide whether to devote a percentage of that gap toward maximizing experiences, while still stashing away savings for optionality down the road. 
 
 We could maybe think of this as a well-diversified "portfolio", consisting of some excess savings for optionality as well as rich experience investments. This book provides excellent guidance on how to approach those experience investments.

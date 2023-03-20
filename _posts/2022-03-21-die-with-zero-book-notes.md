@@ -45,13 +45,13 @@ Additionally, Perkins brings up the idea of "life experience points", claiming t
 
 Another conclusion resulting from this line of thinking is that you should invest in experiences early and often. Much like financial investing, time is a huge component in total portfolio growth. So the earlier you have those amazing experiences, the longer you will have to reminisce and enjoy them throughout your life, maximizing the earnings from your memory dividend.
 
-This definitely interferes a bit with the power of investing your money early and giving it time to compound in the market, but Perkins makes the argument that remarkable experiences should not be ignored to maximize finances.
+This definitely interferes a bit with the power of investing your money early and giving it time to compound in the market, but Perkins makes the argument that remarkable experiences should not be ignored in order to maximize finances.
 
 Not only will most of our incomes grow as we age (increasing the amount we could save later), but also our ability to enjoy cheap experiences decreases. A backpacking trip in Europe eating ramen noodles and sleeping in hostels sounds amazing when you're 20, but probably a little less so when you're 40. 
 
 Another way to say this is that our enjoyment per dollar usually decreases as we age. To quote Ali Abdaal's review of this book, "not doing something relatively cheap when you're 18 years old to save money is like taking $10 from your kid's pocket money to pay rent. It makes no difference to the adult, but it'll make the kid miserable."
 
-Lastly, memories are part of your retirement portfolio in the sense that, in large part, we retire on our memories. In old age, looking back on a life rich with extraordinary experiences will surely lead to a more relaxed and satisfying retirement, rather than feeling like you have cram in all the cool things you can still do while you still can.
+Lastly, memories are part of your retirement portfolio in the sense that, in large part, we retire on our memories. In old age, looking back on a life rich with extraordinary experiences will surely lead to a more relaxed and satisfying retirement, rather than feeling like you have to cram in everything possible while you still can do it.
 
 ### 2. Time Bucketing
 If you're convinced experiences are worth the money and effort to invest in, how do we know what we want to do and when? Perkins introduces the idea of "time bucketing", and I think it's a good one.
@@ -107,15 +107,15 @@ Although this is one of my favorite nonfiction books of all time and greatly inf
 
 First off, optimizing fun per dollar and creating cheap, fun experiences is a skill, and you have to practice it to be good at it. This is not in direct conflict with the tenets of Die With Zero, but if you're thinking of how to spend $5,000 dollars in the way to best maximize life experiences, you probably aren't considering cheap potluck house parties, crafts at the library, or camping trips. But these fun, low cost, activities can add loads of value to your experience portfolio.
 
-Secondly, having extra money can give you options and resilience. Again, there's a point where too much is too much and you should know your number, as discussed above. However, prioritizing savings early in life can give a cushion of money that allows you to weather challenging times or to take intriguing opportunities that have more risk or pay less. 
+Secondly, having extra money can give you options and resilience. Again, there's a point where too much is too much and you should know your number, as discussed above. However, prioritizing savings early in life can give a cushion of money that allows you to weather challenging times or to take intriguing opportunities that have more risk or less immeidate pay. 
 
 And lastly, the book seems to assume everyone will work a conventional career until retirement age and considers how to optimize spending and saving over the course of that cycle. As a fan of the concepts of FI and CoastFI, I know that doesn't have to be true. Usually through frugality, you can consider many lifestyle design choices that don't have to involve working full time for 40 years. 
 
 This point is also not in direct conflict with the ideas in Die With Zero, but often our preferences or goals can change. Because of this, I do not recommend pacing your spending on remarkable experiences in such a way that it's maximized over the course of a 40 year career, because you won't know if you will continue to want to work that career for the next few decades. There's definitely value in leaving yourself options to change your mind and have new experiences.
 
 ## Conclusion
-I want to close with musing about how this book can be useful. In my mind it presents concepts that are great for anyone to think about with regard to lifestyle design. However, I think it truly becomes useful once you have a significant gap between your earnings and spending, whether that's through frugality or trough higher income. 
+I want to close with musing about how this book can be useful. In my mind it presents concepts that are great for anyone to think about with regard to lifestyle design. However, I think it truly becomes useful once you have a significant gap between your earnings and spending, whether that's through frugality or through higher income. 
 
-To me an example of a great way to progress lifestyle design options is to first get to a 30%-50% savings rate (more of course is always nice) through frugality, high income, or both. This should be done without making life miserable in the process, hopefully dodging some of the typical "depreciating assets" of expensive material goods. Then taking that excess, you looking at your life, and decide whether to devote a percentage of that gap toward maximizing experiences, while still stashing away savings for optionality down the road. 
+To me an example of a great way to progress lifestyle design options is to first get to a 30%-50% savings rate (more of course is always nice) through frugality, high income, or both. This should be done without making life miserable in the process, hopefully dodging some of the typical "depreciating assets" of expensive material goods. Then taking that excess, you look at your life and decide whether to devote a percentage of that gap toward maximizing experiences, while still stashing away savings for optionality down the road. 
 
 We could maybe think of this as a well-diversified "portfolio", consisting of some excess savings for optionality as well as rich experience investments. This book provides excellent guidance on how to approach those experience investments.

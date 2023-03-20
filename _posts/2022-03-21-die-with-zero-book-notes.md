@@ -10,7 +10,7 @@ We all want to live the best life we can achieve. What is the purpose of making 
 
 ![cover](/testpreviewsite/assets/die with zero cover.jpg){:style="display:block; margin-left:auto; margin-right:auto"}{: width="350" }
 
-Bill Perkins is an extremely wealthy, brash, high-stakes poker playing hedge fund manager. I'm a relatively frugal engineer who likes the idea of financial independence, so I didn't expect to get much out of this book. Thankfully I was wrong, and it has greatly influenced my lifestyle design thinking. 
+Bill Perkins is an extremely wealthy, brash, high-stakes poker playing hedge fund manager. I'm a relatively frugal engineer who likes the idea of financial independence, so I didn't expect to get much out of this book. Thankfully I was wrong, and it has greatly influenced my thinking on lifestyle design. 
 
 ![bill_perkins](/testpreviewsite/assets/bill perkins.jpg){: width="600" }
 
@@ -24,9 +24,9 @@ In the rest of article, we'll examine these concepts, along with a few others, i
 One last note before diving in. This book is intended for people with some disposable income, or who could free some up. People living in poverty might already be doing all they can to maximize their life experiences. But if you have some power or choice on how your money gets spent, this book has some food for thought.
 
 ## Why Die with Zero?
-In the book The Psychology of Money, a man named Ronald Read is discussed early on. Ronald Read worked as a gas station attendant and mechanic for 25 years, and then as a part-time janitor at JC Penney for 17 years. He made history when he died in 2014, and left about 6 million dollars to a library and hospital.
+In the book *The Psychology of Money*, a man named Ronald Read is discussed early on. Ronald Read worked as a gas station attendant and mechanic for 25 years, and then as a part-time janitor at JC Penney for 17 years. He made history when he died in 2014, and left about 6 million dollars to a library and hospital.
 
-This is extremely impressive, and his skills in saving and consistent investing are commendable. But I can't help but thinking, I sure hope he loved that job at JC Penney. I can't imagine he wouldn't have been able to find a more interesting way to thrive and have amazing experiences once money was taken care of. 
+This is extremely impressive, and his skills in saving and consistent investing are commendable. But I can't help but thinking, *I sure hope he loved that job at JC Penney*. I can't imagine he wouldn't have been able to find a more interesting way to thrive and have amazing experiences once money was taken care of. 
 
 In a similar vein, in my articles on financial independence (FI) and coastFI, I discuss the fact that many people pursuing FI get so focused on saving money that they forget to enjoy life, and then end up regretting it later. I've read about more than one of them amassing double the amount of money they needed to be financially independent before working up the courage to leave a job they didn't like, only to find afterwards that they make more money than they expected doing something they love. 
 
@@ -75,7 +75,7 @@ In old age you typically have a lot of time, hopefully have a good amount of mon
 
 This idea of "dying with zero" typically makes people uncomfortable at first. While the title is a bit extreme and certainly catchy, Perkins isn't totally deluded. He knows that literally dying with zero money is impossible, but thinks it's a worthy goal to pursue with a bit of cushion. So how do we manage to keep from running out of money before we die?
 
-The first is just to have enough money that you are comfortable with your risk profile. In my article on Financial Independence, I discuss the 4% rule, which is one common rule of thumb to know how much money is enough. But whatever your risk tolerance and preference, it's important to know your number. 
+The first is just to have enough money that you are comfortable with your risk profile. In my article on Financial Independence, I discuss the 4% rule, which is one common rule of thumb to know how much money is enough. But whatever your risk tolerance and preference, it's important to *know your number*. 
 
 Use an actuarial calculator to estimate how long you will live, add ten years if you want to be conservative. Look up historical investment portfolio data on something like firecalc.com and choose assumptions you are comfortable with for investment returns and drawdown time period. Just don't refuse to calculate anything and go in blind. We want to avoid using money as an excuse to defer life if you already have enough.
 

@@ -134,5 +134,5 @@ For a final word on learning Spanish, speaking in a way where you receive feedba
 [adverbs]: https://mydailyspanish.com/common-spanish-adverbs/
 [gen_word]: https://strommeninc.com/1000-most-common-spanish-words-frequency-vocabulary/
 [conj_database]: https://www.ghidinelli.com/free-spanish-conjugated-verb-database
-[word_list]: /testpreviewsite/assets/Moving Load VBA Example.xlsm
+[word_list]: /testpreviewsite/assets/spanish 3600 word list.txt
 [verb_xlsm]: /testpreviewsite/assets/spanish verb conjugation tool.xlsm

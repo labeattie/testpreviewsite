@@ -8,11 +8,11 @@ We all want to live the best life we can achieve. What is the purpose of making 
 
 
 
-![cover](/testpreviewsite/assets/die with zero cover.jpg)
+![cover](/testpreviewsite/assets/die with zero cover.jpg){: justify-content= center }
 
 Bill Perkins is an extremely wealthy, brash, high-stakes poker playing hedge fund manager. I'm a relatively frugal engineer who likes the idea of financial independence, so I didn't expect to get much out of this book. Thankfully I was wrong, and it has greatly influenced my lifestyle design thinking. 
 
-![bill_perkins](/testpreviewsite/assets/bill perkins.jpg)
+![bill_perkins](/testpreviewsite/assets/bill perkins.jpg){: width="600" }
 
 For anyone who wants a quick overview before reading on, I would say my top three takeaways are:
 * Invest in remarkable experiences. They continue to pay you in the future through reminiscing, and are a large part of how you'll experience your older years.
@@ -35,7 +35,7 @@ To me this paints a clear picture. Managing your money well in order to improve 
 ## Big Ideas
 
 ### 1. Invest in Experiences
-![backpack](/testpreviewsite/assets/backpacking.jpg)
+![backpack](/testpreviewsite/assets/backpacking.jpg){: width="350" }
 
 Probably the biggest idea I took away from this book is the concept of thinking of your life experiences as part of your investment portfolio. Perkins portrays experiences as assets that pay a "memory dividend" over time. Not only do you enjoy an amazing backpacking trip through Europe when you take it, but every time you think about it or talk with friends about it afterwards, you experience a bit more joy from it. 
 
@@ -71,7 +71,7 @@ In old age you typically have a lot of time, hopefully have a good amount of mon
 ## Common Objections
 
 ### 1. Running out of Money Early
-![burn_cash](/testpreviewsite/assets/burning cash.jpg)
+![burn_cash](/testpreviewsite/assets/burning cash.jpg){: width="500" }
 
 This idea of "dying with zero" typically makes people uncomfortable at first. While the title is a bit extreme and certainly catchy, Perkins isn't totally deluded. He knows that literally dying with zero money is impossible, but thinks it's a worthy goal to pursue with a bit of cushion. So how do we manage to keep from running out of money before we die?
 

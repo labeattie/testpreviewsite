@@ -14,7 +14,7 @@ In this third and final article of the first engineering deep dive, we're going 
 ## Download
 I'll go ahead and put the download link here at the top so it's easy to find. When you open it, be sure and click "Enable Content" or similar at the top of the file in order for Excel to allow the VBA code to run. I have the worksheets locked so you can't accidentally break the file, but if you want to take matters into your own hands and edit the sheet, there's no password or anything. You just click Review, Unprotect Sheet.
 
-<span style:"strong, font-size=1.2em">[Drilled Shaft/Column Capacity Calculator][pm_sheet_dl]</span>
+<span style="strong, font-size:1.2em">[Drilled Shaft/Column Capacity Calculator][pm_sheet_dl]</span>
 
 Here is a gif of the sheet in action:
 

@@ -5,7 +5,7 @@ layout: post
 categories: engineering
 ---
 
-In this third and final article of the first engineering deep dive, we're going to wrap up calculating PM capacities for columns and drilled shafts. We will discuss and demonstrate how to apply phi factors to change our capacity curve from a nominal one to a factored one we can use. We will compare the final results to those from an established piece of existing software (SpColumn). Finally, an Excel sheet is available for download that uses the information we developed in these articles to give capacity curves.
+In this third and final article of the first engineering deep dive, we're going to wrap up calculating PM capacities for columns and drilled shafts. We will discuss and demonstrate how to apply phi factors to change our capacity curve from a nominal one to a factored one we can use. We will compare the final results to those from an established piece of existing software (SpColumn). Finally, an Excel sheet is available for download that uses the information we developed in these articles to generate capacity curves.
 
 
 
@@ -27,11 +27,11 @@ To reiterate, in this series I will be using AASHTO LRFD Bridge Design Specifica
 
 The phi factors of interest to us are found in 5.5.4.2. We will multiply both our $$P_n$$ and our $$M_n$$ value by 0.75 if the case is compression-controlled, and by 0.9 if the case is tension-controlled. 
 
-As mentioned earlier in the series, whether a section is compression or tension-controlled is nominally determined by whether the strain in the extreme tension steel (called the net tensile strain, $$\epsilon_t$$) is more or less than that at balance condition. However, AASHTO gives more of a range for the two cutoff points, and if your extreme tensions steel strain is between them, we interpolate our phi factor between 0.75 and 0.9. Figure C5.5.4.2-1 illustrates this nicely.
+As mentioned earlier in the series, whether a section is compression or tension-controlled is nominally determined by whether the strain in the extreme tension steel (called the net tensile strain, $$\epsilon_t$$) is more or less than that at balance condition. However, AASHTO gives more of a range for the two cutoff points, and if your extreme tension steel strain is between them, we interpolate our phi factor between 0.75 and 0.9. Figure C5.5.4.2-1 illustrates this nicely.
 
 In order to find these cutoff points for tension and compression-controlled sections, we look back at the big assumptions list in section 5.6.2.1. This tells us that a section is compression-controlled if, for reinforcement strength of less than or equal to 60ksi, the net tensile strain is less than the minimum of the yield strain ($$f_y/E_s$$) or 0.002. For 100ksi reinforcement, the compression-control cutoff strain is 0.004, and for steel strengths between 60ksi and 100ksi, you interpolate between 0.002 and 0.004.
 
-For the tension control strain limit, if your reinforcement strength is less than or equal to 75ksi, you use 0.005. For 100ksi reinforcement, it is 0.008, and for steel strengths between 75ksi and 100ksi, you interpolate between 0.008 and 0.008.
+For the tension control strain limit, if your reinforcement strength is less than or equal to 75ksi, you use 0.005. For 100ksi reinforcement, it is 0.008, and for steel strengths between 75ksi and 100ksi, you interpolate between 0.005 and 0.008.
 
 This is all we need for our general phi factors! There is one more factor that we have to look at though. In 5.6.4.4, an additional factor for maximum allowable compression loading is discussed. This limit is based on possible load eccentricities. In addition to the usual 0.85*$$f'_c$$ and the 0.75 phi factor, we multiply our maximum compression load by 0.85 for sections with spiral confinement, and 0.8 for sections with tie confinement. No factored P values in our diagram are allowed to be greater than that number.
 
@@ -69,7 +69,7 @@ Last but not least, how do our results stack up against an established piece of 
 
 I took our two example problem results (although I included the effect of compression steel in the results I used for the example problem in part 1) and compared them to the results given by SpColumn. 
 
-Note that SpColumn uses ACI factors. In the case spiral confinement and calculating capacities, the factors for ACI and AASHTO are the same, so we can have an apples to apples comparison. I wanted to mention this though, because ACI uses a 0.65 phi factor in the case of tied confinement, whereas AASHTO still uses 0.75. So look out for that if you ever are using a tool that uses ACI factors to get capacities for bridge components.
+Note that SpColumn uses ACI factors. In the case spiral confinement and calculating capacities, the factors for ACI and AASHTO are the same, so we can have an apples-to-apples comparison. I wanted to mention this though, because ACI uses a 0.65 phi factor in the case of tied confinement, whereas AASHTO still uses 0.75. So look out for that if you ever are using a tool that uses ACI factors to get capacities for bridge components.
 
 I assumed spiral confinement and got the following comparison results:
 

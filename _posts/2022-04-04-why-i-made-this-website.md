@@ -21,7 +21,8 @@ The act of writing can let us iron out and clarify our thoughts. Often the ideas
 I used to enjoy writing in high school when it was a required part of the curriculum, but efforts to journal or to just write for myself always fizzled out quickly. I wondered if I didn't really enjoy writing anymore. However, as soon as I clicked that publish button, I got excited and motivated. Putting your thoughts and interests into the world give fuel to that thought clarifying process, and it also provides a feedback avenue for further refinement.
 
 ## Luck and Serendipity
-![clover](/testpreviewsite/assets/clover.jpg)
+![clover](/testpreviewsite/assets/clover.jpg){: width="350" }
+
 The above reasons were core motivations for creating a website, but the ideas that really got me over the hump and ready to post an article are those centered on luck and serendipity. 
 
 Jason Roberts is a tech entrepreneur who coined the term "[Luck Surface Area](https://www.codusoperandi.com/posts/increasing-your-luck-surface-area)" on his blog back in 2010. The idea is that opportunities are flying around everywhere, but you need some luck to catch one. However, we can increase the "surface area" of our opportunity catcher (luck) by doing things we're passionate about, and telling people about those things. This idea is fleshed out a little further in this post: [Luck Surface Area: How to Get Lucky In Life (Without Being Rich)](https://fronterablog.com/luck-surface-area/).
@@ -35,7 +36,8 @@ For an example, I know my super detailed, math-heavy posts on drilled shaft capa
 These articles have already led to some interesting connections, and have done so far more quickly than I would've expected. I've met a couple of other civil engineers interested in Excel VBA, connected with old friends and acquaintances whose careers have turned in directions very interesting to me, and have even connected with a few personal finance creators with similar interests to me. These little serendipitous incidents constantly remind me this website was a great idea and is already paying off.
 
 ## A Place to Put Cool Stuff
-![dog](/testpreviewsite/assets/cool dog.jpg)
+![dog](/testpreviewsite/assets/cool dog.jpg){: width="450" }
+
 Finally, it's just nice to have a place to put things up online that I think are interesting. In the future, I hope to have more Excel Sheets up, and even some other software projects. It's so much fun to have these things I'm proud of available in a format that friends, or anyone else, can look at immediately from their phones.
 
 ## Other Inspirations

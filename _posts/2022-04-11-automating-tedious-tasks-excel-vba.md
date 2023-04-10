@@ -4,18 +4,18 @@ layout: post
 categories: excel, vba
 ---
 
-I have been able to use Excel VBA as a large component in some of the projects I've worked on in my career, and have covered a few in past articles. Sometimes, though, VBA can prove most useful when automating small tasks that are otherwise tedious. A little bit of knowledge and a willingness to tinker can give some big results here.
+I have been able to use Excel VBA as a major part of some of the projects I've worked on in my career, and have covered a few in past articles. Sometimes, though, VBA can prove most useful when automating small tasks that are otherwise tedious. A little bit of knowledge and a willingness to tinker can give some big results.
 
 
 
-![factory](testpreviewsite/assets/factory.jpg){: width="500" }
+![factory](/testpreviewsite/assets/factory.jpg){: width="500" }
 
 ## File Renaming
-One convenient task that I only recently started using VBA for is file renaming. It happens to me so frequently that I need to rename a large number of files in a folder to include a prefix or suffix or something. This is extremely easy to perform in VBA, so now you never need to do the slow two clicks in Windows Explorer to rename something again. 
+One convenient task that I only recently started using VBA for is file renaming. I often need to rename a large number of files in a folder to include a prefix or suffix with the job number or something else. This is extremely easy to perform in VBA, so now you never need to do the slow two clicks in Windows Explorer to rename something again. 
 
 I have a very simple Excel sheet setup that looks like this.
 
-![file_rename](testpreviewsite/assets/file_rename.jpg){: width="350" }
+![file_rename](/testpreviewsite/assets/file_rename.jpg){: width="350" }
 
 And have the following code in a macro to batch rename the files:
 ```
@@ -47,19 +47,19 @@ End Sub
 
 Give it a try! Make sure you have copies of the files you're trying to rename the first few times you try to use this.
 
-I will also use this capability anytime I need to combine a lot of pdf's in order to create a calculation set, which is a common task in my job. I will use VBA to copy all the files from various directories into a "calc pdf" folder, and add a numeric prefix to each of the files. After this, when I highlight and drag all of the files into Acrobat's "Combine Files into a Single PDF" module, they are in the correct order by default. This makes it easy to recreate and update the calculation set after any changes.
+I will also use this capability anytime I need to combine a lot of pdf's in order to create a calculation set, which is a common task in my job. I will use VBA to copy all the files from various directories into a "calc pdf" folder, and then add a numeric prefix to each of the files. After this, when I highlight and drag all of the files into Acrobat's "Combine Files into a Single PDF" module, they are in the correct order by default. This makes it easy to recreate and update the calculation set after any changes.
 
 ## Printing PDFs
-In a similar fashion, it's a common task for me to need to open up several different Excel files and print a pdf of each one. This will often need to be done for a set of files multiple times throughout a design process with small changes resulting from checking. This is a prime candidate for VBA.
+In a similar fashion, I often find myself needing to open up several different Excel files and print a pdf of each one. This will often need to be done for a set of files multiple times throughout a design process due to small changes and corrections. This is a prime candidate for VBA.
 
-I will usually approach this problem my making a list of files I want printed in one column of Excel, and their directories in the next column. You can then write a simple VBA script to open each one, add a header if desired, and print to pdf, specifying what filename and location you want for the pdf. Again, this is a big time saver when putting together calculations.
+I will usually approach this problem my making a list of files I want printed in one column of Excel, and then I put their directories in the next column. You can then write a simple VBA script to open each one, add a header if desired, and print to pdf, specifying what filename and location you want for the pdf. Once again, this is a big time saver when putting together calculations.
 
 ## Creating Folders 
 A couple of days ago, my coworker asked me if it's possible to make a bunch of folders using excel VBA. He had a long list of about 50 bridge numbers for inspections we would perform later in the year, and needed a new folder in windows explorer for each of them. This turned out to be an extremely easy task, and after about 20 minutes of looking stuff up and a few lines of code, the 50 folders were created, and we saved off this "folder creator" to be used again later.
 
 Here's what the input and buttons look like, followed by the VBA code we used.
 
-![folder_creator](testpreviewsite/assets/folder_creator.jpg){: width="350" }
+![folder_creator](/testpreviewsite/assets/folder_creator.jpg){: width="350" }
 
 ```
 Sub make_folders()
@@ -84,7 +84,7 @@ End Sub
 
 ## Data Cleaning
 
-![cleaning](testpreviewsite/assets/cleaning.jpg){: width="350" }
+![cleaning](/testpreviewsite/assets/cleaning.jpg){: width="350" }
 
 The first example I'll discuss is using VBA to clean up data. I use this most often to take output from an engineering program, and turn it into an Excel table that I can then perform calculations on, or into a format where it can be pasted into MicroStation to easily place in a table there.
 

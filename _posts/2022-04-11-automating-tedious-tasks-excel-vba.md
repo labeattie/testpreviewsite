@@ -8,14 +8,14 @@ I have been able to use Excel VBA as a major part of some of the projects I've w
 
 
 
-![factory](/testpreviewsite/assets/factory.jpg){: width="500" }
+![factory](/testpreviewsite/assets/factory.jpg){: width="600" }
 
 ## File Renaming
 One convenient task that I only recently started using VBA for is file renaming. I often need to rename a large number of files in a folder to include a prefix or suffix with the job number or something else. This is extremely easy to perform in VBA, so now you never need to do the slow two clicks in Windows Explorer to rename something again. 
 
 I have a very simple Excel sheet setup that looks like this.
 
-![file_rename](/testpreviewsite/assets/file_rename.jpg){: width="350" }
+![file_rename](/testpreviewsite/assets/file_rename.jpg)
 
 And have the following code in a macro to batch rename the files:
 ```
@@ -55,11 +55,11 @@ In a similar fashion, I often find myself needing to open up several different E
 I will usually approach this problem my making a list of files I want printed in one column of Excel, and then I put their directories in the next column. You can then write a simple VBA script to open each one, add a header if desired, and print to pdf, specifying what filename and location you want for the pdf. Once again, this is a big time saver when putting together calculations.
 
 ## Creating Folders 
-A couple of days ago, my coworker asked me if it's possible to make a bunch of folders using excel VBA. He had a long list of about 50 bridge numbers for inspections we would perform later in the year, and needed a new folder in windows explorer for each of them. This turned out to be an extremely easy task, and after about 20 minutes of looking stuff up and a few lines of code, the 50 folders were created, and we saved off this "folder creator" to be used again later.
+A couple of days ago, my coworker asked me if it's possible to make a bunch of folders using excel VBA. He had a long list of about 50 bridge numbers for inspections we would perform later in the year, and needed a new folder in windows explorer for each of them. This turned out to be an extremely easy task, and after about 20 minutes of looking stuff up and a few lines of code, the 50 folders were created. We saved off this "folder creator" to be used again later.
 
 Here's what the input and buttons look like, followed by the VBA code we used.
 
-![folder_creator](/testpreviewsite/assets/folder_creator.jpg){: width="350" }
+![folder_creator](/testpreviewsite/assets/folder_creator.jpg)
 
 ```
 Sub make_folders()
@@ -84,18 +84,18 @@ End Sub
 
 ## Data Cleaning
 
-![cleaning](/testpreviewsite/assets/cleaning.jpg){: width="350" }
+![cleaning](/testpreviewsite/assets/cleaning.jpg){: width="450" }
 
-The first example I'll discuss is using VBA to clean up data. I use this most often to take output from an engineering program, and turn it into an Excel table that I can then perform calculations on, or into a format where it can be pasted into MicroStation to easily place in a table there.
+VBA can also be used to clean up data. I use this most often to take output from an engineering program, and turn it into an Excel table that I can then perform calculations on, or into a format where it can be pasted into MicroStation to easily place in a table there.
 
-This can be a bit tedious to set up, as each program will have unique output styles. The results can also be a bit fragile, since a small change in output format can require a lot of rework. However, when you're rerunning programs and pulling out the same data over and over, there's few things as satisfying as clicking a button and getting your results immediately.
+This can be a bit tedious to set up, as each program will have unique output styles. The results can also be a bit fragile, since a small change in output format can require a lot of rework. However, when you're rerunning programs and pulling out the same data over and over, there are few things as satisfying as clicking a button and getting your results immediately.
 
-A couple of tips I have when doing this are to either read the original data output into Excel VBA from a text file, or to have a tab in Excel of the raw data that doesn't get edited. This way you don't have to re-paste the data back into Excel every time you make a change to the code or debug something. 
+A couple of tips I have when doing this are to either pull the original data output into Excel VBA from a text file, or to have a tab in Excel of the raw data that doesn't get edited. This way you don't have to re-paste the data back into Excel every time you make a change to the code or debug something. 
 
 Also try and put any absolute numbers related to the output format (such as start looking in column 3, or offset 4 rows after finding the word "rating"), as variables up at the top of your code. You'll thank yourself later when these values change. 
 
 ## Editing Existing Sheets
-Lastly I wanted to discuss a bit more broadly how learning the basics of Excel VBA leads to finding new ways to trivializing mundane tasks. Spending a few hours a day for a week or less will teach you your way around making basic macros, as well as some of the most common code. After that, you're likely already equipped to automate away basic tasks such as these.
+Lastly I wanted to discuss a bit more broadly how learning the basics of Excel VBA leads to finding new ways to trivializing mundane tasks. Spending a few hours a day for a week or less will teach you your way around making basic macros, as well as some of the most common code. After that, you're likely already equipped to automate away basic tasks like the ones in this article.
 
 There are so many preexisting solutions to similar tasks you can find though Googling. A surprising number of generous and helpful people have answered questions on forums such as Stack Overflow and MrExcel. 
 
@@ -104,4 +104,4 @@ However, these solutions will almost never work exactly the way you want if you 
 Your skill and familiarity will grow as you tackle these issues and see how people online approached the problems you want solved. Eventually, even long, complicated macros and sheets will seem as simple as stepping through the code slowly, and tweaking as need. At that point, thinking of good ways to use Excel VBA will become your primary bottleneck. 
 
 ## Conclusion
-We all have repetitive, mundane tasks in our jobs. These are almost always a great candidate for 20 minutes of investigation, looking to see if Excel VBA can do them for us. Taking the time to automate these tasks saves time, increases your Excel VBA skills and knowledge, and is just extremely satisfying. Let me know if anyone has any favorite additional mundane tasks that they've automated away!
+We all have repetitive, mundane tasks in our jobs. These are almost always great candidates for 20 minutes of investigation, looking to see if Excel VBA can do them for us. Taking the time to automate these tasks saves time, increases your Excel VBA skills and knowledge, and feels quite satisfying. Let me know if anyone has any favorite additional mundane tasks that they've automated away!

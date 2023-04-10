@@ -15,7 +15,7 @@ One convenient task that I only recently started using VBA for is file renaming.
 
 I have a very simple Excel sheet setup that looks like this.
 
-![file_rename](/testpreviewsite/assets/file_rename.jpg)
+![file_rename](/testpreviewsite/assets/file_rename.jpg){: width="350" }
 
 And have the following code in a macro to batch rename the files:
 ```
@@ -59,7 +59,7 @@ A couple of days ago, my coworker asked me if it's possible to make a bunch of f
 
 Here's what the input and buttons look like, followed by the VBA code we used.
 
-![folder_creator](/testpreviewsite/assets/folder_creator.jpg)
+![folder_creator](/testpreviewsite/assets/folder_creator.jpg){: width="500" }
 
 ```
 Sub make_folders()

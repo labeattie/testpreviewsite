@@ -58,7 +58,7 @@ The only catch is you will have a website URL that is something like username.gi
 I bought my domain name through google domains for $12 a year for a few years. You then set up your GitHub repository (just the GitHub folder where your website files are stored) to use your custom domain name. And that's it!
 
 ## Step by Step Guide
-![jekyll_git](/testpreviewsite/assets/jekyll_git.jpg){: width="350" }
+![jekyllgit](/testpreviewsite/assets/jekyll_git.jpg){: width="350" }
 
 ### 1. Choose a Jekyll Theme
 We will start with a fun part. Go to jekyllthemes.io or jekyllthemes.org or another Jekyll themes site you find, and pick out a theme you like. You can filter out to only free themes if desired. On all of these themes, you can click "Live Demo" to see what the theme really looks like as a webpage. I used the contrast theme from jekyllthemes.io when I created my website. I used [Kathryn Schuler's YouTube video]( https://www.youtube.com/watch?v=qZsgPgGdOzQ) when I was making it.

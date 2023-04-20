@@ -58,7 +58,7 @@ The only catch is you will have a website URL that is something like username.gi
 I bought my domain name through google domains for $12 a year for a few years. You then set up your GitHub repository (just the GitHub folder where your website files are stored) to use your custom domain name. And that's it!
 
 ## Step by Step Guide
-![jekyll_git](/testpreviewsite/assets/jekyll_git.jpg)
+![jekyll_git](/testpreviewsite/assets/jekyll_git.jpg){: width="350" }
 
 ### 1. Choose a Jekyll Theme
 We will start with a fun part. Go to jekyllthemes.io or jekyllthemes.org or another Jekyll themes site you find, and pick out a theme you like. You can filter out to only free themes if desired. On all of these themes, you can click "Live Demo" to see what the theme really looks like as a webpage. I used the contrast theme from jekyllthemes.io when I created my website. I used [Kathryn Schuler's YouTube video]( https://www.youtube.com/watch?v=qZsgPgGdOzQ) when I was making it.
@@ -80,7 +80,7 @@ Also, your browser will cache some settings, so if you're messing with colors or
 Now your website should be live! You can go to it through using the URL username.github.io/repository_name. But of course we haven't changed any of the files yet, so right now, the content will be the same as the live demo you'd seen. We'll go over making those changes next.
 
 ### 4. Change the config
-![gears](/testpreviewsite/assets/gears.jpg)
+![gears](/testpreviewsite/assets/gears.jpg){: width="350" }
 
 The next thing we will do is edit the _config.yml file. You can do this in several different ways. If you know how to use GitHub via command line and have it installed, we can clone this repository and edit files with your text editor of choice, such as Notepad++ or VSCode. You can also install GitHub's desktop program and navigate to it that way. However, in this article, I'm going to go over the easiest way to edit files, which is straight through the GitHub website.
 
@@ -107,7 +107,7 @@ We go to "Custom record" and we will add the IP addresses we found on GitHub's s
 Ok last step. Now we add one more custom record. This time we type "www" as the Host name, change the Type to "CNAME", leave the TTL as 3600, and type in your custom domain into the data box (lucasbeattie.com for example). This allows both websitename.com and www.websitename.com to go to your site. Ok phew, that is one of the more confusing parts of the whole process.
 
 ## Customizations I Made
-![code](/testpreviewsite/assets/misc_code.jpg)
+![code](/testpreviewsite/assets/misc_code.jpg){: width="350" }
 
 In this final section, I will go over most of the customizations I made to my theme while making this website. This will, for the most part, be specific to the Contrast theme, but most Jekyll themes are structured relatively similarly. 
 

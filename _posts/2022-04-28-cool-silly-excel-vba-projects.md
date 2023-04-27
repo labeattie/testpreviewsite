@@ -8,7 +8,7 @@ So far on my website, I've gone over ways I've been able to use Excel VBA to app
 
 
 
-![wordle](/testpreviewsite/assets/wordle.png)
+![wordle](/testpreviewsite/assets/wordle.png){: width="600" }
 
 ## Wordle
 <span style="font-size:1.4em">[Download Wordle Sheet][wordle_sheet]</span>
@@ -19,8 +19,10 @@ I had never made such a complicated pseudo-application before, but I was really 
 I was really proud of how this project turned out, and the skills I learned and improved in the process.
 
 ## Sudoku Solver (2hours)
-![sudoku](/testpreviewsite/assets/sudoku.gif)
+![sudoku](/testpreviewsite/assets/sudoku.gif){: width="550" }
+
 <span style="font-size:1.4em">[Download Sudoku Solver][sudoku_solver]</span>
+
 When I first decided to see if I could start up a little Excel consulting side hustle, I decided I need to make myself a few additional, flashy looking portfolio pieces. One of the results of that effort was my Sudoku solver. 
 
 Note that this sheet does not create Sudoku puzzles (that problem is actually a bit more difficult), but it will solve any valid puzzle that you input into it. I preloaded a few for demonstration purposes.
@@ -41,7 +43,8 @@ Using this, I could answer character optimization questions conclusively by simu
 This was pretty fun and funny to dig so deeply into, and I posted some of these sheets and conclusions on online forums. I learned a lot about probability from this process, and from Diablo 2 in general, and had a blast.
 
 ## Anagram Name Generator
-![anagram](/testpreviewsite/assets/anagram.jpg)
+![anagram](/testpreviewsite/assets/anagram.jpg){: width="600" }
+
 Now this one is truly silly, and is a sheet I made back in 2014. I was having fun creating anagram names of my own name and of some friends. An anagram is the rearrangement of the letters in an existing name or phrase to get another one. A pretty classic example is from the Harry Potter series. MAJOR HARRY POTTER SPOILER WARNING: where "Tom Marvolo Riddle" is revealed to rearrange to "I am Lord Voldemort."
 
 I had come up with a few anagram names for me and some friends while bored, just by using pencil and paper, but I figured I could improve that a bit. The sheet I made to do so contains a large database of first and last names for men and women, which are available online from the US census. I can then type in my name or someone else's, and the sheet will return all of the other first and last names that can be made from those letters.

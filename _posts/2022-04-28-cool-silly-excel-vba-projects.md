@@ -46,7 +46,7 @@ This was pretty fun and funny to dig so deeply into, and I posted some of these 
 ## Anagram Name Generator
 ![anagram](/testpreviewsite/assets/anagram.jpg){: width="600" }
 
-Now this one is truly silly, and is a sheet I made back in 2014. I was having fun creating anagram names of my own name and of some friends. An anagram is the rearrangement of the letters in an existing name or phrase to get another one. A pretty classic example is from the Harry Potter series. MAJOR HARRY POTTER SPOILER WARNING: where "Tom Marvolo Riddle" is revealed to rearrange to "I am Lord Voldemort."
+Now this one is truly silly, and is a sheet I made back in 2014. I was having fun creating anagram names of my own name and of some friends. An anagram is the rearrangement of the letters in an existing name or phrase to get another one. A pretty classic example is from the Harry Potter series. <span style="color: salmon">MAJOR HARRY POTTER SPOILER WARNING:</span> where "Tom Marvolo Riddle" is revealed to rearrange to "I am Lord Voldemort."
 
 I had come up with a few anagram names for me and some friends while bored, just by using pencil and paper, but I figured I could improve that a bit. The sheet I made to do so contains a large database of first and last names for men and women, which are available online from the US census. I can then type in my name or someone else's, and the sheet will return all of the other first and last names that can be made from those letters.
 

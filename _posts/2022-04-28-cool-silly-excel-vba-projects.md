@@ -61,7 +61,7 @@ First, Last:
 * Tactis LeBeau
 * Isaac Lubette
 
-First, Middle, Last
+First, Middle, Last:
 * Laurence Alexis Debatta
 * Atticus Andrea Exebella
 

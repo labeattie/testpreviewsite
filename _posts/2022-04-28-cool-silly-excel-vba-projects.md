@@ -12,13 +12,14 @@ So far on my website, I've gone over ways I've been able to use Excel VBA to app
 
 ## Wordle
 <span style="font-size:1.4em">[Download Wordle Sheet][wordle_sheet]</span>
+
 When I had a bit more free time about a year and a half ago, I started up a little side hustle doing some Excel consulting. I hope to write an article on that experience sometime in the future. Some of that Excel consulting was for a company called [Excel Rain Man](https://excelrainman.com/), and they gave a few really cool jobs to work on. One was creating a clone of the game "Wordle" in Excel to use for marketing materials.
 
 I had never made such a complicated pseudo-application before, but I was really into it. Laying out the shapes to make the keyboard, and then creating the macro that accepts those "keyboard" inputs was very interesting. Getting the logic exactly correct with the yellow letters was a fun puzzle. Additionally, just adding features such as the colorblind mode, and styling the sheet to look like (the original) Wordle game was a ton of fun.
 
 I was really proud of how this project turned out, and the skills I learned and improved in the process.
 
-## Sudoku Solver (2hours)
+## Sudoku Solver
 ![sudoku](/testpreviewsite/assets/sudoku.gif){: width="550" }
 
 <span style="font-size:1.4em">[Download Sudoku Solver][sudoku_solver]</span>

@@ -8,7 +8,7 @@ Near the end of 2021, my interest in lifestyle design and personal finance was a
 
 
 
-![house_keychain](/testpreviewsite/assets/house keychain.jpg)
+![house_keychain](/testpreviewsite/assets/house keychain.jpg){: width="600" }
 
 My Dad has owned a few rental properties since before I was born, and while I do remember some annoyances growing up, with calls from tenants and ongoing projects, I knew his investments had done well for our family overall. 
 
@@ -21,7 +21,7 @@ I've moved to a few different cities in the past, and would have liked to rent a
 Now I will go over some of those possible positives I found appealing.
 
 ## Four Ways to Earn
-![money_plant](/testpreviewsite/assets/money plant.jpg)
+![money_plant](/testpreviewsite/assets/money plant.jpg){: width="450" }
 
 Owning real estate can make money in four different ways: 
 * Cash flow
@@ -57,7 +57,7 @@ Those are the four ways you make money from real estate, and they often do combi
 **Less liquidity** is also something I would consider an advantage of real estate. Everyone seems to claim that liquidity is a huge pro for an investment, while at the same time saying you should invest for multiple decades. We all know of people who have panicked and sold stocks during a downturn, only to lose out on the gains of a rebound. In real estate, I think it's a good thing that it takes a lot more time and effort to sell your assets. You can still sell at the wrong time of course, but it's less easy or likely than with stocks.
 
 ## The Risks of Owning Real Estate
-![jenga](/testpreviewsite/assets/jenga.jpg)
+![jenga](/testpreviewsite/assets/jenga.jpg){: width="450" }
 
 Now let's talk about the risks and downsides of owning real estate and how I hope to mitigate them.
 

@@ -10,7 +10,7 @@ I thought I'd take this one to give a little life update, since I've had a lot o
 
 
 
-![office](/testpreviewsite/assets/general_office.jpg)
+![office](/testpreviewsite/assets/general_office.jpg){: width="600" }
 
 ## Kitchen Remodel
 My wife and I had always planned to do something about our kitchen from the time we bought the house 3 years ago. We had dark cabinets with cathedral doors and a dark blue laminate counter, and I had promised that we would start tackling that project as soon as I finished and rented my rental house. 

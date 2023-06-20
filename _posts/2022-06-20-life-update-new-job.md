@@ -4,9 +4,9 @@ layout: post
 categories: website
 ---
 
-After a bit of a hiatus, I'm finally back with another article! I had set a goal to publish an article every week for a half a year before slowing down, and only ended up making it to 18 out of 26. After the article, hopefully you'll agree I had a good excuse for the pause, and now I'm hoping to get back to a semi-regular schedule, maybe shooting for an article every two weeks. 
+After a bit of a hiatus, I'm back with another article! I had set a goal to publish an article every week for a half a year before slowing down, and only ended up making it to 18 out of 26. After this article, hopefully you'll agree that I had a good excuse for the pause. Now I'm hoping to get back to a semi-regular schedule, maybe shooting for an article every two weeks. 
 
-I thought I'd take this one to give a little life update, since I've had a lot of hectic and exciting things going on. I'll resume business as usual with the next article (the promised follow-up article for my first rental house). In the last couple of months, we did a kitchen remodel, I ran a half marathon and got sick afterwards, we had our second baby, and I accepted a new job!
+I thought I'd take this one to give a little life update, as I've had a lot of hectic and exciting things going on. I'll resume business as usual with the next article (the promised follow-up article for my first rental house). In the last couple of months, we did a kitchen remodel, I ran a half marathon and got sick afterwards, we had our second baby, and I accepted a new job!
 
 
 
@@ -21,7 +21,7 @@ We got the hardwood stained and refinished. Then we ended up keeping our old cab
 
 ![kitchen](/testpreviewsite/assets/kitchen_remodel.jpg){: width="700" }
 
-We also had some drywall repair work done and had the kitchen ceiling flattened (the texture removed). Then after the counter company had a few issues cutting the sink, which pushed back the schedule, we finally had a new counter and new sink successfully installed the same week as the birth of our second kid. Cutting it close!
+We also had some drywall repair work done and had the kitchen ceiling flattened (the texture removed). Then the counter company had a few issues cutting the sink, which pushed back the schedule, but we finally had a new counter and new sink installed the same week as the birth of our second kid. Cutting it close!
 
 We still need to paint the walls and the ceiling, install a backsplash, and replace some baseboards. But the new kitchen is functional and looks great! 
 
@@ -40,23 +40,23 @@ My headphones died from the water and I couldn't hear my split anymore, so I had
 
 It must have worked because I got a 3 minute personal best with a 1:51:25. So I was riding high, feeling invincible… and immediately got sick again a couple of days later.
 
-It was a totally different general respiratory virus that lasted through my last week of work at Palmer Engineering, and right up until we had the baby. In retrospect, the race didn't seem like too good an idea. But I suppose it's better I that I got sick after doing well than if I'd done poorly. 
+It was a totally different general respiratory virus that lasted through my last week of work at Palmer Engineering, and right up until we had the baby. In retrospect, the race didn't seem like too good an idea, but I suppose it's better I that I got sick after doing well than if I'd done poorly. 
 
 ## Second Baby
-Right after all of this, my wife and I went in to the hospital to have our second baby. We have a two year old girl, and although we found out we were having a girl beforehand with her, we decided to wait and have the second baby be a surprise. 
+Right after all of this, my wife and I went to the hospital to have our second baby. We have a two year old girl, and although we found out we were having a girl beforehand with her, we decided to wait and have the second baby be a surprise. 
 
 Fortunately everything went very smoothly, and we had our second daughter in mid-May. We would have been perfectly happy with a boy of course, but were both secretly hoping for another girl :). Her big sister is doing great too, and is always being cute, giving her little sister pats on the back and words of comfort when she's crying. We're having a great time.
 
 ## New Job
 ![eriksson](/testpreviewsite/assets/eriksson_logo.jpg){: width="550" }
 
-Finally, amidst all this chaos, I decided to accept a new job! I had an excellent time working at Palmer Engineering, and was very sad to leave them, but I had a very unique opportunity at the right time.
+Finally, amidst all this chaos, I decided to accept a new job! I had an excellent time working at Palmer Engineering, and was very sad to leave them, but I had a unique opportunity at the right time.
 
 I was talking with a fellow civil engineer who enjoys making Excel VBA macros (so there are more than one of us!), and we both used the software "PSBeam" to design prestressed concrete girders at work. He had been working on a VBA program to parse PSBeam output into a format easy to use in Excel, and we were discussing some issue related to it.
 
 I ended up saying that I knew PSBeam was made by a small company called Eriksson Software and we could probably just message them with a question or issue, and at that point I had the thought: "I should send them a resume."
 
-When I hadn't heard back about my resume or phone call a few weeks later, I added the company's CEO on LinkedIn. This happened to be at the same time I had just finished releasing my third and final article on drilled shaft design : XXX. He accepted my invitation to connect, saw my article series, and ended up messaging me to discuss a potential interview, without having seen my resume or having heard my voicemail. So this website helped create the opportunity!
+When I hadn't heard back about my resume or phone call a few weeks later, I added the company's CEO on LinkedIn. This happened to be at the same time I had just finished releasing my third and final article on drilled shaft design : [Column/Drilled Shaft Capacity Part 3: Sheet Download](lucasbeattie.com/drilled-shaft-column-phi-download). He accepted my invitation to connect, saw my article series, and ended up messaging me to discuss a potential interview, without having seen my resume or having heard my voicemail. So this website helped create the opportunity!
 
 After interviewing, we were both excited about the fit, and now I've completed about two weeks of work for them so far! I'm working remotely and am deep into the process of learning the ins and outs of C#, and may post some future articles on that journey. 
 
@@ -65,5 +65,5 @@ This website ended up helping me find an opportunity in a tiny niche, and I can'
 I remain grateful to Palmer for the last several years in bridge design, and for helping me develop into the engineer I am. My time with them started during an undergraduate co-op in 2011, and continued when I returned in 2018 after moving around the country. My time there was extremely rewarding, and I wish everyone there the best! 
 
 ## Conclusion
-The chaos and fun of all of this happened at the same time and made for a hectic period where I paused in writing articles. Now I hope to get back to it, but probably won't aim to maintain a once a week schedule. Regardless, it's good to get another one written and I'll look forward to more!
+The chaos and fun of all of this happened at the same time and made for a hectic period where I paused in writing articles. Now I hope to get back to it, but probably won't aim to maintain a once a week schedule. Regardless, it's good to get another one written, and I'll look forward to more!
 

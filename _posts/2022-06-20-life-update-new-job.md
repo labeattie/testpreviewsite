@@ -48,7 +48,7 @@ Right after all of this, my wife and I went in to the hospital to have our secon
 Fortunately everything went very smoothly, and we had our second daughter in mid-May. We would have been perfectly happy with a boy of course, but were both secretly hoping for another girl :). Her big sister is doing great too, and is always being cute, giving her little sister pats on the back and words of comfort when she's crying. We're having a great time.
 
 ## New Job
-![eriksson](/testpreviewsite/assets/eriksson_logo.png){: width="550" }
+![eriksson](/testpreviewsite/assets/eriksson_logo.jpg){: width="550" }
 
 Finally, amidst all this chaos, I decided to accept a new job! I had an excellent time working at Palmer Engineering, and was very sad to leave them, but I had a very unique opportunity at the right time.
 

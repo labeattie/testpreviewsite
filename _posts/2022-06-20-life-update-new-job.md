@@ -10,8 +10,10 @@ I thought I'd take this one to give a little life update, since I've had a lot o
 
 
 
+![office](/testpreviewsite/assets/general_office.jpg)
+
 ## Kitchen Remodel
-![kitchen](/testpreviewsite/assets/kitchen_remodel.jpg){: width="750" }
+![kitchen](/testpreviewsite/assets/kitchen_remodel.jpg){: width="700" }
 
 My wife and I had always planned to do something about our kitchen from the time we bought the house 3 years ago. We had dark cabinets with cathedral doors and a dark blue laminate counter, and I had promised that we would start tackling that project as soon as I finished and rented my rental house. 
 
@@ -24,7 +26,7 @@ We also had some drywall repair work done and had the kitchen ceiling flattened 
 We still need to paint the walls and the ceiling, install a backsplash, and replace some baseboards. But the new kitchen is functional and looks great! 
 
 ## Half-Marathon
-![run_rain](/testpreviewsite/assets/flying_pig_rain.jpg){: width="500" }
+![run_rain](/testpreviewsite/assets/flying_pig_rain.jpg){: width="450" }
 
 In Cincinnati, very close to where we live, we have the Flying Pig marathon every year. After running my first two half-marathons last year, I decided I wanted to run this one again. I said I wouldn't train too much, and be fine with whatever result, and didn't think too much of the fact that it was about 2 weeks before our second child's due date.
 

@@ -56,7 +56,7 @@ I was talking with a fellow civil engineer who enjoys making Excel VBA macros (s
 
 I ended up saying that I knew PSBeam was made by a small company called Eriksson Software and we could probably just message them with a question or issue, and at that point I had the thought: "I should send them a resume."
 
-When I hadn't heard back about my resume or phone call a few weeks later, I added the company's CEO on LinkedIn. This happened to be at the same time I had just finished releasing my third and final article on drilled shaft design : [Column/Drilled Shaft Capacity Part 3: Sheet Download](lucasbeattie.com/drilled-shaft-column-phi-download). He accepted my invitation to connect, saw my article series, and ended up messaging me to discuss a potential interview, without having seen my resume or having heard my voicemail. So this website helped create the opportunity!
+When I hadn't heard back about my resume or phone call a few weeks later, I added the company's CEO on LinkedIn. This happened to be at the same time I had just finished releasing my third and final article on drilled shaft design: [Column/Drilled Shaft Capacity Part 3: Sheet Download](https://lucasbeattie.com/drilled-shaft-column-phi-download/). He accepted my invitation to connect, saw my article series, and ended up messaging me to discuss a potential interview, without having seen my resume or having heard my voicemail. So this website helped create the opportunity!
 
 After interviewing, we were both excited about the fit, and now I've completed about two weeks of work for them so far! I'm working remotely and am deep into the process of learning the ins and outs of C#, and may post some future articles on that journey. 
 

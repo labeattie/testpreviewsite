@@ -11,7 +11,7 @@ I thought I'd take this one to give a little life update, since I've had a lot o
 
 
 ## Kitchen Remodel
-![kitchen](/testpreviewsite/assets/kitchen_remodel.jpg){: width="800" }
+![kitchen](/testpreviewsite/assets/kitchen_remodel.jpg){: width="750" }
 
 My wife and I had always planned to do something about our kitchen from the time we bought the house 3 years ago. We had dark cabinets with cathedral doors and a dark blue laminate counter, and I had promised that we would start tackling that project as soon as I finished and rented my rental house. 
 
@@ -24,7 +24,7 @@ We also had some drywall repair work done and had the kitchen ceiling flattened 
 We still need to paint the walls and the ceiling, install a backsplash, and replace some baseboards. But the new kitchen is functional and looks great! 
 
 ## Half-Marathon
-![run_rain](/testpreviewsite/assets/flying_pig_rain.jpg){: width="550" }
+![run_rain](/testpreviewsite/assets/flying_pig_rain.jpg){: width="500" }
 
 In Cincinnati, very close to where we live, we have the Flying Pig marathon every year. After running my first two half-marathons last year, I decided I wanted to run this one again. I said I wouldn't train too much, and be fine with whatever result, and didn't think too much of the fact that it was about 2 weeks before our second child's due date.
 
@@ -46,7 +46,7 @@ Right after all of this, my wife and I went in to the hospital to have our secon
 Fortunately everything went very smoothly, and we had our second daughter in mid-May. We would have been perfectly happy with a boy of course, but were both secretly hoping for another girl :). Her big sister is doing great too, and is always being cute, giving her little sister pats on the back and words of comfort when she's crying. We're having a great time.
 
 ## New Job
-![eriksson](/testpreviewsite/assets/eriksson_logo.jpg){: width="550" }
+![eriksson](/testpreviewsite/assets/eriksson_logo.png){: width="550" }
 
 Finally, amidst all this chaos, I decided to accept a new job! I had an excellent time working at Palmer Engineering, and was very sad to leave them, but I had a very unique opportunity at the right time.
 

@@ -13,13 +13,13 @@ I thought I'd take this one to give a little life update, since I've had a lot o
 ![office](/testpreviewsite/assets/general_office.jpg)
 
 ## Kitchen Remodel
-![kitchen](/testpreviewsite/assets/kitchen_remodel.jpg){: width="700" }
-
 My wife and I had always planned to do something about our kitchen from the time we bought the house 3 years ago. We had dark cabinets with cathedral doors and a dark blue laminate counter, and I had promised that we would start tackling that project as soon as I finished and rented my rental house. 
 
 The rental house took way longer than I thought, and we had our second baby on the way a bit earlier than planned, so time was tight. Not to mention I really, really wanted to keep costs somewhere inside the stratosphere, despite labor prices skyrocketing over the last couple of years.
 
 We got the hardwood stained and refinished. Then we ended up keeping our old cabinet boxes, paying a company to "reface" them, by painting the boxes, and putting on new doors and drawer fronts. I also put in cabinets myself surrounding the fridge (not pictured) and for an island. Admittedly, I complained the whole time, as I was pretty burned out after the rental house.
+
+![kitchen](/testpreviewsite/assets/kitchen_remodel.jpg){: width="700" }
 
 We also had some drywall repair work done and had the kitchen ceiling flattened (the texture removed). Then after the counter company had a few issues cutting the sink, which pushed back the schedule, we finally had a new counter and new sink successfully installed the same week as the birth of our second kid. Cutting it close!
 

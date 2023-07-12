@@ -43,7 +43,7 @@ My best case scenario was about $20,000 in renovations, my worst case was $50,00
 
 I initially planned to do a lot of the work myself, but as soon as I got started working on it, I realized this was a bit of a fantasy. We had a 1 year old daughter at the time, and the most I could usually work on the rental was in the late evenings once or twice during the week, and on the weekends when we didn't have interfering plans. 
 
-This was not a whole lot of average hours per week for getting this renovation done in a timely manner. Even so, it was a big strain on my and my family's schedule to put those hours in. 
+This was not a whole lot of average hours per week for getting this renovation done in a timely manner. And even though the hours per week were low, it was a big strain on my and my family's schedule to put those hours in. 
 
 As a quick side note, I absolutely hated having to mow two yards through the spring and early summer. It was tough to find time that I was free and the weather was cooperating. I felt like I was spending a large portion of my limited renovation time on mowing. 
 

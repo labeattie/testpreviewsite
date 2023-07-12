@@ -4,7 +4,9 @@ layout: post
 categories: engineering
 ---
 
-*I'm a bridge engineer and have written this article in the context of structural engineering. However, the same approach could likely be employed regardless of discipline, anywhere where there's an increasing reliance on software to perform engineering calculations.*
+*I wrote this article a few months ago, while I was still working as a bridge engineer consultant. It still applies well in my current role developing engineering software, as hand-calculations, sanity checks, and engineering judgment are critical before shipping a product that several engineers will use.*
+
+*Additionally, while this article was written in the context of structural engineering, the same approach could likely be employed regardless of discipline, anywhere where there's an increasing reliance on software to perform engineering calculations.*
 
 
 

@@ -13,7 +13,7 @@ categories: engineering
 ![computer_paper](/testpreviewsite/assets/computer_paper.jpg){: width="600" }
 
 ## Introduction
-Software gets more powerful year after year, and this provides countless advantages to engineers. Structural systems that would have been impossible to design with any precision can now be optimized and streamlined with few program runs. All of this done while taking into account thousands of different load combinations. 
+Software gets more powerful year after year, and this provides countless advantages to engineers. Structural systems that would have been impossible to design with any precision can now be optimized and streamlined with a few program runs. All of this done while taking into account thousands of different load combinations. 
 
 However, this technological advancement leaves some potential disadvantages in its wake. Chief among them is a disconnect between the structures we're modeling and an intuitive understanding of how they respond to loading and their primary design concerns. I think that this drawback can be largely mitigated by performing hand-checks alongside our models whenever possible.
 

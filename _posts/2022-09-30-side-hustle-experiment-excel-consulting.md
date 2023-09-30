@@ -38,9 +38,9 @@ Next, I thought a Sudoku solver would look fun and flashy, and it isn't as hard 
 
 A fun anecdote about this sheet is that, even though backtracking is a pretty inefficient algorithm (it's basically just guess and check), the Sudoku puzzle would solve nearly instantaneously. I thought that looked a little lame, and had to look up how to make Excel delay a few milliseconds between actions in order to produce a cool solving animation. 
 
-With these out of the way, I made a little video advertisement for my profile, which you can see [here](https://www.youtube.com/watch?v=nIp99LFeWSc).
+With these out of the way, I made a little video advertisement for my profile, which you can see below.
 
-https://www.youtube.com/watch?v=nIp99LFeWSc
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nIp99LFeWSc?si=U_TXoXaQhv9JkbsO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 It's probably obvious I'm no video editing expert, but I think it came across well and was proud of it. Now it was just time to wait for my first client. I had heard stories of this process taking a long time, but the video and slick looking dashboard must have done the trick, because it took about two weeks for me to get my first bite.
 
@@ -54,7 +54,7 @@ I was working this side hustle on weekends and evenings while working my full-ti
 I talked with Excel Rain Man (and of course took the time to finish markups and revisions on my recent jobs) and I stopped accepting new clients on Fiverr. I planned to come back to it after finishing the rental (which took much longer than I hoped). However, around the same time, I got a promotion at Palmer and was suddenly doing work I found a lot more engaging, and a lot of it was in Excel. I no longer felt the need to find interesting work to do in my free time, as that itch was being scratched at work.
 
 ## Review and Conclusions
-![laptop_data](/testpreviewsite/assets/laptop data.jpg){: width="600" }
+![laptop_data](/testpreviewsite/assets/laptop data.jpg){: width="500" }
 
 In the end, I grossed about $3,000 total from this short-lived side hustle. This is before taxes though, and when you're working a full time job, all of your side income is in your highest marginal tax bracket, so I took home much less. Even though I did not end up sticking with this side hustle and the earnings weren't life changing, I found it to be a really valuable experience, and consider it a huge success. Here are a few of my takeaways.
 

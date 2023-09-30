@@ -28,7 +28,7 @@ I worked on several interesting project for them, including a tax template for b
 I had an excellent time working with everyone at Excel Rain Man during my short time doing so. I highly recommend checking them out if you have any Excel consulting needs. I greatly appreciate them letting me work for them on so many interesting projects.
 
 ## The Wild West of Fiverr Freelancing
-![fiverr_logo](/testpreviewsite/assets/Font-Fiverr-Logo.jpg){: width="450" }
+![fiverr_logo](/testpreviewsite/assets/Fiverr-Symbol.png){: width="450" }
 
 Around the same time I was applying to Excel Rain Man, I initiated the second prong of my side hustle strategy: freelancing on Fiverr. I decided I needed to make a few cool sheets on my own to use for promotion when I made my seller profile, so I put a couple of weekend afternoons in on that. 
 

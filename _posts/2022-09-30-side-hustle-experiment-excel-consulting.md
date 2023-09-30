@@ -56,7 +56,7 @@ I talked with Excel Rain Man (and of course took the time to finish markups and 
 ## Review and Conclusions
 ![laptop_data](/testpreviewsite/assets/laptop data.jpg){: width="500" }
 
-In the end, I grossed about $3,000 total from this short-lived side hustle. This is before taxes though, and when you're working a full time job, all of your side income is in your highest marginal tax bracket, so I took home much less. Even though I did not end up sticking with this side hustle and the earnings weren't life changing, I found it to be a really valuable experience, and consider it a huge success. Here are a few of my takeaways.
+In the end, I grossed about $3,000 total from this short-lived side hustle. This is before taxes though, and when you're working a full time job, all of your side income is in your highest marginal tax bracket, so I took home much less. Even though I did not end up sticking with this side hustle and the earnings weren't life changing, I found it to be a really valuable experience and consider it a huge success. Here are a few of my takeaways.
 
 First, it was just extremely gratifying to learn I can make fair money outside my industry in a relatively short period of time. I don't know if it provides some kind of mental security blanket, or if I'm just proud of it. Second, side hustles are a great way to experiment with work you might like to do, and I recommend it for people with  free time and any ideas they'd like to try out. However...
 

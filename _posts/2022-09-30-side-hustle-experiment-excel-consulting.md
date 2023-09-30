@@ -10,7 +10,7 @@ It was late 2021, and I was still used to being cooped up at home all the time f
 
 If you've ready any of my other articles, you probably won't be surprised that I decided to do some Microsoft Excel consulting in my evenings and weekends to take action on this idea. Even though this side hustle only lasted about 6 months and I don't plan to start it again, I would say it turned out to be a success. Here's the story of my foray into freelance Excel consulting and what I learned along the way.
 
-![fiverr_thumbnail](/testpreviewsite/assets/fiverr thumbnail.jpg){: width="600" }
+![fiverr_thumbnail](/testpreviewsite/assets/fiverr thumbnail.jpg){: width="750" }
 
 ## First Steps: The Application
 Naturally, I Googled around to see what I could find about the world of Excel consulting opportunities. I came across [this interview](https://www.youtube.com/watch?v=7Nw9UVCk2XA) with Jen Portland, who had founded a company called [Excel Rain Man](https://excelrainman.com/). They seemed to hire part-time freelancers, and I really liked what I heard about Jen and her company from her interview, so I decided I should try and contact them and see what kind of skills I would need for them to want me to do some work for them.
@@ -19,7 +19,7 @@ As I've discussed a lot in [past](https://lucasbeattie.com/why-civil-engineers-v
 
 They sent me a test problem that involved analyzing and graphing sales data, which I managed to knock out in a long evening in a hotel room while traveling for an engineering conference. I solved it using dynamic arrays, which are a bit tedious to use in Excel VBA, but extremely useful. In retrospect this is funny, because making a dashboard using PivotTables would be a much easier way to solve this problem, but at the time, I didn't know it.
 
-![exrm_test](/testpreviewsite/assets/exrm test.jpg){: width="600" }
+![exrm_test](/testpreviewsite/assets/exrm test.jpg){: width="700" }
 
 They loved seeing that I knew so much VBA, though, and brought me on at $30/hr. I was elated. It was fun and gratifying seeing my skills outside my industry of training were good enough to make decent money. A few months later, I got bumped up to $40/hr and was really happy to put in extra hours doing work I found fun.
 
@@ -28,7 +28,7 @@ I worked on several interesting project for them, including a tax template for b
 I had an excellent time working with everyone at Excel Rain Man during my short time doing so. I highly recommend checking them out if you have any Excel consulting needs. I greatly appreciate them letting me work for them on so many interesting projects.
 
 ## The Wild West of Fiverr Freelancing
-![fiverr_logo](/testpreviewsite/assets/Font-Fiverr-Logo.jpg){: width="600" }
+![fiverr_logo](/testpreviewsite/assets/Font-Fiverr-Logo.jpg){: width="450" }
 
 Around the same time I was applying to Excel Rain Man, I initiated the second prong of my side hustle strategy: freelancing on Fiverr. I decided I needed to make a few cool sheets on my own to use for promotion when I made my seller profile, so I put a couple of weekend afternoons in on that. 
 
@@ -54,7 +54,7 @@ I was working this side hustle on weekends and evenings while working my full-ti
 I talked with Excel Rain Man (and of course took the time to finish markups and revisions on my recent jobs) and I stopped accepting new clients on Fiverr. I planned to come back to it after finishing the rental (which took much longer than I hoped). However, around the same time, I got a promotion at Palmer and was suddenly doing work I found a lot more engaging, and a lot of it was in Excel. I no longer felt the need to find interesting work to do in my free time, as that itch was being scratched at work.
 
 ## Review and Conclusions
-![fiverr_logo](/testpreviewsite/assets/Font-Fiverr-Logo.jpg){: width="600" }
+![laptop_data](/testpreviewsite/assets/laptop data.jpg){: width="600" }
 
 In the end, I grossed about $3,000 total from this short-lived side hustle. This is before taxes though, and when you're working a full time job, all of your side income is in your highest marginal tax bracket, so I took home much less. Even though I did not end up sticking with this side hustle and the earnings weren't life changing, I found it to be a really valuable experience, and consider it a huge success. Here are a few of my takeaways.
 

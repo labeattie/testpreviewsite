@@ -28,7 +28,7 @@ I worked on several interesting project for them, including a tax template for b
 I had an excellent time working with everyone at Excel Rain Man during my short time doing so. I highly recommend checking them out if you have any Excel consulting needs. I greatly appreciate them letting me work for them on so many interesting projects.
 
 ## The Wild West of Fiverr Freelancing
-![fiverr_logo](/testpreviewsite/assets/Fiverr-Symbol.png){: width="450" }
+![fiverr_logo](/testpreviewsite/assets/Fiverr-Symbol.png){: width="350" }
 
 Around the same time I was applying to Excel Rain Man, I initiated the second prong of my side hustle strategy: freelancing on Fiverr. I decided I needed to make a few cool sheets on my own to use for promotion when I made my seller profile, so I put a couple of weekend afternoons in on that. 
 
@@ -54,7 +54,7 @@ I was working this side hustle on weekends and evenings while working my full-ti
 I talked with Excel Rain Man (and of course took the time to finish markups and revisions on my recent jobs) and I stopped accepting new clients on Fiverr. I planned to come back to it after finishing the rental (which took much longer than I hoped). However, around the same time, I got a promotion at Palmer and was suddenly doing work I found a lot more engaging, and a lot of it was in Excel. I no longer felt the need to find interesting work to do in my free time, as that itch was being scratched at work.
 
 ## Review and Conclusions
-![laptop_data](/testpreviewsite/assets/laptop data.jpg){: width="500" }
+![laptop_data](/testpreviewsite/assets/laptop data.jpg){: width="450" }
 
 In the end, I grossed about $3,000 total from this short-lived side hustle. This is before taxes though, and when you're working a full time job, all of your side income is in your highest marginal tax bracket, so I took home much less. Even though I did not end up sticking with this side hustle and the earnings weren't life changing, I found it to be a really valuable experience and consider it a huge success. Here are a few of my takeaways.
 

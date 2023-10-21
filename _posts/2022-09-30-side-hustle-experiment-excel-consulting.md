@@ -54,7 +54,7 @@ I was working this side hustle on weekends and evenings while working my full-ti
 I talked with Excel Rain Man (and of course took the time to finish markups and revisions on my recent jobs) and I stopped accepting new clients on Fiverr. I planned to come back to it after finishing the rental (which took much longer than I hoped). However, around the same time, I got a promotion at Palmer and was suddenly doing work I found a lot more engaging, and a lot of it was in Excel. I no longer felt the need to find interesting work to do in my free time, as that itch was being scratched at work.
 
 ## Review and Conclusions
-![laptop_data](/testpreviewsite/assets/laptop data.jpg){: width="450" }
+![thinking_laptop](/testpreviewsite/assets/thinking_laptop.jpg){: width="450" }
 
 In the end, I grossed about $3,000 total from this short-lived side hustle. This is before taxes though, and when you're working a full time job, all of your side income is in your highest marginal tax bracket, so I took home much less. Even though I did not end up sticking with this side hustle and the earnings weren't life changing, I found it to be a really valuable experience and consider it a huge success. Here are a few of my takeaways.
 

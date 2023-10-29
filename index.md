@@ -10,4 +10,4 @@ Some of my interests outside of work include reading, fitness, learning spanish,
 
 I expect content on this site to be at least half engineering, excel, or programming related, and otherwise plan to write about my other interests, experiments, or activities. But I make no promises!
 
-[resume]: testpreviewsite/assets/Resume23y10 - web version.pdf
+[resume]: testpreviewsite/assets/resume.pdf
